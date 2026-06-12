@@ -1,0 +1,25 @@
+concept_id,concept_type,name,fsn,preferred_term,synonyms,category,difficulty,cuisine_type,prep_time,cook_time,servings,tags,file_path,amount,unit,is_main,description,step_number,methods,tools,time_estimate
+201005955,Recipe,苏格兰蛋,苏格兰蛋 (Recipe),苏格兰蛋,[],早餐,3.0,,10-15 分钟,15-20 分钟,1 份,"芝士片、培根片、手抓饼可直接网购,可用空气炸锅替代油炸,鸡蛋煮3分钟为糖心蛋,冰水剥蛋壳更完整",dishes/breakfast/苏格兰蛋/苏格兰蛋.md,,,,,,,,
+201005956,Ingredient,鸡蛋,鸡蛋 (Ingredient),鸡蛋,"[{'term': '鸡子', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '土鸡蛋', 'language': 'zh', 'language_code': 'zh-CN'}]",蛋白质,,,,,,,,50,g,True,,,,,
+201005957,Ingredient,手抓饼,手抓饼 (Ingredient),手抓饼,[],淀粉类,,,,,,,,1-2,份,True,,,,,
+201005958,Ingredient,芝士片,芝士片 (Ingredient),芝士片,[],蛋白质,,,,,,,,1-2,片,True,,,,,
+201005959,Ingredient,培根片,培根片 (Ingredient),培根片,[],蛋白质,,,,,,,,1-2,片,True,,,,,
+201005960,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,用冷水下锅水开 3 分钟后捞出,1.0,煮,锅,约 3 分钟
+201005961,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,鸡蛋捞出，放入冰水中剥壳更快速也更完整,2.0,"冷却,剥壳","碗,冰水",1-2 分钟
+201005962,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,用芝士片包裹鸡蛋,3.0,包裹,,1 分钟
+201005963,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,培根片包裹鸡蛋,4.0,包裹,,1 分钟
+201005964,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,手抓饼两端切除以矩形包裹鸡蛋,5.0,"切,包裹","刀,案板",2-3 分钟
+201005965,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,油温 6 成下锅（油面波动，有青烟，筷子插入油中周围泛起气泡即是 6 成温度）炸制金黄即可,6.0,炸,"油锅,筷子",5-8 分钟
+201005966,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,空气炸锅 160 度 15 分钟,7.0,烤,空气炸锅,15 分钟
+201005967,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,切开即可食用,8.0,切,刀,1 分钟
+201005968,Recipe,温泉蛋,温泉蛋 (Recipe),温泉蛋,[],早餐,3.0,,5分钟,28分钟,1,"使用温度计控制水温,推荐使用可生食鸡蛋,厚底锅更易控温,机械温度计探头需没入水中至少6cm",dishes/breakfast/温泉蛋/温泉蛋.md,,,,,,,,
+201005969,Ingredient,鸡蛋,鸡蛋 (Ingredient),鸡蛋,"[{'term': '鸡子', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '土鸡蛋', 'language': 'zh', 'language_code': 'zh-CN'}]",蛋白质,,,,,,,,1,个,True,,,,,
+201005970,Ingredient,昆布酱油,昆布酱油 (Ingredient),昆布酱油,[],调料,,,,,,,,适量,,False,,,,,
+201005971,Ingredient,香葱,香葱 (Ingredient),香葱,[],蔬菜,,,,,,,,适量,,False,,,,,
+201005972,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,在锅中盛装一定量自来水，确保水面没过约鸡蛋3cm，水中插入温度计。,1.0,煮,"锅,温度计",
+201005973,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,开火或打开电磁炉，逐渐调整电磁炉功率或火苗大小，使得水温保持在70摄氏度。,2.0,煮,"电磁炉,锅,温度计",
+201005974,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,将鸡蛋放入锅中。鸡蛋不可互相堆叠，应皆在底部，并留有空间可以晃动。,3.0,煮,锅,
+201005975,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,保持当前温度25分钟。,4.0,煮,"锅,温度计",25分钟
+201005976,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,准备一杯冰水。,5.0,,杯子,
+201005977,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,捞出鸡蛋，并立刻放入冰水中，等待3分钟。,6.0,冷却,杯子,3分钟
+201005978,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,将鸡蛋打入小碗，完成制作。,7.0,,小碗,

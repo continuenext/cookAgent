@@ -1,0 +1,1403 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GustoBot API 测试面板</title>
+    <style>
+        :root {
+            --bg: #0f1117;
+            --surface: #1a1d27;
+            --surface2: #242836;
+            --border: #2d3148;
+            --text: #e4e6f0;
+            --text2: #8b8fa8;
+            --accent: #6c5ce7;
+            --accent2: #a29bfe;
+            --green: #00b894;
+            --red: #e17055;
+            --orange: #fdcb6e;
+            --blue: #74b9ff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', Menlo, monospace;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        .app {
+            display: flex;
+            height: 100vh;
+        }
+
+        /* 侧边栏 */
+        .sidebar {
+            width: 220px;
+            background: var(--surface);
+            border-right: 1px solid var(--border);
+            display: flex;
+            flex-direction: column;
+            flex-shrink: 0;
+        }
+
+        .sidebar h1 {
+            font-size: 16px;
+            padding: 20px 16px 12px;
+            color: var(--accent2);
+            border-bottom: 1px solid var(--border);
+            font-weight: 600;
+        }
+
+        .nav-group {
+            padding: 12px 0;
+        }
+
+        .nav-group-title {
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text2);
+            padding: 4px 16px;
+            font-weight: 600;
+        }
+
+        .nav-item {
+            padding: 8px 16px;
+            cursor: pointer;
+            font-size: 13px;
+            color: var(--text2);
+            transition: all .15s;
+        }
+
+        .nav-item:hover {
+            background: var(--surface2);
+            color: var(--text);
+        }
+
+        .nav-item.active {
+            background: var(--accent);
+            color: #fff;
+        }
+
+        .method-tag {
+            display: inline-block;
+            font-size: 10px;
+            font-weight: 700;
+            padding: 1px 5px;
+            border-radius: 3px;
+            margin-right: 6px;
+            vertical-align: middle;
+        }
+
+        .method-tag.post {
+            background: var(--green);
+            color: #000;
+        }
+
+        .method-tag.get {
+            background: var(--blue);
+            color: #000;
+        }
+
+        .method-tag.delete {
+            background: var(--red);
+            color: #fff;
+        }
+
+        .method-tag.patch {
+            background: var(--orange);
+            color: #000;
+        }
+
+        /* 主区域 */
+        .main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .toolbar {
+            padding: 12px 20px;
+            background: var(--surface);
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .toolbar .path {
+            font-size: 14px;
+            color: var(--accent2);
+            font-weight: 600;
+            flex: 1;
+        }
+
+        .toolbar .desc {
+            font-size: 12px;
+            color: var(--text2);
+        }
+
+        .content {
+            flex: 1;
+            display: flex;
+            overflow: hidden;
+        }
+
+        .panel {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .panel+.panel {
+            border-left: 1px solid var(--border);
+        }
+
+        .panel-header {
+            padding: 8px 16px;
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--text2);
+            background: var(--surface);
+            border-bottom: 1px solid var(--border);
+            text-transform: uppercase;
+            letter-spacing: .5px;
+        }
+
+        .panel-body {
+            flex: 1;
+            padding: 16px;
+            overflow-y: auto;
+        }
+
+        /* 表单 */
+        .form-group {
+            margin-bottom: 14px;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 12px;
+            color: var(--text2);
+            margin-bottom: 4px;
+            font-weight: 500;
+        }
+
+        .form-group label .required {
+            color: var(--red);
+        }
+
+        input,
+        textarea,
+        select {
+            width: 100%;
+            padding: 8px 10px;
+            background: var(--surface2);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            color: var(--text);
+            font-family: inherit;
+            font-size: 13px;
+            outline: none;
+            transition: border-color .15s;
+        }
+
+        input:focus,
+        textarea:focus {
+            border-color: var(--accent);
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 80px;
+        }
+
+        .btn {
+            padding: 8px 20px;
+            border: none;
+            border-radius: 6px;
+            font-family: inherit;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all .15s;
+        }
+
+        .btn-primary {
+            background: var(--accent);
+            color: #fff;
+        }
+
+        .btn-primary:hover {
+            background: var(--accent2);
+        }
+
+        .btn-primary:disabled {
+            opacity: .5;
+            cursor: not-allowed;
+        }
+
+        .btn-danger {
+            background: var(--red);
+            color: #fff;
+        }
+
+        .btn-danger:hover {
+            opacity: .85;
+        }
+
+        .btn-sm {
+            padding: 5px 12px;
+            font-size: 12px;
+        }
+
+        /* 响应 */
+        .response-meta {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 12px;
+            font-size: 12px;
+        }
+
+        .status-badge {
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+
+        .status-badge.ok {
+            background: rgba(0, 184, 148, .15);
+            color: var(--green);
+        }
+
+        .status-badge.err {
+            background: rgba(225, 112, 85, .15);
+            color: var(--red);
+        }
+
+        .response-time {
+            color: var(--text2);
+        }
+
+        pre.response-body {
+            background: var(--surface2);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 12px;
+            font-size: 12px;
+            overflow-x: auto;
+            white-space: pre-wrap;
+            word-break: break-word;
+            max-height: 100%;
+            color: var(--text);
+            line-height: 1.5;
+        }
+
+        /* SSE 流区域 */
+        .stream-output {
+            background: var(--surface2);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 12px;
+            font-size: 13px;
+            min-height: 100px;
+            max-height: 100%;
+            overflow-y: auto;
+            white-space: pre-wrap;
+            word-break: break-word;
+            line-height: 1.6;
+        }
+
+        .stream-output .chunk-meta {
+            color: var(--accent2);
+            font-size: 11px;
+        }
+
+        .stream-output .chunk-msg {
+            color: var(--green);
+        }
+
+        .stream-output .chunk-err {
+            color: var(--red);
+        }
+
+        /* 配置栏 */
+        .config-bar {
+            padding: 8px 20px;
+            background: var(--surface);
+            border-top: 1px solid var(--border);
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .config-bar label {
+            color: var(--text2);
+            white-space: nowrap;
+        }
+
+        .config-bar input {
+            width: 240px;
+            padding: 4px 8px;
+            font-size: 12px;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+        /* 文件上传 */
+        input[type="file"] {
+            padding: 6px;
+        }
+
+        /* 对话气泡 */
+        .chat-area {
+            flex: 1;
+            overflow-y: auto;
+            padding: 16px;
+        }
+
+        .chat-bubble {
+            max-width: 80%;
+            margin-bottom: 12px;
+            padding: 10px 14px;
+            border-radius: 12px;
+            font-size: 13px;
+            line-height: 1.5;
+        }
+
+        .chat-bubble.user {
+            background: var(--accent);
+            color: #fff;
+            margin-left: auto;
+            border-bottom-right-radius: 4px;
+        }
+
+        .chat-bubble.assistant {
+            background: var(--surface2);
+            border: 1px solid var(--border);
+            border-bottom-left-radius: 4px;
+        }
+
+        .chat-bubble .route-tag {
+            display: inline-block;
+            font-size: 10px;
+            background: rgba(255, 255, 255, .15);
+            padding: 1px 6px;
+            border-radius: 3px;
+            margin-top: 6px;
+        }
+
+        .chat-input-area {
+            padding: 12px 16px;
+            border-top: 1px solid var(--border);
+            display: flex;
+            gap: 8px;
+        }
+
+        .chat-input-area input {
+            flex: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="app">
+        <!-- 侧边栏 -->
+        <div class="sidebar">
+            <h1>🍳 GustoBot</h1>
+
+            <div class="nav-group">
+                <div class="nav-group-title">对话</div>
+                <div class="nav-item active" data-panel="chat-interactive">💬 交互对话</div>
+                <div class="nav-item" data-panel="chat-post"><span class="method-tag post">POST</span>/chat</div>
+                <div class="nav-item" data-panel="chat-stream"><span class="method-tag post">POST</span>/chat/stream
+                </div>
+                <div class="nav-item" data-panel="chat-clear"><span class="method-tag delete">DEL</span>session</div>
+                <div class="nav-item" data-panel="chat-routes"><span class="method-tag get">GET</span>routes</div>
+            </div>
+
+            <div class="nav-group">
+                <div class="nav-group-title">会话管理</div>
+                <div class="nav-item" data-panel="session-create"><span class="method-tag post">POST</span>create</div>
+                <div class="nav-item" data-panel="session-list"><span class="method-tag get">GET</span>list</div>
+                <div class="nav-item" data-panel="session-detail"><span class="method-tag get">GET</span>detail</div>
+                <div class="nav-item" data-panel="session-update"><span class="method-tag patch">PATCH</span>update
+                </div>
+                <div class="nav-item" data-panel="session-user-count"><span class="method-tag get">GET</span>user/count
+                </div>
+                <div class="nav-item" data-panel="session-history"><span class="method-tag get">GET</span>history</div>
+                <div class="nav-item" data-panel="session-delete"><span class="method-tag delete">DEL</span>delete</div>
+            </div>
+
+            <div class="nav-group">
+                <div class="nav-group-title">知识库</div>
+                <div class="nav-item" data-panel="kb-add"><span class="method-tag post">POST</span>add recipe</div>
+                <div class="nav-item" data-panel="kb-search"><span class="method-tag post">POST</span>search</div>
+                <div class="nav-item" data-panel="kb-stats"><span class="method-tag get">GET</span>stats</div>
+                <div class="nav-item" data-panel="kb-graph"><span class="method-tag get">GET</span>graph</div>
+                <div class="nav-item" data-panel="kb-qa"><span class="method-tag post">POST</span>graph/qa</div>
+                <div class="nav-item" data-panel="kb-delete"><span class="method-tag delete">DEL</span>recipe</div>
+            </div>
+
+            <div class="nav-group">
+                <div class="nav-group-title">文件上传</div>
+                <div class="nav-item" data-panel="upload-file"><span class="method-tag post">POST</span>upload file
+                </div>
+                <div class="nav-item" data-panel="upload-image"><span class="method-tag post">POST</span>upload image
+                </div>
+                <div class="nav-item" data-panel="upload-delete"><span class="method-tag delete">DEL</span>delete file
+                </div>
+            </div>
+
+            <div class="nav-group">
+                <div class="nav-group-title">运维</div>
+                <div class="nav-item" data-panel="health"><span class="method-tag get">GET</span>/health</div>
+            </div>
+        </div>
+
+        <!-- 主区域 -->
+        <div class="main">
+            <div class="toolbar">
+                <span class="path" id="toolbarPath">💬 交互对话</span>
+                <span class="desc" id="toolbarDesc">与 GustoBot 实时对话</span>
+            </div>
+
+            <!-- ==================== 各面板 ==================== -->
+            <div class="content" id="panels">
+
+                <!-- 交互对话 -->
+                <div class="panel-full" id="panel-chat-interactive" style="display:flex;flex-direction:column;flex:1;">
+                    <div
+                        style="padding:8px 16px;display:flex;gap:8px;align-items:center;background:var(--surface);border-bottom:1px solid var(--border);">
+                        <label style="font-size:12px;color:var(--text2);white-space:nowrap;">session_id</label>
+                        <input id="ci-session" value="test-session-001"
+                            style="width:180px;padding:4px 8px;font-size:12px;">
+                        <label style="font-size:12px;color:var(--text2);white-space:nowrap;">user_id</label>
+                        <input id="ci-user" value="user-001" style="width:120px;padding:4px 8px;font-size:12px;">
+                        <label style="font-size:12px;color:var(--text2);white-space:nowrap;">模式</label>
+                        <select id="ci-mode" style="width:100px;padding:4px 8px;font-size:12px;">
+                            <option value="normal">普通</option>
+                            <option value="stream">流式</option>
+                        </select>
+                        <label style="font-size:12px;color:var(--text2);white-space:nowrap;">文件</label>
+                        <input id="ci-file" type="file" style="width:220px;padding:4px 8px;font-size:12px;">
+                        <button class="btn" id="ci-upload-btn" style="padding:4px 10px;font-size:12px;">上传</button>
+                        <button class="btn" id="ci-clear-file" style="padding:4px 10px;font-size:12px;">清除</button>
+                        <input id="ci-file-path" placeholder="file_path（上传后自动填充）" readonly
+                            style="width:260px;padding:4px 8px;font-size:12px;color:var(--text2);">
+                        <label style="font-size:12px;color:var(--text2);white-space:nowrap;">图片</label>
+                        <input id="ci-image" type="file" accept="image/*"
+                            style="width:180px;padding:4px 8px;font-size:12px;">
+                        <button class="btn" id="ci-upload-image-btn"
+                            style="padding:4px 10px;font-size:12px;">上传图片</button>
+                        <button class="btn" id="ci-clear-image" style="padding:4px 10px;font-size:12px;">清除图片</button>
+                        <input id="ci-image-path" placeholder="image_path（上传后自动填充）" readonly
+                            style="width:260px;padding:4px 8px;font-size:12px;color:var(--text2);">
+                    </div>
+                    <div class="chat-area" id="ci-messages"></div>
+                    <div class="chat-input-area">
+                        <input id="ci-input" placeholder="输入消息... (Enter 发送)" autocomplete="off">
+                        <button class="btn" id="ci-fill-image-msg">图片分析示例</button>
+                        <button class="btn btn-primary" id="ci-send">发送</button>
+                    </div>
+                </div>
+
+                <!-- POST /chat -->
+                <div class="content hidden" id="panel-chat-post">
+                    <div class="panel">
+                        <div class="panel-header">请求参数</div>
+                        <div class="panel-body">
+                            <div class="form-group"><label>message <span class="required">*</span></label><textarea
+                                    id="cp-msg" rows="3" placeholder="你好，给我推荐一道家常菜"></textarea></div>
+                            <div class="form-group"><label>session_id <span class="required">*</span></label><input
+                                    id="cp-sid" value="test-session-001"></div>
+                            <div class="form-group"><label>user_id</label><input id="cp-uid" placeholder="可选"></div>
+                            <div class="form-group"><label>image_path</label><input id="cp-img" placeholder="可选"></div>
+                            <div class="form-group"><label>file_path</label><input id="cp-file" placeholder="可选"></div>
+                            <button class="btn btn-primary" onclick="doPostChat()">发送请求</button>
+                        </div>
+                    </div>
+                    <div class="panel">
+                        <div class="panel-header">响应</div>
+                        <div class="panel-body">
+                            <div id="cp-resp"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- POST /chat/stream -->
+                <div class="content hidden" id="panel-chat-stream">
+                    <div class="panel">
+                        <div class="panel-header">请求参数</div>
+                        <div class="panel-body">
+                            <div class="form-group"><label>message <span class="required">*</span></label><textarea
+                                    id="cs-msg" rows="3" placeholder="红烧肉怎么做？"></textarea></div>
+                            <div class="form-group"><label>session_id <span class="required">*</span></label><input
+                                    id="cs-sid" value="test-session-001"></div>
+                            <div class="form-group"><label>user_id</label><input id="cs-uid" placeholder="可选"></div>
+                            <button class="btn btn-primary" onclick="doStreamChat()">开始流式请求</button>
+                        </div>
+                    </div>
+                    <div class="panel">
+                        <div class="panel-header">SSE 流输出</div>
+                        <div class="panel-body">
+                            <div class="stream-output" id="cs-output"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DELETE /chat/session -->
+                <div class="content hidden" id="panel-chat-clear">
+                    <div class="panel">
+                        <div class="panel-header">请求参数</div>
+                        <div class="panel-body">
+                            <div class="form-group"><label>session_id <span class="required">*</span></label><input
+                                    id="cc-sid" value="test-session-001"></div>
+                            <button class="btn btn-danger" onclick="doClearSession()">清空会话消息</button>
+                        </div>
+                    </div>
+                    <div class="panel">
+                        <div class="panel-header">响应</div>
+                        <div class="panel-body">
+                            <div id="cc-resp"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- GET /chat/routes -->
+                <div class="content hidden" id="panel-chat-routes">
+                    <div class="panel" style="max-width:100%;">
+                        <div class="panel-header">响应</div>
+                        <div class="panel-body">
+                            <button class="btn btn-primary" onclick="doGetRoutes()"
+                                style="margin-bottom:12px;">获取路由列表</button>
+                            <div id="cr-resp"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- POST /sessions -->
+                <div class="content hidden" id="panel-session-create">
+                    <div class="panel">
+                        <div class="panel-header">请求参数</div>
+                        <div class="panel-body">
+                            <div class="form-group"><label>title</label><input id="sc-title" placeholder="新对话"></div>
+                            <div class="form-group"><label>user_id</label><input id="sc-uid" placeholder="可选"></div>
+                            <button class="btn btn-primary" onclick="doCreateSession()">创建会话</button>
+                        </div>
+                    </div>
+                    <div class="panel">
+                        <div class="panel-header">响应</div>
+                        <div class="panel-body">
+                            <div id="sc-resp"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- GET /sessions -->
+                <div class="content hidden" id="panel-session-list">
+                    <div class="panel" style="max-width:100%;">
+                        <div class="panel-header">会话列表</div>
+                        <div class="panel-body">
+                            <div style="display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap;align-items:center;">
+                                <input id="sl-uid" placeholder="按 user_id 过滤（可选）" style="width:200px;">
+                                <label style="font-size:12px;color:var(--text2);">skip</label>
+                                <input id="sl-skip" type="number" value="0" min="0" style="width:70px;">
+                                <label style="font-size:12px;color:var(--text2);">limit</label>
+                                <input id="sl-limit" type="number" value="20" min="1" max="100" style="width:70px;">
+                                <button class="btn btn-primary btn-sm" onclick="doListSessions()">查询</button>
+                            </div>
+                            <div id="sl-resp"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- GET /sessions/:id -->
+                <div class="content hidden" id="panel-session-detail">
+                    <div class="panel">
+                        <div class="panel-header">请求参数</div>
+                        <div class="panel-body">
+                            <div class="form-group"><label>session_id <span class="required">*</span></label><input
+                                    id="sd-sid"></div>
+                            <button class="btn btn-primary" onclick="doGetSession()">查询详情</button>
+                        </div>
+                    </div>
+                    <div class="panel">
+                        <div class="panel-header">响应</div>
+                        <div class="panel-body">
+                            <div id="sd-resp"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PATCH /sessions/:id -->
+                <div class="content hidden" id="panel-session-update">
+                    <div class="panel">
+                        <div class="panel-header">请求参数</div>
+                        <div class="panel-body">
+                            <div class="form-group"><label>session_id <span class="required">*</span></label><input
+                                    id="su-sid"></div>
+                            <div class="form-group"><label>title</label><input id="su-title" placeholder="新标题"></div>
+                            <div class="form-group"><label>status</label><select id="su-status">
+                                    <option value="">不修改</option>
+                                    <option value="active">active</option>
+                                    <option value="archived">archived</option>
+                                </select></div>
+                            <button class="btn btn-primary" onclick="doUpdateSession()">更新</button>
+                        </div>
+                    </div>
+                    <div class="panel">
+                        <div class="panel-header">响应</div>
+                        <div class="panel-body">
+                            <div id="su-resp"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- GET /sessions/user/:id/count -->
+                <div class="content hidden" id="panel-session-user-count">
+                    <div class="panel">
+                        <div class="panel-header">请求参数</div>
+                        <div class="panel-body">
+                            <div class="form-group"><label>user_id <span class="required">*</span></label><input
+                                    id="suc-uid"></div>
+                            <button class="btn btn-primary" onclick="doUserCount()">查询</button>
+                        </div>
+                    </div>
+                    <div class="panel">
+                        <div class="panel-header">响应</div>
+                        <div class="panel-body">
+                            <div id="suc-resp"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- GET /sessions/:id/history -->
+                <div class="content hidden" id="panel-session-history">
+                    <div class="panel">
+                        <div class="panel-header">请求参数</div>
+                        <div class="panel-body">
+                            <div class="form-group"><label>session_id <span class="required">*</span></label><input
+                                    id="sh-sid"></div>
+                            <button class="btn btn-primary" onclick="doSessionHistory()">获取历史</button>
+                        </div>
+                    </div>
+                    <div class="panel">
+                        <div class="panel-header">响应</div>
+                        <div class="panel-body">
+                            <div id="sh-resp"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DELETE /sessions/:id -->
+                <div class="content hidden" id="panel-session-delete">
+                    <div class="panel">
+                        <div class="panel-header">请求参数</div>
+                        <div class="panel-body">
+                            <div class="form-group"><label>session_id <span class="required">*</span></label><input
+                                    id="sde-sid"></div>
+                            <button class="btn btn-danger" onclick="doDeleteSession()">删除会话</button>
+                        </div>
+                    </div>
+                    <div class="panel">
+                        <div class="panel-header">响应</div>
+                        <div class="panel-body">
+                            <div id="sde-resp"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- POST /knowledge/recipes -->
+                <div class="content hidden" id="panel-kb-add">
+                    <div class="panel">
+                        <div class="panel-header">请求参数</div>
+                        <div class="panel-body">
+                            <div class="form-group"><label>name <span class="required">*</span></label><input
+                                    id="ka-name" placeholder="红烧肉"></div>
+                            <div class="form-group"><label>category</label><input id="ka-cat" placeholder="家常菜"></div>
+                            <div class="form-group"><label>difficulty</label><input id="ka-diff" placeholder="简单/中等/困难">
+                            </div>
+                            <div class="form-group"><label>time</label><input id="ka-time" placeholder="30分钟"></div>
+                            <div class="form-group"><label>ingredients (逗号分隔)</label><input id="ka-ing"
+                                    placeholder="猪肉,糖,酱油"></div>
+                            <div class="form-group"><label>steps (换行分隔)</label><textarea id="ka-steps" rows="4"
+                                    placeholder="第一步: 切肉&#10;第二步: 炒糖色"></textarea></div>
+                            <div class="form-group"><label>tips</label><textarea id="ka-tips" rows="2"
+                                    placeholder="烹饪技巧"></textarea></div>
+                            <button class="btn btn-primary" onclick="doAddRecipe()">添加菜谱</button>
+                        </div>
+                    </div>
+                    <div class="panel">
+                        <div class="panel-header">响应</div>
+                        <div class="panel-body">
+                            <div id="ka-resp"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- POST /knowledge/search -->
+                <div class="content hidden" id="panel-kb-search">
+                    <div class="panel">
+                        <div class="panel-header">请求参数</div>
+                        <div class="panel-body">
+                            <div class="form-group"><label>query <span class="required">*</span></label><input id="ks-q"
+                                    placeholder="简单好做的家常菜"></div>
+                            <div class="form-group"><label>top_k (1-20)</label><input id="ks-k" type="number" value="5"
+                                    min="1" max="20"></div>
+                            <button class="btn btn-primary" onclick="doKBSearch()">搜索</button>
+                        </div>
+                    </div>
+                    <div class="panel">
+                        <div class="panel-header">响应</div>
+                        <div class="panel-body">
+                            <div id="ks-resp"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- GET /knowledge/stats -->
+                <div class="content hidden" id="panel-kb-stats">
+                    <div class="panel" style="max-width:100%;">
+                        <div class="panel-header">知识库统计</div>
+                        <div class="panel-body">
+                            <button class="btn btn-primary" onclick="doKBStats()"
+                                style="margin-bottom:12px;">获取统计</button>
+                            <div id="kst-resp"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- GET /knowledge/graph -->
+                <div class="content hidden" id="panel-kb-graph">
+                    <div class="panel" style="max-width:100%;">
+                        <div class="panel-header">图谱快照</div>
+                        <div class="panel-body">
+                            <div style="display:flex;gap:8px;margin-bottom:12px;">
+                                <input id="kg-limit" type="number" value="50" min="1" max="500" style="width:80px;"
+                                    placeholder="limit">
+                                <button class="btn btn-primary btn-sm" onclick="doKBGraph()">获取</button>
+                            </div>
+                            <div id="kg-resp"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- POST /knowledge/graph/qa -->
+                <div class="content hidden" id="panel-kb-qa">
+                    <div class="panel">
+                        <div class="panel-header">请求参数</div>
+                        <div class="panel-body">
+                            <div class="form-group"><label>query <span class="required">*</span></label><textarea
+                                    id="kq-q" rows="2" placeholder="红烧肉怎么做？"></textarea></div>
+                            <div class="form-group"><label><input type="checkbox" id="kq-graph"> include_graph</label>
+                            </div>
+                            <button class="btn btn-primary" onclick="doGraphQA()">提问</button>
+                        </div>
+                    </div>
+                    <div class="panel">
+                        <div class="panel-header">响应</div>
+                        <div class="panel-body">
+                            <div id="kq-resp"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DELETE /knowledge/recipes/:id -->
+                <div class="content hidden" id="panel-kb-delete">
+                    <div class="panel">
+                        <div class="panel-header">请求参数</div>
+                        <div class="panel-body">
+                            <div class="form-group"><label>recipe_id <span class="required">*</span></label><input
+                                    id="kd-id"></div>
+                            <button class="btn btn-danger" onclick="doDeleteRecipe()">删除菜谱</button>
+                        </div>
+                    </div>
+                    <div class="panel">
+                        <div class="panel-header">响应</div>
+                        <div class="panel-body">
+                            <div id="kd-resp"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- POST /upload/file -->
+                <div class="content hidden" id="panel-upload-file">
+                    <div class="panel">
+                        <div class="panel-header">文件上传</div>
+                        <div class="panel-body">
+                            <div class="form-group"><label>选择文件 <span class="required">*</span></label><input
+                                    id="uf-file" type="file"></div>
+                            <button class="btn btn-primary" onclick="doUploadFile()">上传</button>
+                        </div>
+                    </div>
+                    <div class="panel">
+                        <div class="panel-header">响应</div>
+                        <div class="panel-body">
+                            <div id="uf-resp"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- POST /upload/image -->
+                <div class="content hidden" id="panel-upload-image">
+                    <div class="panel">
+                        <div class="panel-header">图片上传</div>
+                        <div class="panel-body">
+                            <div class="form-group"><label>选择图片 <span class="required">*</span></label><input
+                                    id="ui-file" type="file" accept="image/*"></div>
+                            <button class="btn btn-primary" onclick="doUploadImage()">上传</button>
+                        </div>
+                    </div>
+                    <div class="panel">
+                        <div class="panel-header">响应</div>
+                        <div class="panel-body">
+                            <div id="ui-resp"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DELETE /upload/:file_id -->
+                <div class="content hidden" id="panel-upload-delete">
+                    <div class="panel">
+                        <div class="panel-header">请求参数</div>
+                        <div class="panel-body">
+                            <div class="form-group"><label>file_id <span class="required">*</span></label><input
+                                    id="ud-fid"></div>
+                            <button class="btn btn-danger" onclick="doDeleteFile()">删除文件</button>
+                        </div>
+                    </div>
+                    <div class="panel">
+                        <div class="panel-header">响应</div>
+                        <div class="panel-body">
+                            <div id="ud-resp"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- GET /health -->
+                <div class="content hidden" id="panel-health">
+                    <div class="panel" style="max-width:100%;">
+                        <div class="panel-header">基础设施健康状态</div>
+                        <div class="panel-body">
+                            <button class="btn btn-primary" onclick="doHealthCheck()"
+                                style="margin-bottom:12px;">执行健康检查</button>
+                            <div id="hc-resp"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- 底部配置栏 -->
+            <div class="config-bar">
+                <label>API Base URL:</label>
+                <input id="baseUrl" value="http://localhost:8000/api/v1">
+                <span style="color:var(--text2);margin-left:auto;" id="statusIndicator">● 未连接</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // ── 工具函数 ────────────────────────────────
+        const $ = id => document.getElementById(id);
+        const BASE = () => $('baseUrl').value.replace(/\/+$/, '');
+
+        const panelInfo = {
+            'chat-interactive': ['💬 交互对话', '与 GustoBot 实时对话（支持普通/流式模式切换）'],
+            'chat-post': ['POST /api/v1/chat', '非流式主对话入口'],
+            'chat-stream': ['POST /api/v1/chat/stream', 'SSE 流式对话入口'],
+            'chat-clear': ['DELETE /api/v1/chat/session/:session_id', '清空指定会话消息'],
+            'chat-routes': ['GET /api/v1/chat/routes', '查询系统路由类型说明'],
+            'session-create': ['POST /api/v1/sessions', '创建新会话'],
+            'session-list': ['GET /api/v1/sessions', '列出所有会话（支持 user_id 过滤和分页）'],
+            'session-detail': ['GET /api/v1/sessions/:session_id', '获取单个会话详情'],
+            'session-update': ['PATCH /api/v1/sessions/:session_id', '更新会话标题/状态'],
+            'session-user-count': ['GET /api/v1/sessions/user/:user_id/count', '获取用户会话数量'],
+            'session-history': ['GET /api/v1/sessions/:session_id/history', '获取会话完整消息历史'],
+            'session-delete': ['DELETE /api/v1/sessions/:session_id', '删除指定会话'],
+            'kb-add': ['POST /api/v1/knowledge/recipes', '添加菜谱到向量知识库'],
+            'kb-search': ['POST /api/v1/knowledge/search', '向量语义搜索'],
+            'kb-stats': ['GET /api/v1/knowledge/stats', '知识库统计信息'],
+            'kb-graph': ['GET /api/v1/knowledge/graph', '获取 Neo4j 图谱快照'],
+            'kb-qa': ['POST /api/v1/knowledge/graph/qa', 'Neo4j 图谱自然语言问答'],
+            'kb-delete': ['DELETE /api/v1/knowledge/recipes/:recipe_id', '从知识库删除菜谱'],
+            'upload-file': ['POST /api/v1/upload/file', '上传文档'],
+            'upload-image': ['POST /api/v1/upload/image', '上传图片'],
+            'upload-delete': ['DELETE /api/v1/upload/:file_id', '删除已上传文件'],
+            'health': ['GET /health', '检查 Redis/Milvus/Neo4j/MySQL 连通性'],
+        };
+
+        function escapeHtml(s) {
+            const d = document.createElement('div');
+            d.textContent = s;
+            return d.innerHTML;
+        }
+
+        function showResp(targetId, status, time, body) {
+            const el = $(targetId);
+            const isOk = status >= 200 && status < 300;
+            let bodyStr;
+            try { bodyStr = typeof body === 'string' ? body : JSON.stringify(body, null, 2); } catch { bodyStr = String(body); }
+            el.innerHTML = `
+    <div class="response-meta">
+      <span class="status-badge ${isOk ? 'ok' : 'err'}">${status}</span>
+      <span class="response-time">${time}ms</span>
+    </div>
+    <pre class="response-body">${escapeHtml(bodyStr)}</pre>`;
+        }
+
+        async function apiCall(method, path, body, respId) {
+            const t0 = Date.now();
+            try {
+                const opts = { method, headers: {} };
+                if (body && !(body instanceof FormData)) {
+                    opts.headers['Content-Type'] = 'application/json';
+                    opts.body = JSON.stringify(body);
+                } else if (body instanceof FormData) {
+                    opts.body = body;
+                }
+                const res = await fetch(BASE() + path, opts);
+                const elapsed = Date.now() - t0;
+                let data;
+                const ct = res.headers.get('content-type') || '';
+                if (ct.includes('json')) data = await res.json();
+                else data = await res.text();
+                if (respId) showResp(respId, res.status, elapsed, data);
+                return { status: res.status, data, elapsed };
+            } catch (e) {
+                const elapsed = Date.now() - t0;
+                if (respId) showResp(respId, 0, elapsed, `网络错误: ${e.message}`);
+                return { status: 0, data: null, elapsed };
+            }
+        }
+
+        // ── 侧边栏导航 ────────────────────────────────
+        document.querySelectorAll('.nav-item').forEach(item => {
+            item.addEventListener('click', () => {
+                document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+                item.classList.add('active');
+                const panel = item.dataset.panel;
+                // 隐藏所有面板
+                const panels = $('panels');
+                Array.from(panels.children).forEach(ch => {
+                    ch.style.display = 'none';
+                    ch.classList.add('hidden');
+                });
+                const target = $('panel-' + panel);
+                if (target) {
+                    target.style.display = '';
+                    target.classList.remove('hidden');
+                    // content 类需要 flex
+                    if (target.classList.contains('content') || target.classList.contains('panel-full')) {
+                        target.style.display = 'flex';
+                    }
+                }
+                const info = panelInfo[panel] || ['', ''];
+                $('toolbarPath').textContent = info[0];
+                $('toolbarDesc').textContent = info[1];
+            });
+        });
+
+        // ── Chat 接口 ────────────────────────────────
+        async function doPostChat() {
+            const body = { message: $('cp-msg').value, session_id: $('cp-sid').value };
+            if ($('cp-uid').value) body.user_id = $('cp-uid').value;
+            if ($('cp-img').value) body.image_path = $('cp-img').value;
+            if ($('cp-file').value) body.file_path = $('cp-file').value;
+            await apiCall('POST', '/chat', body, 'cp-resp');
+        }
+
+        async function doStreamChat() {
+            const output = $('cs-output');
+            output.innerHTML = '';
+            const body = { message: $('cs-msg').value, session_id: $('cs-sid').value };
+            if ($('cs-uid').value) body.user_id = $('cs-uid').value;
+            try {
+                const res = await fetch(BASE() + '/chat/stream', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(body),
+                });
+                const reader = res.body.getReader();
+                const decoder = new TextDecoder();
+                let buffer = '';
+                while (true) {
+                    const { done, value } = await reader.read();
+                    if (done) break;
+                    buffer += decoder.decode(value, { stream: true });
+                    const lines = buffer.split('\n');
+                    buffer = lines.pop();
+                    for (const line of lines) {
+                        if (line.startsWith('data: ')) {
+                            try {
+                                const chunk = JSON.parse(line.slice(6));
+                                if (chunk.type === 'message') {
+                                    output.innerHTML += `<span class="chunk-msg">${escapeHtml(chunk.content || '')}</span>`;
+                                } else if (chunk.type === 'error') {
+                                    output.innerHTML += `<span class="chunk-err">[ERROR] ${escapeHtml(chunk.content || '')}</span>\n`;
+                                } else {
+                                    output.innerHTML += `<span class="chunk-meta">[${chunk.type}] ${escapeHtml(JSON.stringify(chunk.metadata || chunk))}</span>\n`;
+                                }
+                                output.scrollTop = output.scrollHeight;
+                            } catch { }
+                        }
+                    }
+                }
+            } catch (e) {
+                output.innerHTML += `<span class="chunk-err">[网络错误] ${escapeHtml(e.message)}</span>`;
+            }
+        }
+
+        async function doClearSession() {
+            await apiCall('DELETE', `/chat/session/${encodeURIComponent($('cc-sid').value)}`, null, 'cc-resp');
+        }
+        async function doGetRoutes() {
+            await apiCall('GET', '/chat/routes', null, 'cr-resp');
+        }
+
+        // ── Session 接口 ────────────────────────────────
+        async function doCreateSession() {
+            const body = {};
+            if ($('sc-title').value) body.title = $('sc-title').value;
+            if ($('sc-uid').value) body.user_id = $('sc-uid').value;
+            await apiCall('POST', '/sessions', body, 'sc-resp');
+        }
+        async function doListSessions() {
+            const uid = $('sl-uid').value;
+            const skip = $('sl-skip') ? $('sl-skip').value : 0;
+            const limit = $('sl-limit') ? $('sl-limit').value : 20;
+            let q = `?skip=${skip}&limit=${limit}`;
+            if (uid) q += `&user_id=${encodeURIComponent(uid)}`;
+            await apiCall('GET', `/sessions${q}`, null, 'sl-resp');
+        }
+        async function doGetSession() {
+            await apiCall('GET', `/sessions/${encodeURIComponent($('sd-sid').value)}`, null, 'sd-resp');
+        }
+        async function doUpdateSession() {
+            const body = {};
+            if ($('su-title').value) body.title = $('su-title').value;
+            if ($('su-status').value) body.status = $('su-status').value;
+            await apiCall('PATCH', `/sessions/${encodeURIComponent($('su-sid').value)}`, body, 'su-resp');
+        }
+        async function doUserCount() {
+            await apiCall('GET', `/sessions/user/${encodeURIComponent($('suc-uid').value)}/count`, null, 'suc-resp');
+        }
+        async function doSessionHistory() {
+            await apiCall('GET', `/sessions/${encodeURIComponent($('sh-sid').value)}/history`, null, 'sh-resp');
+        }
+        async function doDeleteSession() {
+            await apiCall('DELETE', `/sessions/${encodeURIComponent($('sde-sid').value)}`, null, 'sde-resp');
+        }
+
+        // ── Knowledge 接口 ────────────────────────────────
+        async function doAddRecipe() {
+            const body = { name: $('ka-name').value };
+            if ($('ka-cat').value) body.category = $('ka-cat').value;
+            if ($('ka-diff').value) body.difficulty = $('ka-diff').value;
+            if ($('ka-time').value) body.time = $('ka-time').value;
+            if ($('ka-ing').value) body.ingredients = $('ka-ing').value.split(',').map(s => s.trim()).filter(Boolean);
+            if ($('ka-steps').value) body.steps = $('ka-steps').value.split('\n').filter(Boolean);
+            if ($('ka-tips').value) body.tips = $('ka-tips').value;
+            await apiCall('POST', '/knowledge/recipes', body, 'ka-resp');
+        }
+        async function doKBSearch() {
+            await apiCall('POST', '/knowledge/search', {
+                query: $('ks-q').value,
+                top_k: parseInt($('ks-k').value) || 5,
+            }, 'ks-resp');
+        }
+        function normalizeKBStatsPayload(data) {
+            if (!data || typeof data !== 'object') return data;
+
+            // 兼容新版业务统计字段
+            if (Object.prototype.hasOwnProperty.call(data, 'total_recipes')) {
+                return {
+                    summary: {
+                        total_recipes: data.total_recipes || 0,
+                        total_cuisines: data.total_cuisines || 0,
+                        total_ingredients: data.total_ingredients || 0,
+                        total_steps: data.total_steps || 0,
+                        avg_total_time_minutes: data.avg_total_time_minutes || 0,
+                    },
+                    difficulty_distribution: data.difficulty_distribution || {},
+                    cuisine_distribution: data.cuisine_distribution || {},
+                    top_ingredients: data.top_ingredients || [],
+                };
+            }
+
+            // 兼容旧版向量统计字段
+            return data;
+        }
+
+        async function doKBStats() {
+            const t0 = Date.now();
+            try {
+                const res = await fetch(BASE() + '/knowledge/stats', { method: 'GET' });
+                const elapsed = Date.now() - t0;
+                const ct = res.headers.get('content-type') || '';
+                let data = ct.includes('json') ? await res.json() : await res.text();
+                data = normalizeKBStatsPayload(data);
+                showResp('kst-resp', res.status, elapsed, data);
+            } catch (e) {
+                showResp('kst-resp', 0, Date.now() - t0, `网络错误: ${e.message}`);
+            }
+        }
+        async function doKBGraph() {
+            await apiCall('GET', `/knowledge/graph?limit=${$('kg-limit').value || 50}`, null, 'kg-resp');
+        }
+        async function doGraphQA() {
+            await apiCall('POST', '/knowledge/graph/qa', {
+                query: $('kq-q').value,
+                include_graph: $('kq-graph').checked,
+            }, 'kq-resp');
+        }
+        async function doDeleteRecipe() {
+            await apiCall('DELETE', `/knowledge/recipes/${encodeURIComponent($('kd-id').value)}`, null, 'kd-resp');
+        }
+
+        // ── Upload 接口 ────────────────────────────────
+        async function doUploadFile() {
+            const f = $('uf-file').files[0];
+            if (!f) return alert('请选择文件');
+            const fd = new FormData(); fd.append('file', f);
+            await apiCall('POST', '/upload/file', fd, 'uf-resp');
+        }
+
+        async function doInteractiveUploadFile() {
+            const f = $('ci-file').files[0];
+            if (!f) {
+                addChatBubble('assistant', '请先选择要上传的文件。');
+                return;
+            }
+
+            const fd = new FormData();
+            fd.append('file', f);
+
+            try {
+                const res = await fetch(BASE() + '/upload/file', {
+                    method: 'POST',
+                    body: fd,
+                });
+                const data = await res.json();
+                if (!res.ok) {
+                    addChatBubble('assistant', `文件上传失败：${JSON.stringify(data)}`);
+                    return;
+                }
+
+                const filePath = data.file_path || '';
+                $('ci-file-path').value = filePath;
+                addChatBubble('assistant', `文件上传成功：${data.original_name || data.filename}\nfile_path: ${filePath}`);
+            } catch (e) {
+                addChatBubble('assistant', `文件上传失败：${e.message}`);
+            }
+        }
+
+        async function doInteractiveUploadImage() {
+            const f = $('ci-image').files[0];
+            if (!f) {
+                addChatBubble('assistant', '请先选择要上传的图片。');
+                return;
+            }
+
+            const fd = new FormData();
+            fd.append('image', f);
+
+            try {
+                const res = await fetch(BASE() + '/upload/image', {
+                    method: 'POST',
+                    body: fd,
+                });
+                const data = await res.json();
+                if (!res.ok) {
+                    addChatBubble('assistant', `图片上传失败：${JSON.stringify(data)}`);
+                    return;
+                }
+
+                const imagePath = data.file_path || '';
+                $('ci-image-path').value = imagePath;
+                addChatBubble('assistant', `图片上传成功：${data.original_name || data.filename}\nimage_path: ${imagePath}`);
+            } catch (e) {
+                addChatBubble('assistant', `图片上传失败：${e.message}`);
+            }
+        }
+        async function doUploadImage() {
+            const f = $('ui-file').files[0];
+            if (!f) return alert('请选择图片');
+            const fd = new FormData(); fd.append('image', f);
+            await apiCall('POST', '/upload/image', fd, 'ui-resp');
+        }
+        async function doDeleteFile() {
+            await apiCall('DELETE', `/upload/${encodeURIComponent($('ud-fid').value)}`, null, 'ud-resp');
+        }
+
+        // ── 健康检查 ────────────────────────────────
+        async function doHealthCheck() {
+            const t0 = Date.now();
+            try {
+                const baseHost = $('baseUrl').value.replace(/\/api\/v1\/?$/, '').replace(/\/+$/, '');
+                const res = await fetch(baseHost + '/health');
+                const elapsed = Date.now() - t0;
+                const data = await res.json();
+                showResp('hc-resp', res.status, elapsed, data);
+            } catch (e) {
+                showResp('hc-resp', 0, Date.now() - t0, `网络错误: ${e.message}`);
+            }
+        }
+
+        // ── 交互对话 ────────────────────────────────
+        function addChatBubble(role, content, routeType) {
+            const area = $('ci-messages');
+            const div = document.createElement('div');
+            div.className = `chat-bubble ${role}`;
+            div.innerHTML = escapeHtml(content);
+            if (routeType) div.innerHTML += `<div class="route-tag">${escapeHtml(routeType)}</div>`;
+            area.appendChild(div);
+            area.scrollTop = area.scrollHeight;
+        }
+
+        let ciSending = false;
+        let ciComposing = false;
+
+        async function sendInteractiveChat() {
+            if (ciSending || ciComposing) return;
+            const msg = $('ci-input').value.trim();
+            if (!msg) return;
+            $('ci-input').value = '';
+            addChatBubble('user', msg);
+
+            const body = {
+                message: msg,
+                session_id: $('ci-session').value,
+            };
+            if ($('ci-user').value) body.user_id = $('ci-user').value;
+            if ($('ci-file-path').value) body.file_path = $('ci-file-path').value;
+            if ($('ci-image-path').value) body.image_path = $('ci-image-path').value;
+
+            const mode = $('ci-mode').value;
+            ciSending = true;
+            $('ci-send').disabled = true;
+
+            if (mode === 'stream') {
+                // 流式
+                const bubble = document.createElement('div');
+                bubble.className = 'chat-bubble assistant';
+                $('ci-messages').appendChild(bubble);
+                try {
+                    const res = await fetch(BASE() + '/chat/stream', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(body),
+                    });
+                    const reader = res.body.getReader();
+                    const decoder = new TextDecoder();
+                    let buffer = '', routeType = '';
+                    while (true) {
+                        const { done, value } = await reader.read();
+                        if (done) break;
+                        buffer += decoder.decode(value, { stream: true });
+                        const lines = buffer.split('\n');
+                        buffer = lines.pop();
+                        for (const line of lines) {
+                            if (line.startsWith('data: ')) {
+                                try {
+                                    const chunk = JSON.parse(line.slice(6));
+                                    if (chunk.type === 'message' && chunk.content) {
+                                        bubble.innerHTML += escapeHtml(chunk.content);
+                                    } else if (chunk.type === 'metadata' && chunk.route) {
+                                        routeType = chunk.route;
+                                    } else if (chunk.type === 'error') {
+                                        bubble.innerHTML += `<span style="color:var(--red)">[错误] ${escapeHtml(chunk.content || '')}</span>`;
+                                    }
+                                } catch { }
+                            }
+                        }
+                        $('ci-messages').scrollTop = $('ci-messages').scrollHeight;
+                    }
+                    if (routeType) bubble.innerHTML += `<div class="route-tag">${escapeHtml(routeType)}</div>`;
+                } catch (e) {
+                    bubble.innerHTML = `<span style="color:var(--red)">请求失败: ${escapeHtml(e.message)}</span>`;
+                }
+            } else {
+                // 普通模式
+                const bubble = document.createElement('div');
+                bubble.className = 'chat-bubble assistant';
+                bubble.textContent = '思考中...';
+                $('ci-messages').appendChild(bubble);
+                try {
+                    const res = await fetch(BASE() + '/chat', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(body),
+                    });
+                    const data = await res.json();
+                    bubble.innerHTML = escapeHtml(data.answer || JSON.stringify(data));
+                    if (data.router_type) bubble.innerHTML += `<div class="route-tag">${escapeHtml(data.router_type)}</div>`;
+                } catch (e) {
+                    bubble.innerHTML = `<span style="color:var(--red)">请求失败: ${escapeHtml(e.message)}</span>`;
+                }
+            }
+            ciSending = false;
+            $('ci-send').disabled = false;
+            $('ci-messages').scrollTop = $('ci-messages').scrollHeight;
+        }
+
+        $('ci-send').addEventListener('click', sendInteractiveChat);
+        $('ci-fill-image-msg').addEventListener('click', () => {
+            $('ci-input').value = '请分析这张图片';
+            $('ci-input').focus();
+        });
+        $('ci-upload-btn').addEventListener('click', doInteractiveUploadFile);
+        $('ci-upload-image-btn').addEventListener('click', doInteractiveUploadImage);
+        $('ci-clear-file').addEventListener('click', () => {
+            $('ci-file').value = '';
+            $('ci-file-path').value = '';
+            addChatBubble('assistant', '已清除当前文件。');
+        });
+        $('ci-clear-image').addEventListener('click', () => {
+            $('ci-image').value = '';
+            $('ci-image-path').value = '';
+            addChatBubble('assistant', '已清除当前图片。');
+        });
+        $('ci-input').addEventListener('compositionstart', () => { ciComposing = true; });
+        $('ci-input').addEventListener('compositionend', () => { ciComposing = false; });
+        $('ci-input').addEventListener('keydown', e => {
+            if (e.isComposing || ciComposing) return;
+            if (e.key === 'Enter' && !e.shiftKey) {
+                e.preventDefault();
+                sendInteractiveChat();
+            }
+        });
+
+        // ── 连接检测 ────────────────────────────────
+        async function checkConnection() {
+            try {
+                const res = await fetch(BASE() + '/chat/routes', { method: 'GET', signal: AbortSignal.timeout(3000) });
+                $('statusIndicator').innerHTML = res.ok
+                    ? '<span style="color:var(--green)">● 已连接</span>'
+                    : '<span style="color:var(--orange)">● 异常 (' + res.status + ')</span>';
+            } catch {
+                $('statusIndicator').innerHTML = '<span style="color:var(--red)">● 未连接</span>';
+            }
+        }
+        checkConnection();
+        setInterval(checkConnection, 10000);
+        $('baseUrl').addEventListener('change', checkConnection);
+    </script>
+</body>
+
+</html>

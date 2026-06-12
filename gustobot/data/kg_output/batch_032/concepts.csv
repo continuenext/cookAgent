@@ -1,0 +1,120 @@
+concept_id,concept_type,name,fsn,preferred_term,synonyms,category,difficulty,cuisine_type,prep_time,cook_time,servings,tags,file_path,amount,unit,is_main,description,step_number,methods,tools,time_estimate
+201005715,Recipe,茶叶蛋,茶叶蛋 (Recipe),茶叶蛋,[],早餐,3.0,,5分钟,23分钟,3,"鸡蛋过冷水便于剥壳,可根据口味调整食盐用量,可用现成卤料包替代多种香料",dishes/breakfast/茶叶蛋.md,,,,,,,,
+201005716,Ingredient,鸡蛋,鸡蛋 (Ingredient),鸡蛋,"[{'term': '鸡子', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '土鸡蛋', 'language': 'zh', 'language_code': 'zh-CN'}]",蛋白质,,,,,,,,400,g,True,,,,,
+201005717,Ingredient,八角,八角 (Ingredient),八角,"[{'term': '大料', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '茴香', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,4,g,False,,,,,
+201005718,Ingredient,香叶,香叶 (Ingredient),香叶,[],调料,,,,,,,,1,g,False,,,,,
+201005719,Ingredient,桂皮,桂皮 (Ingredient),桂皮,[],调料,,,,,,,,3,g,False,,,,,
+201005720,Ingredient,茴香,茴香 (Ingredient),茴香,[],调料,,,,,,,,5,g,False,,,,,
+201005721,Ingredient,冰糖,冰糖 (Ingredient),冰糖,"[{'term': '冰片糖', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '块糖', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,15,g,False,,,,,
+201005722,Ingredient,红茶,红茶 (Ingredient),红茶,[],调料,,,,,,,,20,g,False,,,,,
+201005723,Ingredient,生抽,生抽 (Ingredient),生抽,"[{'term': '淡色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '鲜味酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,15,g,False,,,,,
+201005724,Ingredient,老抽,老抽 (Ingredient),老抽,"[{'term': '深色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '红烧酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,25,g,False,,,,,
+201005725,Ingredient,食盐,食盐 (Ingredient),食盐,[],调料,,,,,,,,3,g,False,,,,,
+201005726,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,用冷水将鸡蛋煮熟，大火大约8分钟（根据自家厨具决定）,1.0,煮,锅,8分钟
+201005727,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,鸡蛋捞出，过冷水,2.0,冷却,盆,
+201005728,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,将鸡蛋互相碰撞，使每个鸡蛋产生裂缝,3.0,敲裂,,
+201005729,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,将鸡蛋下锅，放入八角，香叶，桂皮，茴香，冰糖，红茶，生抽，老抽，食盐,4.0,煮,锅,
+201005730,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,加水直至没过鸡蛋,5.0,加水,,
+201005731,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,大火煮开之后，转中小火煮15分钟,6.0,煮,锅,15分钟
+201005732,Recipe,桂圆红枣粥,桂圆红枣粥 (Recipe),桂圆红枣粥,[],"早餐,素菜,主食",2.0,,20分钟,60分钟,1,"可根据喜好调整水量控制粥的稀稠度,可通过控制桂圆数量调节甜度",dishes/breakfast/桂圆红枣粥.md,,,,,,,,
+201005733,Ingredient,糯米,糯米 (Ingredient),糯米,[],淀粉类,,,,,,,,100,g,True,,,,,
+201005734,Ingredient,红枣,红枣 (Ingredient),红枣,[],其他,,,,,,,,15,颗,True,,,,,
+201005735,Ingredient,桂圆,桂圆 (Ingredient),桂圆,[],其他,,,,,,,,15,颗,True,,,,,
+201005736,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,将桂圆肉扒出，用清水洗两次，放入碗中浸泡10分钟,1.0,"清洗,浸泡","碗,盆",10分钟
+201005737,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,红枣用清水洗两次，放入碗中浸泡10分钟,2.0,"清洗,浸泡","碗,盆",10分钟
+201005738,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,糯米放入电饭锅中，清水淘米两次后，加入2000ml水,3.0,淘洗,"电饭锅,量杯",5分钟
+201005739,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,将桂圆和红枣加入电饭锅,4.0,,电饭锅,1分钟
+201005740,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,打开电饭锅煮饭模式，1小时后粥成,5.0,煮,电饭锅,60分钟
+201005741,Recipe,微波炉荷包蛋,微波炉荷包蛋 (Recipe),微波炉荷包蛋,[],早餐,1.0,,30秒,80秒,1人,盖盖子防溅射,dishes/breakfast/微波炉荷包蛋.md,,,,,,,,
+201005742,Ingredient,鸡蛋,鸡蛋 (Ingredient),鸡蛋,"[{'term': '鸡子', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '土鸡蛋', 'language': 'zh', 'language_code': 'zh-CN'}]",蛋白质,,,,,,,,2,个,True,,,,,
+201005743,Ingredient,饮用水,饮用水 (Ingredient),饮用水,[],其他,,,,,,,,35,ml,False,,,,,
+201005744,Ingredient,芝麻油,芝麻油 (Ingredient),芝麻油,[],调料,,,,,,,,3,ml,False,,,,,
+201005745,Ingredient,盐,盐 (Ingredient),盐,[],调料,,,,,,,,0.8,g,False,,,,,
+201005746,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,将鸡蛋打入小碗中，用筷子在所有鸡蛋黄上扎2个洞，避免加热弄脏微波炉,1.0,"打,扎","小碗,筷子",
+201005747,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,向碗内倒入常温饮用水,2.0,倒,小碗,
+201005748,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,向碗内倒入食用盐,3.0,倒,小碗,
+201005749,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,加入芝麻油,4.0,加,小碗,
+201005750,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,将放好材料的碗放入微波炉中，高火加热80秒,5.0,微波,"微波炉,小碗",80秒
+201005751,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,到达设定时间后，使用抹布垫着手取出成品,6.0,取,"抹布,微波炉,小碗",
+201005752,Recipe,水煮玉米,水煮玉米 (Recipe),水煮玉米,[],早餐,2.0,,5分钟,15-20分钟,1人,,dishes/breakfast/水煮玉米.md,,,,,,,,
+201005753,Ingredient,新鲜玉米,新鲜玉米 (Ingredient),新鲜玉米,[],蔬菜,,,,,,,,1,个,True,,,,,
+201005754,Ingredient,水,水 (Ingredient),水,[],其他,,,,,,,,淹过玉米约半节指头,,False,,,,,
+201005755,Ingredient,盐,盐 (Ingredient),盐,[],调料,,,,,,,,2,克,False,,,,,
+201005756,Ingredient,糖,糖 (Ingredient),糖,[],调料,,,,,,,,可选,,False,,,,,
+201005757,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,将新鲜玉米剥去外皮，剩部分玉米皮入锅,1.0,"剥,煮",锅,
+201005758,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,加入淹过玉米约半节指头的水，加盐和糖,2.0,煮,锅,
+201005759,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,水煮开之后转至小火，加盖继续煮 15-20 分钟，玉米煮久点没事。,3.0,煮,"锅,锅盖",15-20分钟
+201005760,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,煮熟后沥干水分，冷却后食用。,4.0,"沥干,冷却",滤网或漏勺,
+201005761,Recipe,手抓饼,手抓饼 (Recipe),手抓饼,[],早餐,2.0,,30分钟,10分钟,1~2人,"使用开水与冷水混合和面，有助于提升饼皮柔韧度,面团醒发时间不宜少于20分钟，否则不易擀薄,可根据个人口味增减配料，建议配料总重控制在100克以内,剩余生饼皮可冷藏保存24小时，使用时回温擀平即可",dishes/breakfast/手抓饼.md,,,,,,,,
+201005762,Ingredient,普通面粉,普通面粉 (Ingredient),普通面粉,[],淀粉类,,,,,,,,200,克,True,,,,,
+201005763,Ingredient,开水,开水 (Ingredient),开水,[],其他,,,,,,,,100,毫升,False,,,,,
+201005764,Ingredient,冷水,冷水 (Ingredient),冷水,[],其他,,,,,,,,50,毫升,False,,,,,
+201005765,Ingredient,食用油,食用油 (Ingredient),食用油,[],调料,,,,,,,,15,毫升,False,,,,,
+201005766,Ingredient,盐,盐 (Ingredient),盐,[],调料,,,,,,,,3,克,False,,,,,
+201005767,Ingredient,鸡蛋,鸡蛋 (Ingredient),鸡蛋,"[{'term': '鸡子', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '土鸡蛋', 'language': 'zh', 'language_code': 'zh-CN'}]",蛋白质,,,,,,,,1,个,True,,,,,
+201005768,Ingredient,生菜,生菜 (Ingredient),生菜,[],蔬菜,,,,,,,,30,克,True,,,,,
+201005769,Ingredient,火腿,火腿 (Ingredient),火腿,[],蛋白质,,,,,,,,30,克,True,,,,,
+201005770,Ingredient,芝士片,芝士片 (Ingredient),芝士片,[],蛋白质,,,,,,,,1,片,True,,,,,
+201005771,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,面粉放入碗中，加入开水搅拌成絮状，再加入冷水揉成光滑面团，覆盖湿布静置 20 分钟。,1.0,"搅拌,揉,静置","碗,湿布",20分钟
+201005772,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,面团分成每份约 100 克，搓圆，擀成薄片。,2.0,"分剂,搓圆,擀","案板,擀面杖",
+201005773,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,表面均匀涂抹食用油，撒上盐，卷成蜗牛状，松弛 10 分钟。,3.0,"涂抹,撒,卷,松弛",,10分钟
+201005774,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,面团再次擀成薄饼，厚度均匀。,4.0,擀,"擀面杖,案板",
+201005775,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,热锅中倒入油，小火煎至两面金黄起泡。,5.0,煎,平底锅,
+201005776,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,煎好的饼依次铺入煎蛋、生菜、火腿、芝士片等配料，卷起即可。,6.0,"铺,卷",,
+201005777,Recipe,微波炉蒸蛋,微波炉蒸蛋 (Recipe),微波炉蒸蛋,"[{'term': '微波炉steamed蛋', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '微波炉清蒸蛋', 'language': 'zh', 'language_code': 'zh-CN'}]",早餐,1.0,,2分钟,2分钟,1-2人,"水温应在40–50℃,蛋液与水比例控制在1:1至1:1.2之间口感最佳,覆盖保鲜膜并扎孔能防止表面爆开或出现蜂窝,过筛可显著提升细腻度,若表面鼓泡或出水，说明加热过头，下次缩短时间即可",dishes/breakfast/微波炉蒸蛋.md,,,,,,,,
+201005778,Ingredient,鸡蛋,鸡蛋 (Ingredient),鸡蛋,"[{'term': '鸡子', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '土鸡蛋', 'language': 'zh', 'language_code': 'zh-CN'}]",蛋白质,,,,,,,,2,个,True,,,,,
+201005779,Ingredient,温水或高汤,温水或高汤 (Ingredient),温水或高汤,[],其他,,,,,,,,100-120,ml,False,,,,,
+201005780,Ingredient,食盐,食盐 (Ingredient),食盐,[],调料,,,,,,,,1,g,False,,,,,
+201005781,Ingredient,生抽,生抽 (Ingredient),生抽,"[{'term': '淡色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '鲜味酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,2,ml,False,,,,,
+201005782,Ingredient,香油,香油 (Ingredient),香油,[],调料,,,,,,,,几滴,,False,,,,,
+201005783,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,将鸡蛋打散，加入温水/高汤、盐、生抽，轻轻搅匀，尽量不要起泡。,1.0,搅拌,"碗,筷子",
+201005784,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,将蛋液过筛倒入耐热碗中，表面若有气泡可用牙签轻戳。,2.0,过筛,"耐热碗,筛网,牙签",
+201005785,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,覆盖保鲜膜并扎8-10个小孔，或使用微波炉专用盖（留缝隙）。,3.0,覆盖,"保鲜膜,微波炉专用盖",
+201005786,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,放入微波炉中加热：700W：1分30秒 → 视情况再加热20-30秒至表面刚凝；600W：约1分40秒–2分10秒；800W：约1分10秒–1分40秒。,4.0,微波加热,微波炉,1分10秒–2分10秒
+201005787,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,加热完成后取出静置1分钟，让余温使中心完全熟化。,5.0,静置,,1分钟
+201005788,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,淋上香油，撒葱花即可食用。,6.0,淋,,
+201005789,Recipe,溏心蛋,溏心蛋 (Recipe),溏心蛋,[],早餐,3.0,,0分钟,15分钟,1人或更多（根据鸡蛋数量）,"溏心蛋蛋黄流动需静置6分钟,全熟蛋黄需静置10分钟,静置少于5分钟有沙门氏菌风险,可依喜好调整水量",dishes/breakfast/溏心蛋.md,,,,,,,,
+201005790,Ingredient,鸡蛋,鸡蛋 (Ingredient),鸡蛋,"[{'term': '鸡子', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '土鸡蛋', 'language': 'zh', 'language_code': 'zh-CN'}]",蛋白质,,,,,,,,1,颗,True,,,,,
+201005791,Ingredient,水,水 (Ingredient),水,[],其他,,,,,,,,淹过鸡蛋约2公分,,False,,,,,
+201005792,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,将鸡蛋放入电锅中。鸡蛋不可互相堆叠，应皆在底部，并留有空间可以晃动。,1.0,放置,电锅,
+201005793,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,倒入淹过鸡蛋约2公分的冷水。,2.0,加水,电锅,
+201005794,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,开盖，使用最大功率加热至水滚起（大约85 - 95度，稍微滚动，不需完全沸腾）。,3.0,煮,电锅,约5-7分钟
+201005795,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,关火，盖上盖子，让鸡蛋静置。想要中央有流动的蛋黄，需静置6分钟；若想要完全煮熟的易碎蛋黄，需静置10分钟。,4.0,焖,电锅,6-10分钟
+201005796,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,沥干水分，用冷水冲洗鸡蛋约1分钟，即可去壳食用。,5.0,"冷却,去壳","水槽,冷水",1分钟
+201005797,Recipe,完美水煮蛋,完美水煮蛋 (Recipe),完美水煮蛋,[],早餐,5.0,,0分钟,32分钟,1,"蛋黄中心温度：67±1°C,蛋白分层温度：外层：100°C→87°C，中层：87°C→55°C，内层：55°C→30°C,营养优势：多酚含量比传统煮法高23%",dishes/breakfast/完美水煮蛋.md,,,,,,,,
+201005798,Ingredient,鸡蛋,鸡蛋 (Ingredient),鸡蛋,"[{'term': '鸡子', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '土鸡蛋', 'language': 'zh', 'language_code': 'zh-CN'}]",蛋白质,,,,,,,,1,个,True,,,,,
+201005799,Ingredient,100°C 沸水,100°C 沸水 (Ingredient),100°C 沸水,[],其他,,,,,,,,1500,ml,False,,,,,
+201005800,Ingredient,30°C 温水,30°C 温水 (Ingredient),30°C 温水,[],其他,,,,,,,,1500,ml,False,,,,,
+201005801,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,准备两锅水：A锅维持100°C沸水，B锅维持30°C温水,1.0,煮,锅,
+201005802,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,用漏勺将鸡蛋放入A锅，启动定时器,2.0,煮,"漏勺,锅,定时器",
+201005803,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,精准每2分钟将鸡蛋转移至另一锅水,3.0,煮,"漏勺,锅",2分钟
+201005804,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,重复转移操作共16次（总时长32分钟）,4.0,煮,"漏勺,锅,定时器",32分钟
+201005805,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,最后一次转移后，在B锅静置30秒,5.0,煮,锅,30秒
+201005806,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,立即放入冰水（0摄氏度）终止加热（维持30秒）,6.0,冷却,"容器,冰水",30秒
+201005807,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,剥壳时从钝端气室处开始，沿纵轴剥离蛋膜,7.0,剥,手,
+201005808,Recipe,燕麦鸡蛋饼,燕麦鸡蛋饼 (Recipe),燕麦鸡蛋饼,[],早餐,2.0,,5分钟,5分钟,1人,"可加盐和胡椒调味,使用小火避免煎糊,可加入蔬菜增加营养",dishes/breakfast/燕麦鸡蛋饼.md,,,,,,,,
+201005809,Ingredient,鸡蛋,鸡蛋 (Ingredient),鸡蛋,"[{'term': '鸡子', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '土鸡蛋', 'language': 'zh', 'language_code': 'zh-CN'}]",蛋白质,,,,,,,,2,个,True,,,,,
+201005810,Ingredient,燕麦,燕麦 (Ingredient),燕麦,[],淀粉类,,,,,,,,50,克,True,,,,,
+201005811,Ingredient,牛奶,牛奶 (Ingredient),牛奶,[],其他,,,,,,,,250,毫升,True,,,,,
+201005812,Ingredient,蔬菜（如菠菜）,蔬菜（如菠菜） (Ingredient),蔬菜（如菠菜）,[],蔬菜,,,,,,,,50,克,False,,,,,
+201005813,Ingredient,黄油,黄油 (Ingredient),黄油,[],其他,,,,,,,,适量,克,False,,,,,
+201005814,Ingredient,盐,盐 (Ingredient),盐,[],调料,,,,,,,,适量,克,False,,,,,
+201005815,Ingredient,胡椒,胡椒 (Ingredient),胡椒,[],调料,,,,,,,,适量,克,False,,,,,
+201005816,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,将牛奶与干燕麦混合搅拌均匀至黏稠状。,1.0,搅拌,"盆,筷子",1-2分钟
+201005817,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,将鸡蛋搅拌均匀至颜色单一程度。,2.0,搅拌,"碗,筷子",30秒
+201005818,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,将鸡蛋液倒入燕麦牛奶中继续搅拌至黏稠、均匀。,3.0,搅拌,"盆,筷子",1分钟
+201005819,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,平底锅中加入一层黄油并覆盖均匀。,4.0,煎,"平底锅,锅铲",30秒
+201005820,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,下入搅拌好的食材，并摊开至饼状。,5.0,煎,"平底锅,锅铲",30秒
+201005821,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,小火加热两到三分钟。如想要加入蔬菜，可以在加热过程中加入碎菜叶。,6.0,煎,平底锅,2-3分钟
+201005822,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,翻面继续加热两分钟。,7.0,煎,"平底锅,锅铲",2分钟
+201005823,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,出锅，搭配剩下的牛奶作为早餐。,8.0,装盘,盘子,30秒
+201005824,Recipe,蒸花卷,蒸花卷 (Recipe),蒸花卷,"[{'term': '清蒸花卷', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': 'steamed花卷', 'language': 'en', 'language_code': 'en-US'}]",早餐,2.0,,5分钟,15分钟,1人（女生）至2人（普通分量）,蒸制过程中注意锅内水量不少于50ml,dishes/breakfast/蒸花卷.md,,,,,,,,
+201005825,Ingredient,冷冻花卷,冷冻花卷 (Ingredient),冷冻花卷,[],淀粉类,,,,,,,,5,个,True,,,,,
+201005826,Ingredient,水,水 (Ingredient),水,[],其他,,,,,,,,400,ml,False,,,,,
+201005827,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,从花卷的包装袋中取出5个花卷。,1.0,取,,
+201005828,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,把花卷平铺在碟子上，尽量不用重叠。,2.0,铺,圆碟子,
+201005829,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,往锅里倒入400ml水，把蒸架放里面，把装花卷的碟子放在蒸架上，盖上锅盖。,3.0,"倒,放,盖","锅,蒸架,圆碟子,锅盖",
+201005830,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,开大火加热，直至水沸腾。,4.0,蒸,锅,约5分钟
+201005831,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,转中火加热15分钟。,5.0,蒸,锅,15分钟
+201005832,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,开盖用手感受花卷的表面温度，如果不够热，就继续盖上盖子加热，否则就可以关火出锅。,6.0,"检查,蒸,关火","锅,手",
+201005833,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,碟子取出放凉至50度即可食用。,7.0,冷却,圆碟子,

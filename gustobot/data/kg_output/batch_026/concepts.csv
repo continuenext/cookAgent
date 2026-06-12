@@ -1,0 +1,151 @@
+concept_id,concept_type,name,fsn,preferred_term,synonyms,category,difficulty,cuisine_type,prep_time,cook_time,servings,tags,file_path,amount,unit,is_main,description,step_number,methods,tools,time_estimate
+201004715,Recipe,皮蛋瘦肉粥,皮蛋瘦肉粥 (Recipe),皮蛋瘦肉粥,[],汤类,3.0,粤菜,15分钟,40分钟,2,"可提前一夜准备主料,适合早餐,保温至次日食用",dishes/soup/皮蛋瘦肉粥.md,,,,,,,,
+201004716,Ingredient,饮用水,饮用水 (Ingredient),饮用水,[],其他,,,,,,,,1000,ml,True,,,,,
+201004717,Ingredient,皮蛋,皮蛋 (Ingredient),皮蛋,[],蛋白质,,,,,,,,2,颗,True,,,,,
+201004718,Ingredient,瘦肉,瘦肉 (Ingredient),瘦肉,[],蛋白质,,,,,,,,100,g,True,,,,,
+201004719,Ingredient,大米,大米 (Ingredient),大米,[],淀粉类,,,,,,,,150,ml,True,,,,,
+201004720,Ingredient,小葱,小葱 (Ingredient),小葱,"[{'term': '香葱', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '细葱', 'language': 'zh', 'language_code': 'zh-CN'}]",蔬菜,,,,,,,,1,棵,False,,,,,
+201004721,Ingredient,香菜,香菜 (Ingredient),香菜,"[{'term': '芫荽', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '胡荽', 'language': 'zh', 'language_code': 'zh-CN'}]",蔬菜,,,,,,,,1,棵,False,,,,,
+201004722,Ingredient,生菜,生菜 (Ingredient),生菜,[],蔬菜,,,,,,,,4,叶,False,,,,,
+201004723,Ingredient,生姜,生姜 (Ingredient),生姜,[],蔬菜,,,,,,,,1,拇指块,False,,,,,
+201004724,Ingredient,酱油,酱油 (Ingredient),酱油,[],调料,,,,,,,,5,ml,False,,,,,
+201004725,Ingredient,蚝油,蚝油 (Ingredient),蚝油,[],调料,,,,,,,,5,ml,False,,,,,
+201004726,Ingredient,盐,盐 (Ingredient),盐,[],调料,,,,,,,,2,g,False,,,,,
+201004727,Ingredient,胡椒粉,胡椒粉 (Ingredient),胡椒粉,[],调料,,,,,,,,1,g,False,,,,,
+201004728,Ingredient,食用油,食用油 (Ingredient),食用油,[],调料,,,,,,,,10,ml,False,,,,,
+201004729,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,大米洗净，放入电饭锅内胆，加入1升饮用水。,1.0,"洗,煮","电饭锅,盆",
+201004730,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,瘦肉洗净，简易晾去水分，加入10ml食用油揉搓均匀，放入电饭锅内胆。,2.0,"洗,揉搓","盆,电饭锅",5分钟
+201004731,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,皮蛋去壳、洗净，对半切开，分离蛋白蛋黄；蛋白切碎块，蛋黄揉碎，一同放入电饭锅内胆。,3.0,"切,揉碎","刀,案板,电饭锅",5分钟
+201004732,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,生姜洗净、削皮，去除枯黄部分，切丝后放入电饭锅内胆。,4.0,"洗,削皮,切","刀,案板,电饭锅",3分钟
+201004733,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,小葱、香菜、生菜分别洗净，去除根部和枯黄部分，切碎后各自放入小碗备用。,5.0,"洗,切","刀,案板,小碗",7分钟
+201004734,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,将酱油、蚝油、盐、胡椒粉混合搅拌均匀，放入小碗备用。,6.0,搅拌,"小碗,勺子",2分钟
+201004735,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,使用电饭锅的煮粥模式将主料煮熟。,7.0,煮,电饭锅,40分钟
+201004736,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,待粥煮熟后，将生菜单独过一次热水，然后与小葱、香菜一同加入粥中，同时倒入调好的酱料，搅拌均匀即可。,8.0,"焯水,搅拌","锅,漏勺,电饭锅",3分钟
+201004737,Recipe,米粥,米粥 (Recipe),米粥,[],汤类,2.0,,0-15分钟,10-20分钟,1,,dishes/soup/米粥.md,,,,,,,,
+201004738,Ingredient,米,米 (Ingredient),米,[],淀粉类,,,,,,,,60-110,ml,True,,,,,
+201004739,Ingredient,水,水 (Ingredient),水,[],其他,,,,,,,,540-1320,ml,True,,,,,
+201004740,Ingredient,植物油,植物油 (Ingredient),植物油,[],调料,,,,,,,,6-11,ml,False,,,,,
+201004741,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,（可选）将 Mo ml 的油与洗净的米混合，尽量确保完全混合，即每粒米上至少都沾上少量油。,1.0,"混合,腌制","盆,勺子",1-2分钟
+201004742,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,（可选）将 米-油混合物品冷藏保存，冷藏时间 Tc。,2.0,冷藏,冰箱,6-11分钟
+201004743,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,将米和水加入锅中。,3.0,煮,锅,0分钟
+201004744,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,开大火，加热到 T1（1.5 分钟/500ml * 水体积）。,4.0,煮,"锅,炉灶",1.6-4分钟
+201004745,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,在 T1 之前将火关小。如果忘记此步骤，水可能会漫出而熄灭火焰。非常危险！,5.0,煮,"锅,炉灶",0分钟
+201004746,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,加热到 Tr（10 分钟/500ml * 水体积）。在 Tr 时关闭火源。,6.0,煮,"锅,炉灶",10.8-26.4分钟
+201004747,Recipe,陈皮排骨汤,陈皮排骨汤 (Recipe),陈皮排骨汤,[],汤类,3.0,粤菜,10分钟,90分钟,1人份,"小心烫手,广东老火靓汤,讲究火候,滋补养生",dishes/soup/陈皮排骨汤/陈皮排骨汤.md,,,,,,,,
+201004748,Ingredient,排骨,排骨 (Ingredient),排骨,[],蛋白质,,,,,,,,4-5,块,True,,,,,
+201004749,Ingredient,陈皮,陈皮 (Ingredient),陈皮,[],其他,,,,,,,,1,瓣,False,,,,,
+201004750,Ingredient,西洋参,西洋参 (Ingredient),西洋参,[],其他,,,,,,,,9,片,False,,,,,
+201004751,Ingredient,石斛,石斛 (Ingredient),石斛,[],其他,,,,,,,,6,颗,False,,,,,
+201004752,Ingredient,玉竹,玉竹 (Ingredient),玉竹,[],其他,,,,,,,,5,片,False,,,,,
+201004753,Ingredient,麦冬,麦冬 (Ingredient),麦冬,[],其他,,,,,,,,7,个,False,,,,,
+201004754,Ingredient,盐,盐 (Ingredient),盐,[],调料,,,,,,,,5,g,False,,,,,
+201004755,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,排骨用热水过一边，去血水,1.0,焯水,"锅,盆",2-3分钟
+201004756,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,陈皮、麦冬、玉竹、石斛和西洋参，冲洗干净即可,2.0,清洗,盆,2分钟
+201004757,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,煲汤盅洗干净,3.0,清洗,煲汤盅,1分钟
+201004758,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,打开煲汤盅，先放入排骨在底部，然后依次放入陈皮、麦冬、玉竹、石斛和西洋参,4.0,装填,煲汤盅,2分钟
+201004759,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,加入热水进煲汤盅，水不宜太满,5.0,加水,"煲汤盅,水壶",1分钟
+201004760,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,煲汤容器加入水，炖煮1.5小时即可,6.0,炖,煲汤容器,90分钟
+201004761,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,加入食盐，趁热饮用,7.0,调味,勺子,1分钟
+201004762,Recipe,排骨苦瓜汤,排骨苦瓜汤 (Recipe),排骨苦瓜汤,[],汤类,4.0,,30分钟,120-240分钟,4,可用瑶柱代替虾皮增加鲜味,dishes/soup/排骨苦瓜汤/排骨苦瓜汤.md,,,,,,,,
+201004763,Ingredient,排骨,排骨 (Ingredient),排骨,[],蛋白质,,,,,,,,250-500,g,True,,,,,
+201004764,Ingredient,苦瓜,苦瓜 (Ingredient),苦瓜,[],蔬菜,,,,,,,,100-200,g,True,,,,,
+201004765,Ingredient,虾皮,虾皮 (Ingredient),虾皮,[],蛋白质,,,,,,,,5-15,g,True,,,,,
+201004766,Ingredient,生姜,生姜 (Ingredient),生姜,[],调料,,,,,,,,5-10,g,False,,,,,
+201004767,Ingredient,盐,盐 (Ingredient),盐,[],调料,,,,,,,,0.3-0.6,g/250ml,False,,,,,
+201004768,Ingredient,白胡椒,白胡椒 (Ingredient),白胡椒,[],调料,,,,,,,,0.1-0.5,g/250ml,False,,,,,
+201004769,Ingredient,水（焯水用）,水（焯水用） (Ingredient),水（焯水用）,[],其他,,,,,,,,700,ml,False,,,,,
+201004770,Ingredient,水（炖汤用，汤锅）,水（炖汤用，汤锅） (Ingredient),水（炖汤用，汤锅）,[],其他,,,,,,,,1100,ml,False,,,,,
+201004771,Ingredient,水（炖汤用，电压力锅）,水（炖汤用，电压力锅） (Ingredient),水（炖汤用，电压力锅）,[],其他,,,,,,,,1000,ml,False,,,,,
+201004772,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,排骨洗净，切到约4cm±2cm * 3cm±2cm的小块（如没有剁排骨的工具，可以求助摊主）。,1.0,"切,洗","刀,案板,盆",10-15分钟
+201004773,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,炒锅倒入冷水700ml和排骨一起加热至煮沸，关火捞出排骨。,2.0,"煮,焯水",炒锅,10-15分钟
+201004774,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,苦瓜中间切为两半，清除干净内部的种子和苦瓜瓤，切为0.5±0.3cm的苦瓜条，洗净。,3.0,"切,洗","刀,案板,盆",5-10分钟
+201004775,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,使用汤锅：倒入水1100ml和排骨，大火加热至沸腾。,4.0,煮,汤锅,10-15分钟
+201004776,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,水沸腾后将苦瓜和虾皮下锅，转小火，炖煮120~240分钟（在120分钟后可尝肉，若肉能轻松从骨头上分离即可关火）。,5.0,炖,汤锅,120-240分钟
+201004777,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,出锅时加盐和白胡椒，推荐量为每250ml汤加0.3到0.6g盐、0.1到0.5g白胡椒。,6.0,调味,,1-2分钟
+201004778,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,使用电压力锅：倒入1000ml水、排骨、虾皮和苦瓜，选择炖汤功能（一般为加压烹饪45分钟）。,7.0,炖,电压力锅,45分钟
+201004779,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,电压力锅烹饪完成后出锅，按同样比例加盐和白胡椒调味。,8.0,调味,,1-2分钟
+201004780,Recipe,菌菇炖乳鸽,菌菇炖乳鸽 (Recipe),菌菇炖乳鸽,"[{'term': '菌菇stewed乳鸽', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '菌菇煲乳鸽', 'language': 'zh', 'language_code': 'zh-CN'}]",汤类,4.0,,10分钟,30-60分钟,2,,dishes/soup/菌菇炖乳鸽/菌菇炖乳鸽.md,,,,,,,,
+201004781,Ingredient,乳鸽,乳鸽 (Ingredient),乳鸽,[],蛋白质,,,,,,,,300,g,True,,,,,
+201004782,Ingredient,菌菇,菌菇 (Ingredient),菌菇,[],蔬菜,,,,,,,,100,g,True,,,,,
+201004783,Ingredient,玉米,玉米 (Ingredient),玉米,"[{'term': '苞米', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '玉蜀黍', 'language': 'zh', 'language_code': 'zh-CN'}]",蔬菜,,,,,,,,200,g,True,,,,,
+201004784,Ingredient,姜,姜 (Ingredient),姜,[],调料,,,,,,,,30,g,False,,,,,
+201004785,Ingredient,料酒,料酒 (Ingredient),料酒,"[{'term': '黄酒', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '绍兴酒', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,15,ml,False,,,,,
+201004786,Ingredient,食用盐,食用盐 (Ingredient),食用盐,[],调料,,,,,,,,10,g,False,,,,,
+201004787,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,冷水洗干净热心摊主处理好的乳鸽,1.0,清洗,盆,2分钟
+201004788,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,冷水锅中放入洗干净的乳鸽，加入 15ml 料酒与姜，水煮开即可捞出乳鸽，要不然会丢失营养,2.0,"焯水,煮",锅,5-8分钟
+201004789,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,把乳鸽放到高压锅或者瓦罐中、倒入的水要没过乳鸽，放入生姜 20 g，玉米 200 g、菌菇 100 g,3.0,炖,"高压锅,瓦罐",
+201004790,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,高压锅 30 分钟，瓦罐需在水烧开后转小火慢炖 40-60 分钟,4.0,炖,"高压锅,瓦罐",30-60分钟
+201004791,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,时间到了，盛到碗中，加入 3~5g 盐 即可,5.0,"调味,盛装","碗,勺",1分钟
+201004792,Recipe,玉米排骨汤,玉米排骨汤 (Recipe),玉米排骨汤,[],汤类,3.0,,20分钟,60分钟,1份,"新手友好,食材简单,适合降温时食用,汤鲜美",dishes/soup/玉米排骨汤/玉米排骨汤.md,,,,,,,,
+201004793,Ingredient,排骨,排骨 (Ingredient),排骨,[],蛋白质,,,,,,,,500,g,True,,,,,
+201004794,Ingredient,玉米,玉米 (Ingredient),玉米,"[{'term': '苞米', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '玉蜀黍', 'language': 'zh', 'language_code': 'zh-CN'}]",蔬菜,,,,,,,,1,根,True,,,,,
+201004795,Ingredient,胡萝卜,胡萝卜 (Ingredient),胡萝卜,[],蔬菜,,,,,,,,1,根,True,,,,,
+201004796,Ingredient,大葱,大葱 (Ingredient),大葱,"[{'term': '葱白', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '韭葱', 'language': 'zh', 'language_code': 'zh-CN'}]",蔬菜,,,,,,,,0.5,根,False,,,,,
+201004797,Ingredient,香葱,香葱 (Ingredient),香葱,[],蔬菜,,,,,,,,1,根,False,,,,,
+201004798,Ingredient,生姜,生姜 (Ingredient),生姜,[],调料,,,,,,,,适量,片,False,,,,,
+201004799,Ingredient,食用油,食用油 (Ingredient),食用油,[],调料,,,,,,,,10,ml,False,,,,,
+201004800,Ingredient,黑胡椒粉,黑胡椒粉 (Ingredient),黑胡椒粉,[],调料,,,,,,,,4,g,False,,,,,
+201004801,Ingredient,料酒,料酒 (Ingredient),料酒,"[{'term': '黄酒', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '绍兴酒', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,10,ml,False,,,,,
+201004802,Ingredient,醋,醋 (Ingredient),醋,[],调料,,,,,,,,10,ml,False,,,,,
+201004803,Ingredient,食用盐,食用盐 (Ingredient),食用盐,[],调料,,,,,,,,10-15,g,False,,,,,
+201004804,Ingredient,开水,开水 (Ingredient),开水,[],其他,,,,,,,,1000,ml,False,,,,,
+201004805,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,大葱切成3-4cm的大段，用刀背拍一下；玉米剁成小块；胡萝卜切成滚刀块；生姜去皮切大片；新鲜的排骨砍成小块。,1.0,切,"刀,案板",15分钟
+201004806,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,排骨凉水下锅，放入大葱、生姜、料酒开始焯水，大火烧开，撇去浮沫，捞出排骨，沥干水分。,2.0,"煮,焯水","锅,漏勺",10分钟
+201004807,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,热锅凉油，切大片的生姜和排骨一起下锅煸炒，待排骨表面微微焦黄，放入醋（可加速肉质软烂），继续煸炒一分钟。,3.0,"炒,煸","炒锅,锅铲",5分钟
+201004808,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,冲入开水，一次给足，之后就不要再加了，大火烧开。,4.0,煮,砂锅或铁锅,5分钟
+201004809,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,先下入玉米，放入胡椒粉，盖盖小火炖二十分钟，然后放入胡萝卜，盖盖继续小火炖四十分钟。,5.0,炖,"砂锅或铁锅,锅盖",60分钟
+201004810,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,调味很简单，出锅前三分钟，除了盐什么都不用放，最后撒上一把小葱花即可。,6.0,"调味,撒","汤勺,碗",3分钟
+201004811,Recipe,朱雀汤,朱雀汤 (Recipe),朱雀汤,[],汤类,1.0,豫菜,2分钟,3分钟,1,"鸡蛋要打散,水需沸腾状态冲入,防止汤浑浊,豫东做法,可加盐替代糖,去火",dishes/soup/朱雀汤/朱雀汤.md,,,,,,,,
+201004812,Ingredient,鸡蛋,鸡蛋 (Ingredient),鸡蛋,"[{'term': '鸡子', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '土鸡蛋', 'language': 'zh', 'language_code': 'zh-CN'}]",蛋白质,,,,,,,,1,个,True,,,,,
+201004813,Ingredient,香油,香油 (Ingredient),香油,[],调料,,,,,,,,2,ml,False,,,,,
+201004814,Ingredient,白糖,白糖 (Ingredient),白糖,"[{'term': '细砂糖', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '绵白糖', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,20,克,False,,,,,
+201004815,Ingredient,水,水 (Ingredient),水,[],其他,,,,,,,,500,ml,False,,,,,
+201004816,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,鸡蛋在碗中打散，再倒入香油。,1.0,打散,"碗,筷子",1分钟
+201004817,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,水烧开后，在沸腾状态下快速倒入盛有鸡蛋的碗中。,2.0,"煮,冲","锅,碗",2分钟
+201004818,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,放入白糖。,3.0,搅拌,"碗,勺子",30秒
+201004819,Recipe,银耳莲子粥,银耳莲子粥 (Recipe),银耳莲子粥,[],汤类,4.0,,130分钟,90分钟,1,"防止糊底,需及时搅拌,银耳需泡发,分次加糖",dishes/soup/银耳莲子粥/银耳莲子粥.md,,,,,,,,
+201004820,Ingredient,银耳,银耳 (Ingredient),银耳,[],其他,,,,,,,,60,g,True,,,,,
+201004821,Ingredient,去心莲子,去心莲子 (Ingredient),去心莲子,[],淀粉类,,,,,,,,20,g,True,,,,,
+201004822,Ingredient,红枣,红枣 (Ingredient),红枣,[],其他,,,,,,,,6,g,True,,,,,
+201004823,Ingredient,枸杞,枸杞 (Ingredient),枸杞,[],其他,,,,,,,,5-6,g,False,,,,,
+201004824,Ingredient,冰糖,冰糖 (Ingredient),冰糖,"[{'term': '冰片糖', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '块糖', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,10-20,g,False,,,,,
+201004825,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,把银耳、莲子用清水浸泡 2 个小时，红枣浸泡 10 - 20 分钟，枸杞洗净，备用,1.0,"浸泡,清洗",盆,130分钟
+201004826,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,在锅中倒入 600ml 水，烧开后依次放入银耳、莲子、红枣,2.0,煮,锅,约10分钟（含烧水）
+201004827,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,等待水再次烧开后，盖上锅盖，转至中火继续熬,3.0,炖,"锅,锅盖",约10分钟
+201004828,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,熬到大约 1 小时后，放入 5g - 10g 冰糖和 5g - 6g 枸杞，转至小火熬,4.0,炖,"锅,勺子",60分钟
+201004829,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,小火继续熬 30 分钟，此时银耳开始呈现粘稠状态,5.0,炖,锅,30分钟
+201004830,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,再次放入 5g - 10g 冰糖，用勺子搅拌 5 - 10 分钟,6.0,"搅拌,炖","勺子,锅",5-10分钟
+201004831,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,关火，用勺子盛出,7.0,盛出,"勺子,碗",1分钟
+201004832,Recipe,昂刺鱼豆腐汤,昂刺鱼豆腐汤 (Recipe),昂刺鱼豆腐汤,"[{'term': '昂刺鱼嫩豆腐汤', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '昂刺鱼tofu汤', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '昂刺鱼老豆腐汤', 'language': 'zh', 'language_code': 'zh-CN'}]",汤类,3.0,,20分钟,15分钟,1人,,dishes/soup/昂刺鱼豆腐汤/昂刺鱼豆腐汤.md,,,,,,,,
+201004833,Ingredient,昂刺鱼或者沙光鱼,昂刺鱼或者沙光鱼 (Ingredient),昂刺鱼或者沙光鱼,[],蛋白质,,,,,,,,1,条,True,,,,,
+201004834,Ingredient,豆腐,豆腐 (Ingredient),豆腐,"[{'term': '水豆腐', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '嫩豆腐', 'language': 'zh', 'language_code': 'zh-CN'}]",蛋白质,,,,,,,,100,g,True,,,,,
+201004835,Ingredient,香葱,香葱 (Ingredient),香葱,[],蔬菜,,,,,,,,1,根,False,,,,,
+201004836,Ingredient,姜,姜 (Ingredient),姜,[],调料,,,,,,,,15,g,False,,,,,
+201004837,Ingredient,胡椒粉,胡椒粉 (Ingredient),胡椒粉,[],调料,,,,,,,,3,g,False,,,,,
+201004838,Ingredient,食用油,食用油 (Ingredient),食用油,[],调料,,,,,,,,15,ml,False,,,,,
+201004839,Ingredient,食用盐,食用盐 (Ingredient),食用盐,[],调料,,,,,,,,15,g,False,,,,,
+201004840,Ingredient,料酒,料酒 (Ingredient),料酒,"[{'term': '黄酒', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '绍兴酒', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,15,ml,False,,,,,
+201004841,Ingredient,开水,开水 (Ingredient),开水,[],其他,,,,,,,,1000,ml,False,,,,,
+201004842,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,鱼处理好后洗净，（特别注意肚内的血丝、不洗干净会有腥味），放入大碗中，倒入料酒、10g 姜片、5g 盐，腌制 15 分钟,1.0,"清洗,腌制",碗,15分钟
+201004843,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,豆腐切块，放入凉水浸泡 5 分钟，捞出备用,2.0,"切,浸泡","刀,盆",5分钟
+201004844,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,煎鱼前，先用生姜片擦一下锅防止粘锅，倒入油（油量为 15ml * 鱼的条数 ），烧热后放入鱼煎 2~3 分钟，期间需要晃动一下鱼，防止粘底，且需要翻一次身,3.0,煎,"炒锅,锅铲",3分钟
+201004845,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,待鱼全部煎好之后，倒入开水、5ml 料酒、姜片，小火转至大火，盖上锅盖、大火煮 10 分钟（水要稍微多一些，后面会蒸发掉一些）,4.0,煮,"炒锅,锅盖",10分钟
+201004846,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,见汤变白后倒入准备好的豆腐，调中火再煮 5 分钟，加入 10g 盐、3g 胡椒粉调味，最后撒上葱花出锅,5.0,"煮,调味","炒锅,锅铲",5分钟
+201004847,Recipe,羊肉汤,羊肉汤 (Recipe),羊肉汤,[],汤类,3.0,西北菜,10分钟,15分钟,1,加入开水时要开大火使油脂与汤汁更好融合,dishes/soup/羊肉汤/羊肉汤.md,,,,,,,,
+201004848,Ingredient,羊肉,羊肉 (Ingredient),羊肉,[],蛋白质,,,,,,,,300,g,True,,,,,
+201004849,Ingredient,食用油,食用油 (Ingredient),食用油,[],调料,,,,,,,,10,ml,False,,,,,
+201004850,Ingredient,料酒,料酒 (Ingredient),料酒,"[{'term': '黄酒', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '绍兴酒', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,20,ml,False,,,,,
+201004851,Ingredient,大葱,大葱 (Ingredient),大葱,"[{'term': '葱白', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '韭葱', 'language': 'zh', 'language_code': 'zh-CN'}]",蔬菜,,,,,,,,50,g,False,,,,,
+201004852,Ingredient,开水,开水 (Ingredient),开水,[],其他,,,,,,,,1000,ml,False,,,,,
+201004853,Ingredient,白胡椒粉,白胡椒粉 (Ingredient),白胡椒粉,[],调料,,,,,,,,1,g,False,,,,,
+201004854,Ingredient,食用盐,食用盐 (Ingredient),食用盐,[],调料,,,,,,,,5,g,False,,,,,
+201004855,Ingredient,孜然粉,孜然粉 (Ingredient),孜然粉,[],调料,,,,,,,,1,g,False,,,,,
+201004856,Ingredient,香菜,香菜 (Ingredient),香菜,"[{'term': '芫荽', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '胡荽', 'language': 'zh', 'language_code': 'zh-CN'}]",蔬菜,,,,,,,,20,g,False,,,,,
+201004857,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,羊肉切成长 5cm 宽 0.5cm 的块,1.0,切,"刀,案板",
+201004858,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,大葱切成小段,2.0,切,"刀,案板",
+201004859,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,羊肉放入锅中，加入 1000ml 常温水，加入料酒、大葱,3.0,煮,锅,
+201004860,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,煮沸 2 分钟后，捞出羊肉，使用常温水洗净，沥干水分,4.0,"煮,洗,沥干","锅,盆",2分钟
+201004861,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,热锅加入食用油，加入羊肉，翻炒 2 分钟至羊肉表面微黄,5.0,炒,"炒锅,锅铲",2分钟
+201004862,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,加入开水，开到大火档位,6.0,煮,炒锅,
+201004863,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,5 分钟后，加入白胡椒粉、盐，继续煮沸 5 分钟,7.0,煮,炒锅,5分钟
+201004864,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,出锅之后，加入香菜、孜然粉，搅拌均匀,8.0,拌,"碗,筷子",

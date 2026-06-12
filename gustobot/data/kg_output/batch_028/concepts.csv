@@ -1,0 +1,209 @@
+concept_id,concept_type,name,fsn,preferred_term,synonyms,category,difficulty,cuisine_type,prep_time,cook_time,servings,tags,file_path,amount,unit,is_main,description,step_number,methods,tools,time_estimate
+201005102,Recipe,微波葱姜黑鳕鱼,微波葱姜黑鳕鱼 (Recipe),微波葱姜黑鳕鱼,[],水产,3.0,,10分钟,5分钟,2,"可替换鱼类：海鲈鱼、罗非鱼、大比目鱼、龙脷鱼,微波时间需根据鱼种密度调整,微波前可将葱姜与料酒涂抹鱼片两侧以增强香气",dishes/aquatic/微波葱姜黑鳕鱼.md,,,,,,,,
+201005103,Ingredient,黑鳕鱼,黑鳕鱼 (Ingredient),黑鳕鱼,[],蛋白质,,,,,,,,450,g,True,,,,,
+201005104,Ingredient,青葱（葱白）,青葱（葱白） (Ingredient),青葱（葱白）,[],蔬菜,,,,,,,,25,g,False,,,,,
+201005105,Ingredient,青葱（葱绿）,青葱（葱绿） (Ingredient),青葱（葱绿）,[],蔬菜,,,,,,,,10,g,False,,,,,
+201005106,Ingredient,姜,姜 (Ingredient),姜,[],蔬菜,,,,,,,,13,g,False,,,,,
+201005107,Ingredient,料酒,料酒 (Ingredient),料酒,"[{'term': '黄酒', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '绍兴酒', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,5,mL,False,,,,,
+201005108,Ingredient,酱油,酱油 (Ingredient),酱油,[],调料,,,,,,,,25,mL,False,,,,,
+201005109,Ingredient,芝麻油,芝麻油 (Ingredient),芝麻油,[],调料,,,,,,,,2,mL,False,,,,,
+201005110,Ingredient,花生油,花生油 (Ingredient),花生油,[],调料,,,,,,,,50,mL,False,,,,,
+201005111,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,鱼片分别放入密封袋，鱼皮向下放在盘子中。,1.0,放置,"密封袋,盘子",
+201005112,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,取葱白切丝 25g，姜去皮后切丝，10g，混合在一起后分成两半，分别放在袋内鱼片上。,2.0,"切,混合,放置","刀,案板",
+201005113,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,每个袋子倒入 2.5mL 料酒。,3.0,倒入,量勺,
+201005114,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,封好密封袋，放入微波炉中，中火（800 瓦）微波至不透明且容易散开时（约 3.5-5 分钟），从袋中取出鱼片。,4.0,微波,"微波炉,密封袋",3.5-5分钟
+201005115,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,去除青葱和姜。,5.0,去除,,
+201005116,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,取酱油 25mL，芝麻油 2mL，混合均匀后平均淋在两片鱼片上。,6.0,"混合,淋","小碗,勺子",
+201005117,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,取葱绿切细丝 10g，姜去皮后切丝 3g，混合后分成两份撒在鱼片上。,7.0,"切,混合,撒","刀,案板",
+201005118,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,取花生油 50mL，在小锅中加热至 190℃。,8.0,加热,"小锅,温度计",
+201005119,CookingStep,步骤9,步骤9 (Cooking Step),步骤9,,,,,,,,,,,,,将热油淋到放油葱绿的鱼片上，立刻上桌。,9.0,淋,勺子,
+201005120,Recipe,香煎翘嘴鱼,香煎翘嘴鱼 (Recipe),香煎翘嘴鱼,"[{'term': '香pan-fried翘嘴鱼', 'language': 'zh', 'language_code': 'zh-CN'}]",水产,4.0,,1-2天（含腌制和晾晒）,15-20分钟,2-3人,"鱼必须开背杀,腌制时间1-2天,晾晒至半干,煎鱼全程小火,刚入锅不要移动鱼防破皮,青椒断生即可,香菜最后放,注意火候切换,豆瓣酱和白糖提鲜,陈醋增香",dishes/aquatic/香煎翘嘴鱼/香煎翘嘴鱼.md,,,,,,,,
+201005121,Ingredient,翘嘴鱼,翘嘴鱼 (Ingredient),翘嘴鱼,[],蛋白质,,,,,,,,2,斤,True,,,,,
+201005122,Ingredient,姜沫,姜沫 (Ingredient),姜沫,[],调料,,,,,,,,20,g,False,,,,,
+201005123,Ingredient,葱,葱 (Ingredient),葱,[],蔬菜,,,,,,,,50,g,False,,,,,
+201005124,Ingredient,蒜,蒜 (Ingredient),蒜,[],调料,,,,,,,,4,个,False,,,,,
+201005125,Ingredient,青椒,青椒 (Ingredient),青椒,"[{'term': '柿子椒', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '甜椒', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '彩椒', 'language': 'zh', 'language_code': 'zh-CN'}]",蔬菜,,,,,,,,适量,,False,,,,,
+201005126,Ingredient,香菜,香菜 (Ingredient),香菜,"[{'term': '芫荽', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '胡荽', 'language': 'zh', 'language_code': 'zh-CN'}]",蔬菜,,,,,,,,个人口味,,False,,,,,
+201005127,Ingredient,老抽,老抽 (Ingredient),老抽,"[{'term': '深色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '红烧酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,2,ml,False,,,,,
+201005128,Ingredient,白糖,白糖 (Ingredient),白糖,"[{'term': '细砂糖', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '绵白糖', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,10,g,False,,,,,
+201005129,Ingredient,豆瓣酱,豆瓣酱 (Ingredient),豆瓣酱,[],调料,,,,,,,,适量,,False,,,,,
+201005130,Ingredient,料酒,料酒 (Ingredient),料酒,"[{'term': '黄酒', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '绍兴酒', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,100,ml,False,,,,,
+201005131,Ingredient,生抽,生抽 (Ingredient),生抽,"[{'term': '淡色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '鲜味酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,4,ml,False,,,,,
+201005132,Ingredient,盐,盐 (Ingredient),盐,[],调料,,,,,,,,50,g,False,,,,,
+201005133,Ingredient,干辣椒,干辣椒 (Ingredient),干辣椒,[],调料,,,,,,,,4-6,个,False,,,,,
+201005134,Ingredient,食用油,食用油 (Ingredient),食用油,[],调料,,,,,,,,100,ml,False,,,,,
+201005135,Ingredient,鸡精,鸡精 (Ingredient),鸡精,[],调料,,,,,,,,适量,,False,,,,,
+201005136,Ingredient,十三香,十三香 (Ingredient),十三香,[],调料,,,,,,,,适量,,False,,,,,
+201005137,Ingredient,陈醋,陈醋 (Ingredient),陈醋,[],调料,,,,,,,,适量,,False,,,,,
+201005138,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,鱼开背杀好（让卖鱼的杀好，千万不要剖腹杀鱼，切记是开背），清洗干净,1.0,"处理,清洗","刀,盆",
+201005139,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,鱼表面用盐涂抹均匀，倒入料酒约80ml、姜末20g，放入冰箱保鲜层进行腌制1-2天,2.0,腌制,"盆,冰箱",1-2天
+201005140,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,取出腌制好的鱼，用绳挂起晾晒至半干（约1-2天，具体时间需结合气温与阳光）,3.0,晾晒,绳,1-2天
+201005141,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,食用前请将鱼用清水清洗，沥干水分（防止水遇油飞溅）,4.0,"清洗,沥干",盆,
+201005142,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,开大火将锅烧热，迅速改小火，锅中放油，尽量保持整个锅表面有油，将鱼沿锅边划入锅内（先煎鱼背面）,5.0,煎,"炒锅,锅铲",
+201005143,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,鱼入锅后（和翻面后），不要着急移动鱼的位置（此时容易破皮），煎约30秒后，尝试晃动锅,6.0,煎,炒锅,30秒
+201005144,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,背面煎约1分钟后，翻面煎约1-2分钟，煎至两面金黄,7.0,"煎,翻面","炒锅,锅铲",1-2分钟
+201005145,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,等两面都煎好时，把鱼推向锅边一点，留点空间放入豆瓣酱炒香味，放入姜蒜,8.0,炒,"炒锅,锅铲",
+201005146,CookingStep,步骤9,步骤9 (Cooking Step),步骤9,,,,,,,,,,,,,炒出佐料香味后，加入料酒、生抽、老抽，倒入热水，水量和鱼平齐或者少点,9.0,煮,"炒锅,量杯",
+201005147,CookingStep,步骤10,步骤10 (Cooking Step),步骤10,,,,,,,,,,,,,此时改中大火，煮5-10分钟，后放入青椒段、白糖、鸡精、十三香、陈醋,10.0,煮,炒锅,5-10分钟
+201005148,CookingStep,步骤11,步骤11 (Cooking Step),步骤11,,,,,,,,,,,,,改小火2-5分钟，放入葱、香菜，即可出锅,11.0,"煮,出锅","炒锅,锅铲",2-5分钟
+201005149,Recipe,鳊鱼炖豆腐,鳊鱼炖豆腐 (Recipe),鳊鱼炖豆腐,"[{'term': '鳊鱼煲豆腐', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '鳊鱼炖tofu', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '鳊鱼stewed豆腐', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '鳊鱼炖嫩豆腐', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '鳊鱼炖老豆腐', 'language': 'zh', 'language_code': 'zh-CN'}]",水产,3.0,,10分钟,20-25分钟,2-3人,"鱼的两面各煎2-4分钟即可,煎鱼全程中小火,出锅前加切碎大蒜提味",dishes/aquatic/鳊鱼炖豆腐/鳊鱼炖豆腐.md,,,,,,,,
+201005150,Ingredient,鳊鱼,鳊鱼 (Ingredient),鳊鱼,[],蛋白质,,,,,,,,550,克,True,,,,,
+201005151,Ingredient,老豆腐,老豆腐 (Ingredient),老豆腐,[],蛋白质,,,,,,,,400,克,True,,,,,
+201005152,Ingredient,姜,姜 (Ingredient),姜,[],蔬菜,,,,,,,,5,片,False,,,,,
+201005153,Ingredient,葱,葱 (Ingredient),葱,[],蔬菜,,,,,,,,50,克,False,,,,,
+201005154,Ingredient,蒜,蒜 (Ingredient),蒜,[],蔬菜,,,,,,,,4,个,False,,,,,
+201005155,Ingredient,老抽,老抽 (Ingredient),老抽,"[{'term': '深色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '红烧酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,2,ml,False,,,,,
+201005156,Ingredient,桂皮,桂皮 (Ingredient),桂皮,[],调料,,,,,,,,1,块,False,,,,,
+201005157,Ingredient,冰糖,冰糖 (Ingredient),冰糖,"[{'term': '冰片糖', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '块糖', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,5,块,False,,,,,
+201005158,Ingredient,干辣椒,干辣椒 (Ingredient),干辣椒,[],调料,,,,,,,,4-6,个,False,,,,,
+201005159,Ingredient,料酒,料酒 (Ingredient),料酒,"[{'term': '黄酒', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '绍兴酒', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,5,ml,False,,,,,
+201005160,Ingredient,生抽,生抽 (Ingredient),生抽,"[{'term': '淡色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '鲜味酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,4,ml,False,,,,,
+201005161,Ingredient,盐,盐 (Ingredient),盐,[],调料,,,,,,,,5-8,克,False,,,,,
+201005162,Ingredient,八角,八角 (Ingredient),八角,"[{'term': '大料', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '茴香', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,1,个,False,,,,,
+201005163,Ingredient,香叶,香叶 (Ingredient),香叶,[],调料,,,,,,,,1-3,片,False,,,,,
+201005164,Ingredient,食用油,食用油 (Ingredient),食用油,[],调料,,,,,,,,10,ml,False,,,,,
+201005165,Ingredient,热水,热水 (Ingredient),热水,[],其他,,,,,,,,400,克,False,,,,,
+201005166,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,鳊鱼改刀，放上姜片和料酒腌制5-10分钟。,1.0,"改刀,腌制","刀,盆",5-10分钟
+201005167,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,老豆腐切块后放入水中备用。,2.0,切,"刀,盆",
+201005168,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,锅中加油，可以放点盐在锅里，防止煎鱼的时候粘锅。把腌制的鱼用厨房纸擦干水分，放入锅中，两面都煎一下。,3.0,煎,"炒锅,厨房纸",4-8分钟
+201005169,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,等两面都煎好时，把鱼推向锅边一点，留点空间放入葱姜蒜、干辣椒、香叶、八角炒出味道。,4.0,炒,"炒锅,锅铲",
+201005170,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,炒出佐料香味后，加入料酒、生抽、老抽、冰糖、桂皮，倒入热水，水量和鱼平齐或者少点。,5.0,"炒,炖","炒锅,量勺",
+201005171,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,大火烧开后，放入老豆腐，豆腐贴在锅边，加入食盐，转小火。,6.0,"煮,炖",炒锅,
+201005172,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,小火烧10-15分钟，然后大火收点汁，即可出锅。,7.0,"炖,收汁",炒锅,10-15分钟
+201005173,Recipe,小龙虾,小龙虾 (Recipe),小龙虾,[],水产,4.0,川菜,20-30分钟,15-20分钟,2人份,"家庭版免油炸,可不去虾线,多油煎代替油炸",dishes/aquatic/小龙虾/小龙虾.md,,,,,,,,
+201005174,Ingredient,小龙虾,小龙虾 (Ingredient),小龙虾,[],蛋白质,,,,,,,,2,斤,True,,,,,
+201005175,Ingredient,油,油 (Ingredient),油,[],其他,,,,,,,,70,毫升,False,,,,,
+201005176,Ingredient,香叶,香叶 (Ingredient),香叶,[],调料,,,,,,,,2,片,False,,,,,
+201005177,Ingredient,八角,八角 (Ingredient),八角,"[{'term': '大料', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '茴香', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,1,个,False,,,,,
+201005178,Ingredient,桂皮,桂皮 (Ingredient),桂皮,[],调料,,,,,,,,3,克,False,,,,,
+201005179,Ingredient,青花椒,青花椒 (Ingredient),青花椒,[],调料,,,,,,,,10,克,False,,,,,
+201005180,Ingredient,花椒,花椒 (Ingredient),花椒,[],调料,,,,,,,,10,克,False,,,,,
+201005181,Ingredient,子弹头辣椒,子弹头辣椒 (Ingredient),子弹头辣椒,[],调料,,,,,,,,5,克,False,,,,,
+201005182,Ingredient,葱,葱 (Ingredient),葱,[],蔬菜,,,,,,,,1,根,False,,,,,
+201005183,Ingredient,姜,姜 (Ingredient),姜,[],蔬菜,,,,,,,,30,克,False,,,,,
+201005184,Ingredient,蒜,蒜 (Ingredient),蒜,[],蔬菜,,,,,,,,7,瓣,False,,,,,
+201005185,Ingredient,郫县豆瓣,郫县豆瓣 (Ingredient),郫县豆瓣,[],调料,,,,,,,,30,克,False,,,,,
+201005186,Ingredient,黄豆酱,黄豆酱 (Ingredient),黄豆酱,[],调料,,,,,,,,30,克,False,,,,,
+201005187,Ingredient,啤酒,啤酒 (Ingredient),啤酒,[],其他,,,,,,,,500,毫升,False,,,,,
+201005188,Ingredient,生抽,生抽 (Ingredient),生抽,"[{'term': '淡色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '鲜味酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,30,毫升,False,,,,,
+201005189,Ingredient,盐,盐 (Ingredient),盐,[],调料,,,,,,,,10,克,False,,,,,
+201005190,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,小龙虾刷干净去虾线，葱切2cm葱段，姜蒜切末。,1.0,"清洗,切","刀,案板,刷子",15-20分钟
+201005191,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,"烧油，油微热, 下香叶、八角、桂皮、青花椒、花椒、子弹头辣椒。",2.0,炒,"炒锅,锅铲",1-2分钟
+201005192,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,香料出香气之后下锅葱姜蒜。,3.0,炒,"炒锅,锅铲",30秒
+201005193,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,葱姜蒜爆香后，加入郫县豆瓣、黄豆酱，炒出红油。,4.0,炒,"炒锅,锅铲",1-2分钟
+201005194,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,下小龙虾，翻炒至变色。,5.0,炒,"炒锅,锅铲",3-5分钟
+201005195,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,加入啤酒，等啤酒烧开后加入生抽，盐。,6.0,煮,"炒锅,锅铲",5-8分钟
+201005196,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,将小龙虾完全煮熟后出锅。,7.0,煮,"炒锅,锅铲",5分钟
+201005197,Recipe,蒜香黄油虾,蒜香黄油虾 (Recipe),蒜香黄油虾,[],水产,2.0,,10分钟,5分钟,1-2人,虾不宜过度烹饪，否则会变硬,dishes/aquatic/蒜香黄油虾/蒜香黄油虾.md,,,,,,,,
+201005198,Ingredient,大虾,大虾 (Ingredient),大虾,[],蛋白质,,,,,,,,200,g,True,,,,,
+201005199,Ingredient,无盐黄油,无盐黄油 (Ingredient),无盐黄油,[],调料,,,,,,,,30,g,False,,,,,
+201005200,Ingredient,大蒜,大蒜 (Ingredient),大蒜,[],蔬菜,,,,,,,,20,g,False,,,,,
+201005201,Ingredient,白葡萄酒,白葡萄酒 (Ingredient),白葡萄酒,[],调料,,,,,,,,15,ml,False,,,,,
+201005202,Ingredient,柠檬,柠檬 (Ingredient),柠檬,[],蔬菜,,,,,,,,0.25,个,False,,,,,
+201005203,Ingredient,橄榄油,橄榄油 (Ingredient),橄榄油,[],调料,,,,,,,,10,ml,False,,,,,
+201005204,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,大虾去头去壳留尾，用牙签挑去虾线，洗净后用厨房纸吸干水分,1.0,"切,清洗,处理","牙签,厨房纸",
+201005205,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,大蒜切成蒜末，备用,2.0,切,"刀,案板",
+201005206,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,中火加热平底锅，放入 10ml 橄榄油,3.0,煎,平底煎锅,
+201005207,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,油热后放入大虾，每面煎 1-1.5 分钟至变色，取出备用,4.0,煎,"平底煎锅,厨房用夹",2-3分钟
+201005208,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,同一锅中加入黄油，融化后放入蒜末，小火炒香（约 30 秒）,5.0,炒,平底煎锅,30秒
+201005209,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,如使用白葡萄酒，此时加入并煮至酒精挥发（约 1 分钟）,6.0,煮,平底煎锅,1分钟
+201005210,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,将虾放回锅中，与蒜香黄油酱汁翻炒均匀（约 1 分钟）,7.0,炒,"平底煎锅,厨房用夹",1分钟
+201005211,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,挤入柠檬汁，翻炒均匀后立即关火,8.0,炒,平底煎锅,
+201005212,CookingStep,步骤9,步骤9 (Cooking Step),步骤9,,,,,,,,,,,,,装盘，淋上锅中剩余酱汁,9.0,,盘子,
+201005213,Recipe,白灼虾,白灼虾 (Recipe),白灼虾,[],水产,2.0,粤菜,10分钟,11分钟,1-2人,"开始不能大火、防止糊底,如果锅盖有通气口、时间要相应调节一下（考虑增加 30 秒中火）,蘸料其实也是可选的、也可以是纯的醋,大自然馈赠的鲜虾在没有水带走冲淡鲜甜的情况下口感味道都非常棒",dishes/aquatic/白灼虾/白灼虾.md,,,,,,,,
+201005214,Ingredient,活虾,活虾 (Ingredient),活虾,[],蛋白质,,,,,,,,250,g,True,,,,,
+201005215,Ingredient,葱,葱 (Ingredient),葱,[],蔬菜,,,,,,,,1,根,False,,,,,
+201005216,Ingredient,姜,姜 (Ingredient),姜,[],蔬菜,,,,,,,,1,块,False,,,,,
+201005217,Ingredient,洋葱,洋葱 (Ingredient),洋葱,[],蔬菜,,,,,,,,1,头,False,,,,,
+201005218,Ingredient,蒜,蒜 (Ingredient),蒜,[],蔬菜,,,,,,,,5-8,瓣,False,,,,,
+201005219,Ingredient,食用油,食用油 (Ingredient),食用油,[],调料,,,,,,,,10-15,ml,False,,,,,
+201005220,Ingredient,料酒,料酒 (Ingredient),料酒,"[{'term': '黄酒', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '绍兴酒', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,20,ml,False,,,,,
+201005221,Ingredient,酱油,酱油 (Ingredient),酱油,[],调料,,,,,,,,10-15,ml,False,,,,,
+201005222,Ingredient,芝麻,芝麻 (Ingredient),芝麻,[],调料,,,,,,,,一把,,False,,,,,
+201005223,Ingredient,香醋,香醋 (Ingredient),香醋,[],调料,,,,,,,,10,ml,False,,,,,
+201005224,Ingredient,蚝油,蚝油 (Ingredient),蚝油,[],调料,,,,,,,,10,ml,False,,,,,
+201005225,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,洋葱切小块，姜切片，平铺平底锅。,1.0,"切,铺","刀,案板,平底锅",
+201005226,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,活虾冲洗一下（去除虾线、剪刀减掉虾腿虾须子都是可选操作），控水，铺在平底锅的洋葱、姜片之上。,2.0,"冲洗,控水,铺","剪刀,平底锅",
+201005227,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,锅内倒入料酒，盖上锅盖，中火 1 分钟，小火 5 分钟，关火 5 分钟。,3.0,煮,"平底锅,锅盖",11分钟
+201005228,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,和上一步并行操作，制作蘸料：葱切成葱花、蒜切碎、倒入酱油、芝麻、香醋，搅拌之。,4.0,"切,搅拌","刀,案板,碗",
+201005229,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,油烧热，淋入蘸料。,5.0,"烧,淋","炒锅,勺",
+201005230,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,虾出锅，用干净的盘子装好。,6.0,装盘,盘子,
+201005231,Recipe,葱烧海参,葱烧海参 (Recipe),葱烧海参,[],水产,3.0,鲁菜,15分钟,15分钟,1,注意观察锅中水量，如快见底时直接加入水淀粉,dishes/aquatic/葱烧海参/葱烧海参.md,,,,,,,,
+201005232,Ingredient,泡发好的海参（北极参）,泡发好的海参（北极参） (Ingredient),泡发好的海参（北极参）,[],蛋白质,,,,,,,,4,个,True,,,,,
+201005233,Ingredient,大葱葱白,大葱葱白 (Ingredient),大葱葱白,[],蔬菜,,,,,,,,1,根,False,,,,,
+201005234,Ingredient,食用油,食用油 (Ingredient),食用油,[],调料,,,,,,,,22.5,ml,False,,,,,
+201005235,Ingredient,蚝油,蚝油 (Ingredient),蚝油,[],调料,,,,,,,,20,g,False,,,,,
+201005236,Ingredient,生抽,生抽 (Ingredient),生抽,"[{'term': '淡色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '鲜味酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,5,g,False,,,,,
+201005237,Ingredient,白糖,白糖 (Ingredient),白糖,"[{'term': '细砂糖', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '绵白糖', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,2,g,False,,,,,
+201005238,Ingredient,淀粉,淀粉 (Ingredient),淀粉,[],淀粉类,,,,,,,,2,g,False,,,,,
+201005239,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,葱白切成1cm的段，备用。,1.0,切,"刀,案板",
+201005240,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,海参切成1cm的段，备用。,2.0,切,"刀,案板",
+201005241,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,准备一个空碗，倒入20g蚝油、10g生抽、2g白糖，搅拌均匀。,3.0,搅拌,"碗,勺子",
+201005242,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,另一个空碗倒入淀粉和水，制备水淀粉，用于勾芡。,4.0,搅拌,"碗,勺子",
+201005243,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,热锅，锅内放入20ml-25ml食用油，等待10秒让油温升高。,5.0,炒,炒锅,10秒
+201005244,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,放入葱白，调小火，注意不要让葱白变焦，大概煎3-5分钟。,6.0,煎,炒锅,3-5分钟
+201005245,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,用筷子夹出葱白，放入盘中备用。,7.0,,"筷子,盘子",
+201005246,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,倒入调好的料汁，炒香，等待1-2分钟。,8.0,炒,炒锅,1-2分钟
+201005247,CookingStep,步骤9,步骤9 (Cooking Step),步骤9,,,,,,,,,,,,,放入切好的海参，翻炒1分钟。,9.0,炒,"炒锅,锅铲",1分钟
+201005248,CookingStep,步骤10,步骤10 (Cooking Step),步骤10,,,,,,,,,,,,,加入100ml的水，中小火，等待5分钟。,10.0,炖,炒锅,5分钟
+201005249,CookingStep,步骤11,步骤11 (Cooking Step),步骤11,,,,,,,,,,,,,等待锅中汤汁快干的时候，加入水淀粉和前面取出的葱白。,11.0,勾芡,"炒锅,勺子",
+201005250,CookingStep,步骤12,步骤12 (Cooking Step),步骤12,,,,,,,,,,,,,在外观呈粘稠状态后关火，盛盘。,12.0,盛盘,盘子,
+201005251,Recipe,蛏抱蛋,蛏抱蛋 (Recipe),蛏抱蛋,[],水产,3.0,闽菜,10分钟,5分钟,1,"可加马蹄解腻,可加马铃薯洗油,闽菜偏甜，可不加糖",dishes/aquatic/蛏抱蛋/蛏抱蛋.md,,,,,,,,
+201005252,Ingredient,蛏子,蛏子 (Ingredient),蛏子,[],蛋白质,,,,,,,,200,g,True,,,,,
+201005253,Ingredient,鸡蛋,鸡蛋 (Ingredient),鸡蛋,"[{'term': '鸡子', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '土鸡蛋', 'language': 'zh', 'language_code': 'zh-CN'}]",蛋白质,,,,,,,,2,个,True,,,,,
+201005254,Ingredient,食用油,食用油 (Ingredient),食用油,[],其他,,,,,,,,100,ml,False,,,,,
+201005255,Ingredient,洋葱,洋葱 (Ingredient),洋葱,[],蔬菜,,,,,,,,0.25,个,False,,,,,
+201005256,Ingredient,淀粉,淀粉 (Ingredient),淀粉,[],淀粉类,,,,,,,,20,g,False,,,,,
+201005257,Ingredient,生抽,生抽 (Ingredient),生抽,"[{'term': '淡色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '鲜味酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,5,ml,False,,,,,
+201005258,Ingredient,鸡精,鸡精 (Ingredient),鸡精,[],调料,,,,,,,,5,ml,False,,,,,
+201005259,Ingredient,料酒,料酒 (Ingredient),料酒,"[{'term': '黄酒', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '绍兴酒', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,5,ml,False,,,,,
+201005260,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,烧开水，将蛏子放入水中，水煮2分钟后，捞上来去壳，放入大碗,1.0,煮,"锅,碗",2分钟
+201005261,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,往大碗中加入洋葱、生抽、料酒、鸡精、生粉后，充分搅拌,2.0,搅拌,"碗,筷子或勺子",
+201005262,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,往大碗中打入2个鸡蛋，继续搅拌,3.0,搅拌,"碗,筷子或勺子",
+201005263,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,起锅烧油，倒入碗中蛏子，煎炸至单面金黄后，翻面继续煎炸,4.0,"煎,炸","炒锅,锅铲",约3分钟
+201005264,Recipe,油焖大虾,油焖大虾 (Recipe),油焖大虾,"[{'term': 'oil-braised大虾', 'language': 'en', 'language_code': 'en-US'}, {'term': '油闷大虾', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '油braised大虾', 'language': 'zh', 'language_code': 'zh-CN'}]",水产,4.0,,15分钟,10分钟,1,"葱油可留作拌面,焖制过程不要开盖,中途不可加水",dishes/aquatic/油焖大虾/油焖大虾.md,,,,,,,,
+201005265,Ingredient,黑虎虾或明虾,黑虎虾或明虾 (Ingredient),黑虎虾或明虾,[],蛋白质,,,,,,,,10,只,True,,,,,
+201005266,Ingredient,花椒,花椒 (Ingredient),花椒,[],调料,,,,,,,,5,g,False,,,,,
+201005267,Ingredient,葱,葱 (Ingredient),葱,[],蔬菜,,,,,,,,50,g,False,,,,,
+201005268,Ingredient,姜,姜 (Ingredient),姜,[],蔬菜,,,,,,,,20,g,False,,,,,
+201005269,Ingredient,黄酒,黄酒 (Ingredient),黄酒,[],调料,,,,,,,,30,g,False,,,,,
+201005270,Ingredient,盐,盐 (Ingredient),盐,[],调料,,,,,,,,3,g,False,,,,,
+201005271,Ingredient,冰糖,冰糖 (Ingredient),冰糖,"[{'term': '冰片糖', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '块糖', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,10,g,False,,,,,
+201005272,Ingredient,植物油,植物油 (Ingredient),植物油,[],调料,,,,,,,,适量,,False,,,,,
+201005273,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,剪虾枪到根上，虾须虾爪都剪掉，沙包挑掉，开背虾线挑出来，洗净备用,1.0,"切,清洗","刀,盆",5-8分钟
+201005274,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,炸料油：油温三成热放花椒，油热离火，放葱姜（不要让油变色最好）葱稍微变黄沥油（葱油弄多了可以留着作为拌面使用）,2.0,炸,"炒锅,锅铲,滤网",3-5分钟
+201005275,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,下油，虾摆放整齐，两面变色后轻轻摁虾头；放姜米（姜切成细颗粒）；加入黄酒30g、水两小碗、盐3g、冰糖10克,3.0,"煎,调味","炒锅,锅铲",2-3分钟
+201005276,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,大火烧开转小火盖盖子焖（中途不能再加汤水，不要开盖）,4.0,焖,"炒锅,锅盖",5-7分钟
+201005277,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,皮亮虾弯就可以起锅，虾摆盘,5.0,装盘,"盘子,锅铲",1分钟
+201005278,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,收汁（过滤后倒回锅里收浓，放葱油），汤汁剩余1/4时,6.0,"收汁,过滤","炒锅,滤网",2-3分钟
+201005279,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,浇汁,7.0,浇汁,勺子,30秒
+201005280,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,完成，开吃,8.0,,,
+201005281,Recipe,葱油桂鱼,葱油桂鱼 (Recipe),葱油桂鱼,[],水产,4.0,,20分钟,25分钟,2,"容错性高,适合多种口味,可替换鱼类（如鲈鱼、多宝鱼）,不建议使用淡水鱼,保留蒸鱼汤汁提升鲜味",dishes/aquatic/葱油桂鱼/葱油桂鱼.md,,,,,,,,
+201005282,Ingredient,桂鱼,桂鱼 (Ingredient),桂鱼,[],蛋白质,,,,,,,,500,g,True,,,,,
+201005283,Ingredient,小葱,小葱 (Ingredient),小葱,"[{'term': '香葱', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '细葱', 'language': 'zh', 'language_code': 'zh-CN'}]",蔬菜,,,,,,,,1,根,False,,,,,
+201005284,Ingredient,小米辣,小米辣 (Ingredient),小米辣,[],蔬菜,,,,,,,,2,个,False,,,,,
+201005285,Ingredient,姜,姜 (Ingredient),姜,[],蔬菜,,,,,,,,50,g,False,,,,,
+201005286,Ingredient,料酒,料酒 (Ingredient),料酒,"[{'term': '黄酒', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '绍兴酒', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,25,g,False,,,,,
+201005287,Ingredient,植物油,植物油 (Ingredient),植物油,[],调料,,,,,,,,15,g,False,,,,,
+201005288,Ingredient,盐,盐 (Ingredient),盐,[],调料,,,,,,,,8,g,False,,,,,
+201005289,Ingredient,蒸鱼豉油,蒸鱼豉油 (Ingredient),蒸鱼豉油,[],调料,,,,,,,,10,g,False,,,,,
+201005290,Ingredient,清水,清水 (Ingredient),清水,[],其他,,,,,,,,5000,ml,False,,,,,
+201005291,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,去菜市场买已经处理好的鱼（自己处理的话最好不要内脏），将鱼身表面的所有鳞片刮干净。,1.0,处理,"砧板,削皮刀",
+201005292,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,用厨房用纸将鱼肚子里的贴骨血和黑膜擦干净（帖骨血会影响口感，黑膜是鱼腥味的来源）。,2.0,清洁,厨房纸,
+201005293,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,用菜刀在鱼身表面来回刮几次，将鱼身的黏液刮掉，进一步去除腥味，然后用清水将鱼内外冲洗干净。,3.0,"刮洗,冲洗","菜刀,清水",
+201005294,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,将鱼平放在砧板，使用厨房纸将鱼内外的水分擦干，然后鱼头朝左，尾朝右，从鱼鳃边开始，每隔3cm纵向划一刀，深度达到鱼的脊椎骨即可，另一面使用同样的处理方式。,4.0,"擦干,切","砧板,厨房纸,菜刀",
+201005295,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,将鱼平放在盆中，确保盘中没有多余水分。,5.0,放置,塑料盘或塑料盆,
+201005296,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,取一块50g姜（鸡蛋大小），用削皮刀把表面的皮去除并洗干净，然后切成厚度为3mm的姜片。,6.0,"削皮,切","削皮刀,砧板,菜刀",
+201005297,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,将小米辣洗干净、去蒂，切成厚度为2mm的小圆片（或切成1mm宽度的丝状）。,7.0,"清洗,切","砧板,菜刀",
+201005298,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,将小葱洗干净，去除根须，切成3cm的小段，稍微粗一点的小葱，可以沿着小葱生长的方向沿中间劈开。,8.0,"清洗,切","砧板,菜刀",
+201005299,CookingStep,步骤9,步骤9 (Cooking Step),步骤9,,,,,,,,,,,,,加入8g盐，25g料酒到盆中，带上一次性手套，然后对鱼进行全身按摩1分钟，确保鱼身每个部位都均匀涂抹了盐和料酒。,9.0,"腌制,按摩","塑料盘或塑料盆,一次性手套",1分钟
+201005300,CookingStep,步骤10,步骤10 (Cooking Step),步骤10,,,,,,,,,,,,,按摩好鱼后，在鱼身的每一个刀口中塞入一片姜片，鱼肚子中放入3片姜片，腌制10分钟（建议不要腌制太久，否则鱼的鲜度降低）。,10.0,"腌制,填充",塑料盘或塑料盆,10分钟
+201005301,CookingStep,步骤11,步骤11 (Cooking Step),步骤11,,,,,,,,,,,,,在鱼腌制期间，在蒸锅中加入5L清水，烧开后，在蒸锅上放上蒸笼。,11.0,烧水,"蒸锅,蒸笼",
+201005302,CookingStep,步骤12,步骤12 (Cooking Step),步骤12,,,,,,,,,,,,,鱼腌制好后，会析出水分，将多余水分和腌制用料酒、姜片倒掉，用清水冲洗干净鱼身和鱼肚，用厨房纸擦干鱼身和鱼肚。,12.0,"冲洗,擦干","厨房纸,清水",
+201005303,CookingStep,步骤13,步骤13 (Cooking Step),步骤13,,,,,,,,,,,,,将鱼平放在蒸鱼盘中，重新在鱼身、鱼肚刀口处塞入姜片。,13.0,"填充,放置",蒸鱼盘子,
+201005304,CookingStep,步骤14,步骤14 (Cooking Step),步骤14,,,,,,,,,,,,,然后将蒸鱼盘放入蒸笼中，盖上盖子，中火蒸20分钟。,14.0,蒸,"蒸锅,蒸笼,蒸鱼盘子",20分钟
+201005305,CookingStep,步骤15,步骤15 (Cooking Step),步骤15,,,,,,,,,,,,,期间水蒸气会附着整个鱼和盘子上，凝结后形成鱼汤，出锅后千万不要倒掉这个汤，这个汤汁是鲜味精华。,15.0,保留汤汁,蒸鱼盘子,
+201005306,CookingStep,步骤16,步骤16 (Cooking Step),步骤16,,,,,,,,,,,,,用防烫夹将蒸鱼盘夹出，在鱼身和鱼周围淋上10g蒸鱼豉油。,16.0,淋汁,"防烫盘夹,蒸鱼盘子",
+201005307,CookingStep,步骤17,步骤17 (Cooking Step),步骤17,,,,,,,,,,,,,然后在鱼身和周围均匀撒上小葱段和小米辣。,17.0,撒料,,
+201005308,CookingStep,步骤18,步骤18 (Cooking Step),步骤18,,,,,,,,,,,,,在铁锅中倒入15g植物油，用中小火慢熬5分钟，不要用大火，否则油会挥发很快。,18.0,熬油,铁锅,5分钟
+201005309,CookingStep,步骤19,步骤19 (Cooking Step),步骤19,,,,,,,,,,,,,将出锅后的热油均匀地慢慢地淋在鱼身上，鲜掉眉毛的葱油桂鱼就出炉啦！,19.0,淋油,"铁锅,防烫盘夹",

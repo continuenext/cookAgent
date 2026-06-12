@@ -1,0 +1,116 @@
+{
+  "nodes": {
+    "-1": {
+      "label": "NutritionProfile",
+      "id": "-1",
+      "properties": [
+        "name",
+        "description",
+        "id"
+      ]
+    },
+    "-2": {
+      "label": "CookingStep",
+      "id": "-2",
+      "properties": [
+        "name",
+        "dish_name",
+        "order",
+        "instruction",
+        "id"
+      ]
+    },
+    "-3": {
+      "label": "Ingredient",
+      "id": "-3",
+      "properties": [
+        "name",
+        "id"
+      ]
+    },
+    "-4": {
+      "label": "CookingMethod",
+      "id": "-4",
+      "properties": [
+        "name",
+        "id"
+      ]
+    },
+    "-5": {
+      "label": "HealthBenefit",
+      "id": "-5",
+      "properties": [
+        "name",
+        "id"
+      ]
+    },
+    "-6": {
+      "label": "DishType",
+      "id": "-6",
+      "properties": [
+        "name",
+        "id"
+      ]
+    },
+    "-7": {
+      "label": "Dish",
+      "id": "-7",
+      "properties": [
+        "name",
+        "cook_time",
+        "instructions",
+        "id"
+      ]
+    },
+    "-8": {
+      "label": "Flavor",
+      "id": "-8",
+      "properties": [
+        "name",
+        "id"
+      ]
+    }
+  },
+  "relationships": [
+    {
+      "start": "-7",
+      "end": "-3",
+      "type": "HAS_MAIN_INGREDIENT"
+    },
+    {
+      "start": "-3",
+      "end": "-5",
+      "type": "HAS_HEALTH_BENEFIT"
+    },
+    {
+      "start": "-7",
+      "end": "-8",
+      "type": "HAS_FLAVOR"
+    },
+    {
+      "start": "-7",
+      "end": "-6",
+      "type": "BELONGS_TO_TYPE"
+    },
+    {
+      "start": "-7",
+      "end": "-2",
+      "type": "HAS_STEP"
+    },
+    {
+      "start": "-7",
+      "end": "-3",
+      "type": "HAS_AUX_INGREDIENT"
+    },
+    {
+      "start": "-3",
+      "end": "-1",
+      "type": "HAS_NUTRITION_PROFILE"
+    },
+    {
+      "start": "-7",
+      "end": "-4",
+      "type": "USES_METHOD"
+    }
+  ]
+}

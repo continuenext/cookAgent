@@ -1,0 +1,173 @@
+﻿services:
+  neo4j:
+    image: neo4j:5.26-community
+    ports:
+      - "17474:7474"
+      - "17687:7687"
+    environment:
+      NEO4J_AUTH: none
+      NEO4J_PLUGINS: '["apoc"]'
+      NEO4J_dbms_security_auth__enabled: "false"
+      NEO4J_dbms_security_procedures_unrestricted: "apoc.*"
+      NEO4J_dbms_security_procedures_allowlist: "apoc.*"
+    volumes:
+      - neo4j_data:/data
+      - neo4j_logs:/logs
+      - ./gustobot/data/kg_output:/import:ro
+    networks:
+      - gustobot-network
+
+  mysql:
+    image: mysql:8.0
+    ports:
+      - "13306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=rootpass
+      - MYSQL_DATABASE=recipe_db
+      - MYSQL_USER=recipe_user
+      - MYSQL_PASSWORD=recipepass
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./gustobot/data/init_mysql.sql:/docker-entrypoint-initdb.d/00_init.sql
+      - ./gustobot/data/insert_sample_data.sql:/docker-entrypoint-initdb.d/10_seed.sql
+    command: --default-authentication-plugin=mysql_native_password
+    networks:
+      - gustobot-network
+
+  mysql-adminer:
+    image: adminer:4
+    ports:
+      - "18080:8080"
+    depends_on:
+      - mysql
+    networks:
+      - gustobot-network
+
+  redis:
+    image: redis/redis-stack:latest
+    ports:
+      - "6379:6379"
+      - "18081:8001"
+    volumes:
+      - redis_data:/data
+    networks:
+      - gustobot-network
+
+  # Milvus向量数据库
+  etcd:
+    container_name: milvus-etcd
+    image: quay.io/coreos/etcd:v3.5.16
+    environment:
+      - ETCD_AUTO_COMPACTION_MODE=revision
+      - ETCD_AUTO_COMPACTION_RETENTION=1000
+      - ETCD_QUOTA_BACKEND_BYTES=4294967296
+      - ETCD_SNAPSHOT_COUNT=50000
+    volumes:
+      - etcd_data:/etcd
+    command: etcd -advertise-client-urls=http://127.0.0.1:2379 -listen-client-urls http://0.0.0.0:2379 --data-dir /etcd
+    healthcheck:
+      test: [ "CMD", "etcdctl", "endpoint", "health" ]
+      interval: 30s
+      timeout: 20s
+      retries: 3
+    networks:
+      - gustobot-network
+
+  minio:
+    container_name: milvus-minio
+    image: minio/minio:RELEASE.2023-03-20T20-16-18Z
+    environment:
+      MINIO_ACCESS_KEY: minioadmin
+      MINIO_SECRET_KEY: minioadmin
+    ports:
+      - "9006:9001"
+      - "9005:9000"
+    volumes:
+      - minio_data:/minio_data
+    command: minio server /minio_data --console-address ":9001"
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://localhost:9000/minio/health/live" ]
+      interval: 30s
+      timeout: 20s
+      retries: 3
+    networks:
+      - gustobot-network
+
+  milvus:
+    container_name: milvus-standalone
+    image: milvusdb/milvus:v2.5.14
+    command: [ "milvus", "run", "standalone" ]
+    security_opt:
+      - seccomp:unconfined
+    environment:
+      ETCD_ENDPOINTS: etcd:2379
+      MINIO_ADDRESS: minio:9000
+    volumes:
+      - milvus_data:/var/lib/milvus
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://localhost:9091/healthz" ]
+      interval: 30s
+      start_period: 90s
+      timeout: 20s
+      retries: 3
+    ports:
+      - "19530:19530"
+      - "9091:9091"
+    depends_on:
+      - etcd
+      - minio
+    networks:
+      - gustobot-network
+
+  milvus-attu:
+    image: zilliz/attu:v2.4
+    ports:
+      - "18000:3000"
+    environment:
+      MILVUS_URL: milvus:19530
+    depends_on:
+      - milvus
+    networks:
+      - gustobot-network
+  # kb_postgres 与 kb_ingest 暂不使用，已注释
+  # kb_postgres:
+  #   image: ankane/pgvector
+  #   restart: unless-stopped
+  #   environment:
+  #     POSTGRES_DB: ${KB_PGDATABASE:-vector_db}
+  #     POSTGRES_USER: ${KB_PGUSER:-postgres}
+  #     POSTGRES_PASSWORD: ${KB_PGPASSWORD:-postgres}
+  #   ports:
+  #     - "${KB_PG_PORT:-5433}:5432"
+  #   volumes:
+  #     - kb_pgdata:/var/lib/postgresql/data
+  #   networks:
+  #     - gustobot-network
+
+  # kb_ingest:
+  #   build:
+  #     context: ./kb_ingest
+  #     dockerfile: Dockerfile
+  #   restart: unless-stopped
+  #   depends_on:
+  #     - kb_postgres
+  #   env_file:
+  #     - .env
+  #   ports:
+  #     - "${KB_INGEST_PORT:-8100}:8000"
+  #   networks:
+  #     - gustobot-network
+
+
+networks:
+  gustobot-network:
+    driver: bridge
+
+volumes:
+  redis_data:
+  etcd_data:
+  minio_data:
+  milvus_data:
+  neo4j_data:
+  neo4j_logs:
+  mysql_data: # kb_pgdata:

@@ -1,0 +1,180 @@
+concept_id,concept_type,name,fsn,preferred_term,synonyms,category,difficulty,cuisine_type,prep_time,cook_time,servings,tags,file_path,amount,unit,is_main,description,step_number,methods,tools,time_estimate
+201001015,Recipe,蛋包饭,蛋包饭 (Recipe),蛋包饭,[],主食,3.0,日式,10分钟,15分钟,1,"使用隔夜饭不易粘锅，口感更好,打蛋时加入牛奶可以让蛋皮更加嫩滑,操作蛋皮时火力需小，避免底部焦糊,不擅长包裹造型可直接盖蛋皮",dishes/staple/蛋包饭.md,,,,,,,,
+201001016,Ingredient,鸡蛋,鸡蛋 (Ingredient),鸡蛋,"[{'term': '鸡子', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '土鸡蛋', 'language': 'zh', 'language_code': 'zh-CN'}]",蛋白质,,,,,,,,2,个,True,,,,,
+201001017,Ingredient,洋葱,洋葱 (Ingredient),洋葱,[],蔬菜,,,,,,,,30,g,False,,,,,
+201001018,Ingredient,胡萝卜,胡萝卜 (Ingredient),胡萝卜,[],蔬菜,,,,,,,,30,g,False,,,,,
+201001019,Ingredient,火腿肠或鸡胸肉,火腿肠或鸡胸肉 (Ingredient),火腿肠或鸡胸肉,[],蛋白质,,,,,,,,50,g,True,,,,,
+201001020,Ingredient,玉米粒和青豆,玉米粒和青豆 (Ingredient),玉米粒和青豆,[],蔬菜,,,,,,,,30,g,False,,,,,
+201001021,Ingredient,米饭,米饭 (Ingredient),米饭,[],淀粉类,,,,,,,,200,g,True,,,,,
+201001022,Ingredient,番茄酱,番茄酱 (Ingredient),番茄酱,[],调料,,,,,,,,20,ml,False,,,,,
+201001023,Ingredient,食用油,食用油 (Ingredient),食用油,[],调料,,,,,,,,15,ml,False,,,,,
+201001024,Ingredient,牛奶,牛奶 (Ingredient),牛奶,[],其他,,,,,,,,10,ml,False,,,,,
+201001025,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,洋葱、胡萝卜、火腿肠或鸡胸肉切成小丁，备用,1.0,切,"刀,案板",
+201001026,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,热锅，锅中倒入 10ml 食用油，等待 10 秒加热,2.0,炒,炒锅,10秒
+201001027,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,先放入洋葱丁翻炒 1 分钟，出香味后加入胡萝卜、玉米粒、青豆继续翻炒 2 分钟,3.0,炒,"炒锅,锅铲",3分钟
+201001028,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,加入火腿肠或鸡胸肉丁，炒至变色,4.0,炒,"炒锅,锅铲",1-2分钟
+201001029,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,加入米饭炒散后，加入番茄酱 20ml，翻炒均匀，炒饭完成，盛出备用,5.0,炒,"炒锅,锅铲",2分钟
+201001030,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,鸡蛋打散，加入 10ml 牛奶搅匀,6.0,搅拌,"碗,筷子",
+201001031,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,锅中放入 5ml 食用油，倒入蛋液，轻晃锅底让蛋液均匀铺满锅面,7.0,煎,平底锅,
+201001032,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,用小火加热，待蛋液表面半熟状态时，将炒饭放入蛋液中央,8.0,煎,"平底锅,锅铲",1-2分钟
+201001033,CookingStep,步骤9,步骤9 (Cooking Step),步骤9,,,,,,,,,,,,,用铲子将蛋皮折叠包住米饭，形成椭圆形状,9.0,折叠,锅铲,
+201001034,CookingStep,步骤10,步骤10 (Cooking Step),步骤10,,,,,,,,,,,,,用锅铲轻轻推至盘中，整理外形，可在表面挤上少量番茄酱装饰,10.0,装盘,"锅铲,盘子",
+201001035,Recipe,可乐炒饭,可乐炒饭 (Recipe),可乐炒饭,[],主食,3.0,,5分钟,10分钟,1人,"含糖可乐口感更好,如果喜欢干一点，多炒一会儿,如果嫌麻烦，可以在第一步直接放3个鸡蛋，取消挖洞打另一个鸡蛋的步骤",dishes/staple/可乐炒饭.md,,,,,,,,
+201001036,Ingredient,米饭,米饭 (Ingredient),米饭,[],淀粉类,,,,,,,,200,g,True,,,,,
+201001037,Ingredient,可乐,可乐 (Ingredient),可乐,[],调料,,,,,,,,160,ml,False,,,,,
+201001038,Ingredient,鸡蛋,鸡蛋 (Ingredient),鸡蛋,"[{'term': '鸡子', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '土鸡蛋', 'language': 'zh', 'language_code': 'zh-CN'}]",蛋白质,,,,,,,,3,个,True,,,,,
+201001039,Ingredient,火腿肠,火腿肠 (Ingredient),火腿肠,[],蛋白质,,,,,,,,20-100,g,True,,,,,
+201001040,Ingredient,油,油 (Ingredient),油,[],调料,,,,,,,,25,ml,False,,,,,
+201001041,Ingredient,生抽,生抽 (Ingredient),生抽,"[{'term': '淡色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '鲜味酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,15,ml,False,,,,,
+201001042,Ingredient,老抽,老抽 (Ingredient),老抽,"[{'term': '深色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '红烧酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,7.5,ml,False,,,,,
+201001043,Ingredient,蚝油,蚝油 (Ingredient),蚝油,[],调料,,,,,,,,5,ml,False,,,,,
+201001044,Ingredient,豆瓣酱,豆瓣酱 (Ingredient),豆瓣酱,[],调料,,,,,,,,7.5,ml,False,,,,,
+201001045,Ingredient,葱花,葱花 (Ingredient),葱花,[],蔬菜,,,,,,,,5,g,False,,,,,
+201001046,Ingredient,胡椒粉,胡椒粉 (Ingredient),胡椒粉,[],调料,,,,,,,,1,g,False,,,,,
+201001047,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,将锅烧热后，加入25ml油，放两个鸡蛋，煎至底部完全凝固。,1.0,煎,"炒锅,锅铲",
+201001048,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,翻面，煎至两面完全凝固。,2.0,煎,"炒锅,锅铲",
+201001049,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,关火，将鸡蛋取出，剪成2-5cm²的小块后放回锅中（也可以直接用锅铲铲碎）。,3.0,"切,煎","剪刀,炒锅,锅铲",
+201001050,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,重新开火，倒入可乐、生抽、老抽、豆瓣酱、蚝油，搅拌均匀。,4.0,炒,"炒锅,锅铲",
+201001051,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,加热到锅内液体剩1/3，倒入米饭和火腿肠翻炒。,5.0,炒,"炒锅,锅铲",
+201001052,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,翻炒均匀后，改小火，锅内食物中心挖一个洞，打入1个鸡蛋，盖上锅盖，焖2分钟。,6.0,"炒,焖","炒锅,锅盖,锅铲",2分钟
+201001053,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,开盖翻炒至第三颗鸡蛋熟透，撒上葱花和胡椒粉，出锅。,7.0,炒,"炒锅,锅铲",
+201001054,Recipe,酸辣蕨根粉,酸辣蕨根粉 (Recipe),酸辣蕨根粉,[],主食,2.0,川菜,2分钟,8分钟,1,"葱姜蒜为附加调料，加入可以增添风味，不加也并无大碍,糖和盐根据个人口味，需要加入的具体量不同，请酌情加入,建议使用碗作为最终装盘餐具，因为使用盘子会使吃粉变得困难一些,整体口味偏辣，如果不能吃辣请减少油泼辣子的量并且不加入小米辣",dishes/staple/酸辣蕨根粉.md,,,,,,,,
+201001055,Ingredient,蕨根粉,蕨根粉 (Ingredient),蕨根粉,[],淀粉类,,,,,,,,适量,,True,,,,,
+201001056,Ingredient,油泼辣子,油泼辣子 (Ingredient),油泼辣子,[],调料,,,,,,,,2,份,False,,,,,
+201001057,Ingredient,酱油,酱油 (Ingredient),酱油,[],调料,,,,,,,,3,份,False,,,,,
+201001058,Ingredient,香醋,香醋 (Ingredient),香醋,[],调料,,,,,,,,2,份,False,,,,,
+201001059,Ingredient,小米辣,小米辣 (Ingredient),小米辣,[],蔬菜,,,,,,,,适量,,False,,,,,
+201001060,Ingredient,蒜,蒜 (Ingredient),蒜,[],蔬菜,,,,,,,,适量,,False,,,,,
+201001061,Ingredient,葱,葱 (Ingredient),葱,[],蔬菜,,,,,,,,适量,,False,,,,,
+201001062,Ingredient,盐,盐 (Ingredient),盐,[],调料,,,,,,,,2至5,克,False,,,,,
+201001063,Ingredient,糖,糖 (Ingredient),糖,[],调料,,,,,,,,2,克,False,,,,,
+201001064,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,锅中加入约为深度3/5的水，烧开。,1.0,煮,锅,
+201001065,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,水沸腾后加入蕨根粉，中小火煮8分钟。,2.0,煮,锅,8分钟
+201001066,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,出锅。,3.0,,,
+201001067,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,根据配比（酱油:醋:油泼辣子 = 3:2:2），加入酱油、醋、油泼辣子。,4.0,调制,筷子,
+201001068,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,用筷子蘸取，尝一口。,5.0,品尝,筷子,
+201001069,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,如果觉得此时酱油味稍浓，加入准备好的盐（2至5克）。,6.0,调味,,
+201001070,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,如果觉得此时不够鲜，加入准备好的糖（2克）。,7.0,调味,,
+201001071,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,充分搅拌至大部分颗粒状调料溶解。,8.0,搅拌,筷子,
+201001072,CookingStep,步骤9,步骤9 (Cooking Step),步骤9,,,,,,,,,,,,,取一个碗，加入上一步调制的酱料。,9.0,,碗,
+201001073,CookingStep,步骤10,步骤10 (Cooking Step),步骤10,,,,,,,,,,,,,将蕨根粉过冷水后放入酱料中。,10.0,过冷,碗,
+201001074,CookingStep,步骤11,步骤11 (Cooking Step),步骤11,,,,,,,,,,,,,充分搅拌。,11.0,搅拌,,
+201001075,CookingStep,步骤12,步骤12 (Cooking Step),步骤12,,,,,,,,,,,,,将准备的葱、蒜、小米辣切碎后撒在粉上。,12.0,切,刀,
+201001076,CookingStep,步骤13,步骤13 (Cooking Step),步骤13,,,,,,,,,,,,,完成啦(｡･∀･)ﾉﾞ,13.0,,,
+201001077,Recipe,猪油拌饭,猪油拌饭 (Recipe),猪油拌饭,[],主食,1.0,,2分钟,0分钟,1,"建议搭配瘦肉和蔬菜食用来均衡营养,高胆固醇，不建议经常食用",dishes/staple/猪油拌饭.md,,,,,,,,
+201001078,Ingredient,米饭,米饭 (Ingredient),米饭,[],淀粉类,,,,,,,,200,g,True,,,,,
+201001079,Ingredient,猪油,猪油 (Ingredient),猪油,[],调料,,,,,,,,15,g,False,,,,,
+201001080,Ingredient,生抽,生抽 (Ingredient),生抽,"[{'term': '淡色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '鲜味酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,5,ml,False,,,,,
+201001081,Ingredient,老抽,老抽 (Ingredient),老抽,"[{'term': '深色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '红烧酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,2,ml,False,,,,,
+201001082,Ingredient,蚝油,蚝油 (Ingredient),蚝油,[],调料,,,,,,,,8,g,False,,,,,
+201001083,Ingredient,葱花,葱花 (Ingredient),葱花,[],蔬菜,,,,,,,,5,g,False,,,,,
+201001084,Ingredient,猪油渣,猪油渣 (Ingredient),猪油渣,[],蛋白质,,,,,,,,5,g,False,,,,,
+201001085,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,碗底铺猪油,1.0,,碗,
+201001086,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,加入米饭,2.0,,碗,
+201001087,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,淋上酱油与蚝油,3.0,,碗,
+201001088,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,撒上葱花和猪油渣,4.0,,碗,
+201001089,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,搅拌均匀,5.0,,"筷子,碗",
+201001090,Recipe,咸肉菜饭,咸肉菜饭 (Recipe),咸肉菜饭,[],主食,4.0,苏菜,20分钟,40分钟,3人,"咸肉需用淡咸肉或搭配新鲜五花肉,煮饭时不要搅匀食材,菜叶最后10分钟加入保持翠绿,可用5%糖水浸泡咸肉瘦肉部分减咸",dishes/staple/咸肉菜饭.md,,,,,,,,
+201001091,Ingredient,大米,大米 (Ingredient),大米,[],淀粉类,,,,,,,,300,g,True,,,,,
+201001092,Ingredient,青菜,青菜 (Ingredient),青菜,[],蔬菜,,,,,,,,400,g,True,,,,,
+201001093,Ingredient,咸肉,咸肉 (Ingredient),咸肉,[],蛋白质,,,,,,,,150,g,True,,,,,
+201001094,Ingredient,冬笋,冬笋 (Ingredient),冬笋,[],蔬菜,,,,,,,,100,g,False,,,,,
+201001095,Ingredient,猪油,猪油 (Ingredient),猪油,[],调料,,,,,,,,15,g,False,,,,,
+201001096,Ingredient,料酒,料酒 (Ingredient),料酒,"[{'term': '黄酒', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '绍兴酒', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,15,ml,False,,,,,
+201001097,Ingredient,白糖,白糖 (Ingredient),白糖,"[{'term': '细砂糖', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '绵白糖', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,0-3,g,False,,,,,
+201001098,Ingredient,白胡椒粉,白胡椒粉 (Ingredient),白胡椒粉,[],调料,,,,,,,,1,g,False,,,,,
+201001099,Ingredient,水,水 (Ingredient),水,[],其他,,,,,,,,310,ml,False,,,,,
+201001100,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,如果加入冬笋，切薄片后冷水下锅煮10分钟去涩味。,1.0,"煮,切","锅,刀",10分钟
+201001101,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,咸肉切1cm小丁。,2.0,切,"刀,案板",2分钟
+201001102,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,咸肉和冬笋冷锅下10g猪油、料酒、白糖，中小火煸炒到透明冒泡。,3.0,"炒,煸","炒锅,锅铲",5-8分钟
+201001103,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,青菜切碎，菜梗和菜叶分开放，菜梗切成0.5cm边长的正方形小块，菜叶切成长2-3cm，宽1-1.5cm的长方形小块。,4.0,切,"刀,案板",5分钟
+201001104,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,菜梗下锅炒到翡翠色。,5.0,炒,"炒锅,锅铲",2-3分钟
+201001105,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,米淘净后倒进电饭煲，加水。,6.0,"淘,煮","电饭煲,盆",1分钟
+201001106,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,把炒好的咸肉和菜梗铺在米上。,7.0,铺,"电饭煲,勺子",1分钟
+201001107,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,正常煮饭模式启动，最后10分钟开盖快速铺入菜叶。,8.0,"煮,铺",电饭煲,约30分钟（含最后10分钟）
+201001108,CookingStep,步骤9,步骤9 (Cooking Step),步骤9,,,,,,,,,,,,,煮好后焖5分钟，再淋5g猪油、白胡椒粉疯狂翻拌均匀。,9.0,"焖,拌","电饭煲,饭勺",5分钟
+201001109,Recipe,炒河粉,炒河粉 (Recipe),炒河粉,[],主食,4.0,,15分钟,10分钟,1人份（可按比例调整）,"可根据个人口味添加辣椒,河粉可提前冷藏保存,面筋需挤干水分,肉丝腌制更嫩滑",dishes/staple/炒河粉.md,,,,,,,,
+201001110,Ingredient,河粉,河粉 (Ingredient),河粉,[],淀粉类,,,,,,,,250,g,True,,,,,
+201001111,Ingredient,猪肉/牛肉,猪肉/牛肉 (Ingredient),猪肉/牛肉,[],蛋白质,,,,,,,,按需,g,True,,,,,
+201001112,Ingredient,盐,盐 (Ingredient),盐,[],调料,,,,,,,,10,g,False,,,,,
+201001113,Ingredient,味精,味精 (Ingredient),味精,[],调料,,,,,,,,2,g,False,,,,,
+201001114,Ingredient,老抽,老抽 (Ingredient),老抽,"[{'term': '深色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '红烧酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,10,ml,False,,,,,
+201001115,Ingredient,生抽,生抽 (Ingredient),生抽,"[{'term': '淡色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '鲜味酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,15,ml,False,,,,,
+201001116,Ingredient,孜然粉,孜然粉 (Ingredient),孜然粉,[],调料,,,,,,,,3,g,False,,,,,
+201001117,Ingredient,胡椒粉,胡椒粉 (Ingredient),胡椒粉,[],调料,,,,,,,,适量,,False,,,,,
+201001118,Ingredient,黄瓜,黄瓜 (Ingredient),黄瓜,[],蔬菜,,,,,,,,30,g,False,,,,,
+201001119,Ingredient,面筋块,面筋块 (Ingredient),面筋块,[],蛋白质,,,,,,,,30,g,False,,,,,
+201001120,Ingredient,绿豆芽,绿豆芽 (Ingredient),绿豆芽,[],蔬菜,,,,,,,,30,g,False,,,,,
+201001121,Ingredient,鸡蛋,鸡蛋 (Ingredient),鸡蛋,"[{'term': '鸡子', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '土鸡蛋', 'language': 'zh', 'language_code': 'zh-CN'}]",蛋白质,,,,,,,,1,个,False,,,,,
+201001122,Ingredient,蒜瓣,蒜瓣 (Ingredient),蒜瓣,[],蔬菜,,,,,,,,2,个,False,,,,,
+201001123,Ingredient,小葱,小葱 (Ingredient),小葱,"[{'term': '香葱', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '细葱', 'language': 'zh', 'language_code': 'zh-CN'}]",蔬菜,,,,,,,,1,根,False,,,,,
+201001124,Ingredient,淀粉,淀粉 (Ingredient),淀粉,[],调料,,,,,,,,5,g,False,,,,,
+201001125,Ingredient,食用油,食用油 (Ingredient),食用油,[],调料,,,,,,,,20,g,False,,,,,
+201001126,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,小葱切碎（葱白和葱叶分开）、蒜瓣拍碎，丢案板上备用。,1.0,"切,拍","刀,案板",
+201001127,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,打碎鸡蛋，捞一点蛋清到一只碗中，剩下的丢入另一只碗中备用。,2.0,"打碎,分离",碗,
+201001128,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,将绿豆芽放入锅中，大火煮60秒。豆芽捞出，过凉水，放入盘中备用。,3.0,"煮,过凉水","锅,盘子",60秒
+201001129,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,黄瓜切丝放入盘中备用，可和豆芽丢一起。,4.0,切,"刀,盘子",
+201001130,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,处理面筋，单独丢一个盘中。,5.0,"清洗,挤水",盘子,
+201001131,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,肉切细条状，加入淀粉与刚刚碗中的鸡蛋清、胡椒粉，顺时针拌匀。,6.0,"切,腌制,拌","刀,碗",
+201001132,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,加入食用油，锅热倒出。,7.0,热锅,炒锅,
+201001133,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,倒入处理好的肉，翻炒均匀至变色，倒入碗中备用。,8.0,炒,"炒锅,碗",约2-3分钟
+201001134,CookingStep,步骤9,步骤9 (Cooking Step),步骤9,,,,,,,,,,,,,趁锅热，加入20g食用油（高血压人群可降低用量），倒入葱白、蒜爆炒出香。,9.0,爆炒,炒锅,约30秒
+201001135,CookingStep,步骤10,步骤10 (Cooking Step),步骤10,,,,,,,,,,,,,加入河粉，淋入老抽提色，翻炒均匀后再加入河粉炒料，继续翻炒。,10.0,炒,炒锅,约2分钟
+201001136,CookingStep,步骤11,步骤11 (Cooking Step),步骤11,,,,,,,,,,,,,河粉即将透明时，放入炒制好的肉丝与面筋，并加入生抽提鲜，简单翻炒两次。,11.0,炒,炒锅,约1分钟
+201001137,CookingStep,步骤12,步骤12 (Cooking Step),步骤12,,,,,,,,,,,,,加入豆芽与黄瓜丝，翻炒至河粉完全透明。,12.0,炒,炒锅,约1-2分钟
+201001138,CookingStep,步骤13,步骤13 (Cooking Step),步骤13,,,,,,,,,,,,,关火！撒入葱叶点缀，把锅端起。,13.0,撒,炒锅,
+201001139,CookingStep,步骤14,步骤14 (Cooking Step),步骤14,,,,,,,,,,,,,倒入盘中，开始干饭。,14.0,装盘,盘子,
+201001140,Recipe,炸酱面,炸酱面 (Recipe),炸酱面,"[{'term': 'deep-fried酱面', 'language': 'en', 'language_code': 'en-US'}, {'term': '油炸酱面', 'language': 'zh', 'language_code': 'zh-CN'}]",主食,3.0,东北菜,10分钟,15分钟,1,"推荐使用瘦肉丁,推荐使用普通面条,面条需劲道，避免使用龙须面等细面,熟练后可并行处理炸酱与煮面步骤,甜咸口味可根据个人喜好调整两种酱的比例",dishes/staple/炸酱面.md,,,,,,,,
+201001141,Ingredient,肉丁/肉末,肉丁/肉末 (Ingredient),肉丁/肉末,[],蛋白质,,,,,,,,150,g,True,,,,,
+201001142,Ingredient,挂面,挂面 (Ingredient),挂面,[],淀粉类,,,,,,,,150,g,True,,,,,
+201001143,Ingredient,普通面条,普通面条 (Ingredient),普通面条,[],淀粉类,,,,,,,,250,g,True,,,,,
+201001144,Ingredient,葱,葱 (Ingredient),葱,[],蔬菜,,,,,,,,15,g,False,,,,,
+201001145,Ingredient,菜码（黄瓜、白菜、萝卜等）,菜码（黄瓜、白菜、萝卜等） (Ingredient),菜码（黄瓜、白菜、萝卜等）,[],蔬菜,,,,,,,,35,g,True,,,,,
+201001146,Ingredient,食用油,食用油 (Ingredient),食用油,[],其他,,,,,,,,10,g,False,,,,,
+201001147,Ingredient,豆瓣酱,豆瓣酱 (Ingredient),豆瓣酱,[],调料,,,,,,,,20,g,False,,,,,
+201001148,Ingredient,甜面酱,甜面酱 (Ingredient),甜面酱,[],调料,,,,,,,,20,g,False,,,,,
+201001149,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,菜码切丝备用。,1.0,切,"刀,案板",3-5分钟
+201001150,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,葱切碎。油锅烧热，下葱和肉，炒至肉完全熟透（无红色）。,2.0,"切,炒","炒锅,刀,锅铲",5-7分钟
+201001151,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,下豆瓣酱和甜面酱，继续炒至微微粘稠。盛出，得到炸酱。,3.0,炒,"炒锅,锅铲",3-5分钟
+201001152,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,取大碗，加凉水备用。,4.0,,碗,30秒
+201001153,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,煮面条至断生（无白芯），盛入第4步装有凉水的碗中。,5.0,煮,"锅,碗,漏勺",5-8分钟
+201001154,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,立即控水捞出，盛入干净的碗中。,6.0,,"碗,漏勺",30秒
+201001155,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,取第3步炸酱，倒入碗中，拌匀。然后取第1步菜码，倒入碗中，拌匀。,7.0,拌,"碗,筷子",1分钟
+201001156,Recipe,汤面,汤面 (Recipe),汤面,[],主食,2.0,,10分钟,20分钟,1,"少量多次加盐,食材可自由替换,荤素搭配营养均衡",dishes/staple/汤面.md,,,,,,,,
+201001157,Ingredient,面类材料（如手工面条、龙须面、粉丝、泡面等）,面类材料（如手工面条、龙须面、粉丝、泡面等） (Ingredient),面类材料（如手工面条、龙须面、粉丝、泡面等）,[],淀粉类,,,,,,,,70-230,g,True,,,,,
+201001158,Ingredient,冷水,冷水 (Ingredient),冷水,[],其他,,,,,,,,200-400,ml,False,,,,,
+201001159,Ingredient,菜类材料（荤素搭配，如肉类、蛋类、豆制品、蔬菜等）,菜类材料（荤素搭配，如肉类、蛋类、豆制品、蔬菜等） (Ingredient),菜类材料（荤素搭配，如肉类、蛋类、豆制品、蔬菜等）,[],蛋白质,,,,,,,,与面类体积相当,,True,,,,,
+201001160,Ingredient,青菜（如生菜、菠菜、油麦菜等）,青菜（如生菜、菠菜、油麦菜等） (Ingredient),青菜（如生菜、菠菜、油麦菜等）,[],蔬菜,,,,,,,,体积可忽略,,False,,,,,
+201001161,Ingredient,盐,盐 (Ingredient),盐,[],调料,,,,,,,,适量,,False,,,,,
+201001162,Ingredient,胡椒粉,胡椒粉 (Ingredient),胡椒粉,[],调料,,,,,,,,适量,,False,,,,,
+201001163,Ingredient,香油,香油 (Ingredient),香油,[],调料,,,,,,,,适量,,False,,,,,
+201001164,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,将菜类材料切成边长不超过4cm的块状，便于煮熟。,1.0,切,"刀,案板",
+201001165,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,如有生肉，则先放入冷水中，盖上锅盖，煮至沸腾，捞出上层血沫，再关火，捞出半熟的肉备用。,2.0,煮,"锅,锅盖",约5-8分钟
+201001166,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,大火将水加热至沸腾，后调至中火。,3.0,煮,锅,约3-5分钟
+201001167,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,将较难煮熟的食材（如半熟肉类、香菇等）放入锅中。为保证煮熟，可在沸腾后计时10分钟，特别难熟的大块食材可追加5分钟。,4.0,煮,锅,10-15分钟
+201001168,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,将面食放入锅中，适当搅拌确保面和汤充分接触，使液面保持轻微沸腾，煮5分钟。加入面后液面易产生白色泡沫，可适当抬起锅盖通气或者撤下锅盖。,5.0,"煮,搅拌","锅,筷子或锅铲",5分钟
+201001169,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,将易于煮熟的食材如青菜类放入锅中，适当搅拌以充分浸没，煮2-5分钟。,6.0,"煮,搅拌","锅,筷子或锅铲",2-5分钟
+201001170,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,关火，随后加入盐、胡椒粉、香油等自己喜欢的调味料，适当搅拌即可出锅食用。,7.0,搅拌,"锅,筷子或勺子",1分钟
+201001171,Recipe,韭菜盒子,韭菜盒子 (Recipe),韭菜盒子,[],主食,3.0,,30分钟,4分钟,2,"可根据个人口味添加豆腐干等配料,注意煎制时火候，避免外焦内生",dishes/staple/韭菜盒子.md,,,,,,,,
+201001172,Ingredient,韭菜,韭菜 (Ingredient),韭菜,[],蔬菜,,,,,,,,500,g,True,,,,,
+201001173,Ingredient,虾仁,虾仁 (Ingredient),虾仁,[],蛋白质,,,,,,,,100,g,True,,,,,
+201001174,Ingredient,鸡蛋,鸡蛋 (Ingredient),鸡蛋,"[{'term': '鸡子', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '土鸡蛋', 'language': 'zh', 'language_code': 'zh-CN'}]",蛋白质,,,,,,,,3,枚,True,,,,,
+201001175,Ingredient,香油,香油 (Ingredient),香油,[],调料,,,,,,,,10,ml,False,,,,,
+201001176,Ingredient,盐,盐 (Ingredient),盐,[],调料,,,,,,,,5,g,False,,,,,
+201001177,Ingredient,面粉,面粉 (Ingredient),面粉,[],淀粉类,,,,,,,,250,g,True,,,,,
+201001178,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,将面粉放入大碗中，加入水，搅拌成光滑的面团，静置30分钟。,1.0,"搅拌,静置","大碗,盆",30分钟
+201001179,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,韭菜洗净切碎，加入打散的鸡蛋、5g盐，搅拌均匀。,2.0,"切,搅拌","刀,案板,碗",
+201001180,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,将面团分成小剂子，擀成薄圆饼，包入韭菜、虾仁、鸡蛋液。,3.0,"分剂,擀,包","案板,擀面杖",
+201001181,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,热锅，加入食用油，放入包好的韭菜盒子，煎至两面金黄，约3-4分钟。,4.0,煎,"平底锅,锅铲",3-4分钟
+201001182,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,盛盘，稍凉后即可享用。,5.0,,盘子,
+201001183,Recipe,煮泡面加蛋,煮泡面加蛋 (Recipe),煮泡面加蛋,[],主食,1.0,,1分钟,5分钟,1人,"可使用生鸡蛋、熟鸡蛋或卤蛋,可根据个人需要加入火腿肠、生菜、小肉丝、辣条、鱼干、虾仁、鸡腿等食材",dishes/staple/煮泡面加蛋.md,,,,,,,,
+201001184,Ingredient,泡面,泡面 (Ingredient),泡面,[],淀粉类,,,,,,,,1,包,True,,,,,
+201001185,Ingredient,鸡蛋,鸡蛋 (Ingredient),鸡蛋,"[{'term': '鸡子', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '土鸡蛋', 'language': 'zh', 'language_code': 'zh-CN'}]",蛋白质,,,,,,,,1,个,True,,,,,
+201001186,Ingredient,水,水 (Ingredient),水,[],其他,,,,,,,,550-1000,ml,False,,,,,
+201001187,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,先将水加热至沸腾（火候不做严格要求，使用热水会更快）,1.0,煮,锅,
+201001188,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,将取出的面饼放入锅中,2.0,煮,锅,
+201001189,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,将泡面里附带的佐料放入锅中,3.0,煮,锅,
+201001190,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,取出筷子轻微拨动泡面，使佐料充分溶解，面饼充分浸泡受热,4.0,搅拌,"筷子,锅",
+201001191,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,盖上锅盖等待约 1 分钟至锅内水再次沸腾,5.0,煮,"锅,锅盖",1分钟
+201001192,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,去壳鸡蛋，加入锅中,6.0,煮,锅,
+201001193,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,等待约 3 至 4 分钟，即可,7.0,煮,锅,3-4分钟

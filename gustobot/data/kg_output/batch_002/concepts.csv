@@ -1,0 +1,206 @@
+concept_id,concept_type,name,fsn,preferred_term,synonyms,category,difficulty,cuisine_type,prep_time,cook_time,servings,tags,file_path,amount,unit,is_main,description,step_number,methods,tools,time_estimate
+201000338,Recipe,金钱蛋,金钱蛋 (Recipe),金钱蛋,[],素菜,3.0,湘菜,15分钟,10分钟,2,"可调整辣度,推荐使用不粘锅,鸡蛋需完全凝固再剥皮,不宜过度翻炒",dishes/vegetable_dish/金钱蛋.md,,,,,,,,
+201000339,Ingredient,鸡蛋,鸡蛋 (Ingredient),鸡蛋,"[{'term': '鸡子', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '土鸡蛋', 'language': 'zh', 'language_code': 'zh-CN'}]",蛋白质,,,,,,,,5,个,True,,,,,
+201000340,Ingredient,线椒,线椒 (Ingredient),线椒,[],蔬菜,,,,,,,,15,g,False,,,,,
+201000341,Ingredient,小米辣,小米辣 (Ingredient),小米辣,[],蔬菜,,,,,,,,6-15,g,False,,,,,
+201000342,Ingredient,豆瓣酱,豆瓣酱 (Ingredient),豆瓣酱,[],调料,,,,,,,,15,ml,False,,,,,
+201000343,Ingredient,蒜,蒜 (Ingredient),蒜,[],蔬菜,,,,,,,,10,g,False,,,,,
+201000344,Ingredient,小葱,小葱 (Ingredient),小葱,"[{'term': '香葱', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '细葱', 'language': 'zh', 'language_code': 'zh-CN'}]",蔬菜,,,,,,,,3,g,False,,,,,
+201000345,Ingredient,玉米淀粉,玉米淀粉 (Ingredient),玉米淀粉,[],淀粉类,,,,,,,,40,g,False,,,,,
+201000346,Ingredient,食用油,食用油 (Ingredient),食用油,[],其他,,,,,,,,20-35,ml,False,,,,,
+201000347,Ingredient,生抽,生抽 (Ingredient),生抽,"[{'term': '淡色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '鲜味酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,15,ml,False,,,,,
+201000348,Ingredient,蚝油,蚝油 (Ingredient),蚝油,[],调料,,,,,,,,15,ml,False,,,,,
+201000349,Ingredient,糖,糖 (Ingredient),糖,[],调料,,,,,,,,5,g,False,,,,,
+201000350,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,鸡蛋冷水下锅，大火煮开转小火煮8分钟,1.0,煮,锅,8分钟
+201000351,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,用自来水冲凉，方便剥皮,2.0,冷却,水龙头,1-2分钟
+201000352,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,蒜切沫（粒径不大于1mm），线椒和小米辣切小粒（约2-3mm）,3.0,切,"刀,案板",3-5分钟
+201000353,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,每个熟鸡蛋沿短轴切成体积类似的4份,4.0,切,"刀,案板",2分钟
+201000354,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,如果打算沾淀粉，每片鸡蛋粘上淀粉，抖掉多余的淀粉,5.0,裹粉,盆,1分钟
+201000355,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,锅内放入25ml油（如果不沾淀粉，放20ml），放入熟鸡蛋片,6.0,煎,"炒锅,锅铲",1分钟
+201000356,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,煎至微焦黄后，补10ml油（如果不沾淀粉，补10ml），翻面,7.0,"煎,翻面","炒锅,锅铲",2-3分钟
+201000357,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,第二面微黄后，加入线椒、小米辣、蒜末煎制约一分钟，翻面,8.0,"煎,翻面","炒锅,锅铲",1分钟
+201000358,CookingStep,步骤9,步骤9 (Cooking Step),步骤9,,,,,,,,,,,,,接着加豆瓣酱煎制约几十秒，翻面,9.0,"煎,翻面","炒锅,锅铲",30秒
+201000359,CookingStep,步骤10,步骤10 (Cooking Step),步骤10,,,,,,,,,,,,,生抽、蚝油、糖调成汁，轻轻颠锅后即可出锅,10.0,"调味,颠锅","炒锅,锅铲",30秒
+201000360,Recipe,脆皮豆腐,脆皮豆腐 (Recipe),脆皮豆腐,"[{'term': '脆皮tofu', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '脆皮嫩豆腐', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '脆皮老豆腐', 'language': 'zh', 'language_code': 'zh-CN'}]",素菜,3.0,,15分钟,8分钟,1人份（可按比例扩展）,,dishes/vegetable_dish/脆皮豆腐.md,,,,,,,,
+201000361,Ingredient,老豆腐,老豆腐 (Ingredient),老豆腐,[],蛋白质,,,,,,,,1,块,True,,,,,
+201000362,Ingredient,鸡蛋,鸡蛋 (Ingredient),鸡蛋,"[{'term': '鸡子', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '土鸡蛋', 'language': 'zh', 'language_code': 'zh-CN'}]",蛋白质,,,,,,,,2,只,False,,,,,
+201000363,Ingredient,玉米淀粉,玉米淀粉 (Ingredient),玉米淀粉,[],淀粉类,,,,,,,,50,g,False,,,,,
+201000364,Ingredient,生抽,生抽 (Ingredient),生抽,"[{'term': '淡色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '鲜味酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,20,g,False,,,,,
+201000365,Ingredient,蚝油,蚝油 (Ingredient),蚝油,[],调料,,,,,,,,10,g,False,,,,,
+201000366,Ingredient,老抽,老抽 (Ingredient),老抽,"[{'term': '深色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '红烧酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,5,g,False,,,,,
+201000367,Ingredient,白糖,白糖 (Ingredient),白糖,"[{'term': '细砂糖', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '绵白糖', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,10,g,False,,,,,
+201000368,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,鸡蛋搅拌形成蛋液放置备用,1.0,搅拌,"碗,筷子",
+201000369,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,配置酱料（20 g 生抽 + 10 g 蚝油 + 5 g 老抽 + 10 g 白糖 + 10 g 玉米淀粉 + 200 ml 清水）,2.0,混合,"碗,勺子",
+201000370,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,老豆腐切片（建议每人5片，厚度1.2 cm）,3.0,切,"刀,案板",
+201000371,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,玉米淀粉倒入盘中，将老豆腐片粘上淀粉后，再粘上蛋液，放置一旁,4.0,"裹粉,裹液","盘子,碗",
+201000372,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,热锅，锅内放入18ml食用油。等待10秒让油温升高,5.0,加热,平底锅,10秒
+201000373,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,将粘上蛋液的老豆腐片均匀放入锅中，铺好锅底，小火煎至金黄翻面,6.0,煎,"平底锅,锅铲",约4分钟
+201000374,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,待两面煎至金黄后，倒入酱料，让每块豆腐都沐浴在酱料中，大火3分钟至酱汁浓稠,7.0,"煮,收汁","平底锅,锅铲",3分钟
+201000375,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,关火,8.0,,平底锅,
+201000376,Recipe,家常日本豆腐,家常日本豆腐 (Recipe),家常日本豆腐,"[{'term': '家常日本嫩豆腐', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '家常日本tofu', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '家常日本老豆腐', 'language': 'zh', 'language_code': 'zh-CN'}]",素菜,3.0,,10分钟,5分钟,2,"煎好的豆腐不要放太久,提前准备好配料",dishes/vegetable_dish/家常日本豆腐.md,,,,,,,,
+201000377,Ingredient,日本豆腐,日本豆腐 (Ingredient),日本豆腐,[],蛋白质,,,,,,,,300,g,True,,,,,
+201000378,Ingredient,青椒,青椒 (Ingredient),青椒,"[{'term': '柿子椒', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '甜椒', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '彩椒', 'language': 'zh', 'language_code': 'zh-CN'}]",蔬菜,,,,,,,,120,g,False,,,,,
+201000379,Ingredient,胡萝卜,胡萝卜 (Ingredient),胡萝卜,[],蔬菜,,,,,,,,50,g,False,,,,,
+201000380,Ingredient,火腿肠,火腿肠 (Ingredient),火腿肠,[],蛋白质,,,,,,,,50,g,False,,,,,
+201000381,Ingredient,黑木耳,黑木耳 (Ingredient),黑木耳,[],蔬菜,,,,,,,,30,g,False,,,,,
+201000382,Ingredient,洋葱,洋葱 (Ingredient),洋葱,[],蔬菜,,,,,,,,30,g,False,,,,,
+201000383,Ingredient,生粉,生粉 (Ingredient),生粉,[],淀粉类,,,,,,,,80,g,False,,,,,
+201000384,Ingredient,蒜,蒜 (Ingredient),蒜,[],蔬菜,,,,,,,,10,g,False,,,,,
+201000385,Ingredient,油,油 (Ingredient),油,[],其他,,,,,,,,165,ml,False,,,,,
+201000386,Ingredient,生抽,生抽 (Ingredient),生抽,"[{'term': '淡色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '鲜味酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,8,ml,False,,,,,
+201000387,Ingredient,蚝油,蚝油 (Ingredient),蚝油,[],调料,,,,,,,,15,ml,False,,,,,
+201000388,Ingredient,盐,盐 (Ingredient),盐,[],调料,,,,,,,,2,g,False,,,,,
+201000389,Ingredient,鸡精,鸡精 (Ingredient),鸡精,[],调料,,,,,,,,3,g,False,,,,,
+201000390,Ingredient,番茄酱,番茄酱 (Ingredient),番茄酱,[],调料,,,,,,,,15,ml,False,,,,,
+201000391,Ingredient,白砂糖,白砂糖 (Ingredient),白砂糖,[],调料,,,,,,,,10,g,False,,,,,
+201000392,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,胡萝卜切片，尖椒切薄块，葱蒜碎切好,1.0,切,"刀,案板",
+201000393,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,把买好的日本豆腐打开袋子切好，切成大概 1 cm 厚的圆柱体,2.0,切,"刀,案板",
+201000394,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,生粉放到平盘中，准备给豆腐裹面,3.0,,平盘,
+201000395,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,轻轻把豆腐放到面粉上，上下两面和周边都裹上面粉，注意不要包裹的太厚,4.0,裹粉,平盘,
+201000396,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,在平底锅里放 150 ml 油，油能没过豆腐一大半即可，看边缘颜色变成金黄，翻面煎就可以了,5.0,煎,平底锅,约3分钟
+201000397,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,两边都煎好的时候捞出来放在干净的盘里备用,6.0,,盘子,
+201000398,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,在炒锅中倒入 10-15 ml 油，放入葱蒜，爆香后放入青椒、胡萝卜、火腿肠、黑木耳,7.0,"炒,爆香",炒锅,约1分钟
+201000399,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,加入蚝油、生抽、盐、鸡精、白砂糖、番茄酱,8.0,调味,炒锅,
+201000400,CookingStep,步骤9,步骤9 (Cooking Step),步骤9,,,,,,,,,,,,,轻轻翻炒至颜色均匀,9.0,炒,炒锅,约1-2分钟
+201000401,Recipe,蚝油生菜,蚝油生菜 (Recipe),蚝油生菜,[],素菜,2.0,川菜,5分钟,5分钟,1人份（标准川菜馆分量）,"富含维生素,做法简单,爽口不上火",dishes/vegetable_dish/蚝油生菜.md,,,,,,,,
+201000402,Ingredient,生菜,生菜 (Ingredient),生菜,[],蔬菜,,,,,,,,200,g,True,,,,,
+201000403,Ingredient,蚝油,蚝油 (Ingredient),蚝油,[],调料,,,,,,,,6-8,ml,False,,,,,
+201000404,Ingredient,大蒜,大蒜 (Ingredient),大蒜,[],调料,,,,,,,,4-5,瓣,False,,,,,
+201000405,Ingredient,生抽,生抽 (Ingredient),生抽,"[{'term': '淡色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '鲜味酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,10,ml,False,,,,,
+201000406,Ingredient,盐,盐 (Ingredient),盐,[],调料,,,,,,,,1.0,g,False,,,,,
+201000407,Ingredient,白糖,白糖 (Ingredient),白糖,"[{'term': '细砂糖', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '绵白糖', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,1,g,False,,,,,
+201000408,Ingredient,食用油,食用油 (Ingredient),食用油,[],调料,,,,,,,,5-8,ml,False,,,,,
+201000409,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,生菜洗净并去掉烂菜叶。,1.0,"洗,挑","盆,手",
+201000410,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,热锅，先放1L清水（凉），然后在锅内放入2ml-3ml食用油和0.5g盐，等待锅中的水煮沸。,2.0,煮,锅,约2-3分钟
+201000411,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,水沸后，放入生菜，将每一片生菜叶都焯水10s。,3.0,焯水,"锅,筷子",10秒
+201000412,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,捞出生菜，控干水份，摆盘。,4.0,"控水,摆盘","漏勺,盘子",
+201000413,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,调汁：将生抽10ml、蚝油6-8ml、盐0.5g、白糖1g放入碗中调匀，并加入10-15ml清水（凉）搅拌均匀。,5.0,搅拌,"碗,勺子",
+201000414,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,再开火，热锅，放入食用油5-8ml，油热放入蒜泥。,6.0,炒,"锅,锅铲",约30秒
+201000415,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,等待有蒜香飘出，倒入调好的汁，煮沸即可，立马关火。,7.0,"煮,炒","锅,锅铲",约30秒
+201000416,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,将锅中的汤汁均匀地浇在生菜上。,8.0,浇,"锅,勺子",
+201000417,Recipe,素炒豆角,素炒豆角 (Recipe),素炒豆角,[],素菜,2.0,,10分钟,13-15分钟,2,切豆角需要一定的刀工，不会的可以使用剪刀,dishes/vegetable_dish/素炒豆角.md,,,,,,,,
+201000418,Ingredient,豆角,豆角 (Ingredient),豆角,[],蔬菜,,,,,,,,250,g,True,,,,,
+201000419,Ingredient,小米椒,小米椒 (Ingredient),小米椒,[],蔬菜,,,,,,,,2,个,False,,,,,
+201000420,Ingredient,葱,葱 (Ingredient),葱,[],蔬菜,,,,,,,,3,圈,False,,,,,
+201000421,Ingredient,蒜,蒜 (Ingredient),蒜,[],蔬菜,,,,,,,,2,颗,False,,,,,
+201000422,Ingredient,生抽,生抽 (Ingredient),生抽,"[{'term': '淡色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '鲜味酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,6,ml,False,,,,,
+201000423,Ingredient,老抽,老抽 (Ingredient),老抽,"[{'term': '深色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '红烧酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,2,ml,False,,,,,
+201000424,Ingredient,耗油,耗油 (Ingredient),耗油,[],调料,,,,,,,,6,ml,False,,,,,
+201000425,Ingredient,盐,盐 (Ingredient),盐,[],调料,,,,,,,,6,g,False,,,,,
+201000426,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,葱切花，蒜切沫，备用。,1.0,切,"刀,案板",
+201000427,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,生抽、老抽、耗油、盐混合调料汁，备用。,2.0,混合,"盆,筷子",
+201000428,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,小米椒切圈，备用。,3.0,切,"刀,案板",
+201000429,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,豆角去筋，45° 斜切4-10cm小段，备用。,4.0,"去筋,切","刀,案板",
+201000430,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,起锅烧油(10ml - 15ml)，冒烟后放入葱、小米椒，翻炒至闻到香味；,5.0,炒,"炒锅,锅铲",
+201000431,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,"加入豆角，翻炒30s,",6.0,炒,"炒锅,锅铲",30秒
+201000432,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,加入料汁，开大火翻炒2分钟,7.0,炒,"炒锅,锅铲",2分钟
+201000433,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,倒入 150ml 水,8.0,,"量杯,炒锅",
+201000434,CookingStep,步骤9,步骤9 (Cooking Step),步骤9,,,,,,,,,,,,,转中小火，盖上锅盖焖制 8-10 分钟,9.0,焖,"炒锅,锅盖",8-10分钟
+201000435,CookingStep,步骤10,步骤10 (Cooking Step),步骤10,,,,,,,,,,,,,加入蒜切沫，出锅。,10.0,炒,"炒锅,锅铲",
+201000436,Recipe,茄子炖土豆,茄子炖土豆 (Recipe),茄子炖土豆,"[{'term': '茄子stewed土豆', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': 'eggplant炖土豆', 'language': 'en', 'language_code': 'en-US'}, {'term': '青茄子炖土豆', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '茄子煲土豆', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '茄子炖potato', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '紫茄子炖土豆', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '茄子炖洋芋', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '茄子炖马铃薯', 'language': 'zh', 'language_code': 'zh-CN'}]",素菜,3.0,,10分钟,15分钟,2-3人,翻炒过程中若锅底无液体需加5毫升水,dishes/vegetable_dish/茄子炖土豆.md,,,,,,,,
+201000437,Ingredient,茄子,茄子 (Ingredient),茄子,[],蔬菜,,,,,,,,1,个,True,,,,,
+201000438,Ingredient,土豆,土豆 (Ingredient),土豆,"[{'term': '马铃薯', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '洋芋', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '地蛋', 'language': 'zh', 'language_code': 'zh-CN'}]",淀粉类,,,,,,,,1,个,True,,,,,
+201000439,Ingredient,肉,肉 (Ingredient),肉,[],蛋白质,,,,,,,,180,克,True,,,,,
+201000440,Ingredient,青辣椒,青辣椒 (Ingredient),青辣椒,[],蔬菜,,,,,,,,50,克,False,,,,,
+201000441,Ingredient,酱油,酱油 (Ingredient),酱油,[],调料,,,,,,,,15,毫升,False,,,,,
+201000442,Ingredient,盐,盐 (Ingredient),盐,[],调料,,,,,,,,5,克,False,,,,,
+201000443,Ingredient,蒜,蒜 (Ingredient),蒜,[],调料,,,,,,,,3,瓣,False,,,,,
+201000444,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,将茄子、土豆、辣椒洗净，蒜扒皮并拍碎。,1.0,"洗,拍","刀,案板,盆",
+201000445,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,将茄子、土豆切成约 6 立方厘米的块，辣椒切成 5 克的小块，肉切成 3 厘米的丝。,2.0,切,"刀,案板",
+201000446,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,开火，热锅，加入份数 * 13 毫升的油。,3.0,热锅,炒锅,
+201000447,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,当能看到锅里的油冒出一丝烟时，放入辣椒。,4.0,炒,"炒锅,锅铲",
+201000448,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,煸出辣椒香气后，立刻放入肉，用铲子翻炒 30 秒。,5.0,炒,"炒锅,锅铲",30秒
+201000449,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,放入土豆，翻炒 30 秒。,6.0,炒,"炒锅,锅铲",30秒
+201000450,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,放入茄子，翻炒 30 秒。,7.0,炒,"炒锅,锅铲",30秒
+201000451,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,放入酱油和盐，继续翻炒 5 分钟。,8.0,炒,"炒锅,锅铲",5分钟
+201000452,CookingStep,步骤9,步骤9 (Cooking Step),步骤9,,,,,,,,,,,,,加入水，水面高度为锅内食材高度的 0.9 倍，并盖上锅盖。,9.0,炖,"炒锅,锅盖",
+201000453,CookingStep,步骤10,步骤10 (Cooking Step),步骤10,,,,,,,,,,,,,等待，直到锅内水的高度剩余食材高度的 0.1 倍时，开盖，放入蒜，搅拌均匀，关火。,10.0,"炖,搅拌","炒锅,锅铲",
+201000454,Recipe,油醋爆蛋,油醋爆蛋 (Recipe),油醋爆蛋,[],素菜,2.0,湘菜,5分钟,5分钟,2,"老恒和酿造香醋零添加口味最好,醋香是本菜灵魂所在",dishes/vegetable_dish/油醋爆蛋.md,,,,,,,,
+201000455,Ingredient,鸡蛋,鸡蛋 (Ingredient),鸡蛋,"[{'term': '鸡子', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '土鸡蛋', 'language': 'zh', 'language_code': 'zh-CN'}]",蛋白质,,,,,,,,4,个,True,,,,,
+201000456,Ingredient,小米辣,小米辣 (Ingredient),小米辣,[],蔬菜,,,,,,,,10,g,False,,,,,
+201000457,Ingredient,小葱,小葱 (Ingredient),小葱,"[{'term': '香葱', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '细葱', 'language': 'zh', 'language_code': 'zh-CN'}]",蔬菜,,,,,,,,10,g,False,,,,,
+201000458,Ingredient,蒜,蒜 (Ingredient),蒜,[],蔬菜,,,,,,,,5,g,False,,,,,
+201000459,Ingredient,食用油,食用油 (Ingredient),食用油,[],其他,,,,,,,,35,mL,False,,,,,
+201000460,Ingredient,香醋,香醋 (Ingredient),香醋,[],调料,,,,,,,,15,mL,False,,,,,
+201000461,Ingredient,生抽,生抽 (Ingredient),生抽,"[{'term': '淡色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '鲜味酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,10,mL,False,,,,,
+201000462,Ingredient,蚝油,蚝油 (Ingredient),蚝油,[],调料,,,,,,,,10,g,False,,,,,
+201000463,Ingredient,白糖,白糖 (Ingredient),白糖,"[{'term': '细砂糖', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '绵白糖', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,0,g,False,,,,,
+201000464,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,鸡蛋不需打散，直接打入碗中备用,1.0,准备,碗,
+201000465,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,香葱切3cm长小段即可,2.0,切,"刀,案板",
+201000466,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,蒜瓣和小米辣放入打蒜器，打成沫,3.0,打碎,打蒜器,
+201000467,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,将香醋、生抽、蚝油、白糖、水加入小碗，搅拌均匀作为糖醋料汁,4.0,搅拌,"小碗,筷子或勺子",
+201000468,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,油热倒入鸡蛋，等鸡蛋凝固之后铲成大块，倒入蒜沫、小米辣沫、倒入糖醋料汁,5.0,"煎,炒","炒锅,锅铲",约3-4分钟
+201000469,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,大火收汁、快出锅时加入葱段即可,6.0,"炒,收汁","炒锅,锅铲",约1分钟
+201000470,Recipe,地三鲜,地三鲜 (Recipe),地三鲜,[],素菜,3.0,东北菜,15分钟,10分钟,2-4人,,dishes/vegetable_dish/地三鲜.md,,,,,,,,
+201000471,Ingredient,茄子,茄子 (Ingredient),茄子,[],蔬菜,,,,,,,,100,g,True,,,,,
+201000472,Ingredient,土豆,土豆 (Ingredient),土豆,"[{'term': '马铃薯', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '洋芋', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '地蛋', 'language': 'zh', 'language_code': 'zh-CN'}]",淀粉类,,,,,,,,150,g,True,,,,,
+201000473,Ingredient,尖椒,尖椒 (Ingredient),尖椒,[],蔬菜,,,,,,,,4,个,True,,,,,
+201000474,Ingredient,葱,葱 (Ingredient),葱,[],蔬菜,,,,,,,,3,g,False,,,,,
+201000475,Ingredient,姜,姜 (Ingredient),姜,[],调料,,,,,,,,10,g,False,,,,,
+201000476,Ingredient,蒜,蒜 (Ingredient),蒜,[],调料,,,,,,,,10,g,False,,,,,
+201000477,Ingredient,豆瓣酱,豆瓣酱 (Ingredient),豆瓣酱,[],调料,,,,,,,,20,ml,False,,,,,
+201000478,Ingredient,生抽,生抽 (Ingredient),生抽,"[{'term': '淡色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '鲜味酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,10,ml,False,,,,,
+201000479,Ingredient,盐,盐 (Ingredient),盐,[],调料,,,,,,,,8,g,False,,,,,
+201000480,Ingredient,糖,糖 (Ingredient),糖,[],调料,,,,,,,,10,g,False,,,,,
+201000481,Ingredient,淀粉,淀粉 (Ingredient),淀粉,[],淀粉类,,,,,,,,20,g,False,,,,,
+201000482,Ingredient,油,油 (Ingredient),油,[],调料,,,,,,,,40,ml,False,,,,,
+201000483,Ingredient,水,水 (Ingredient),水,[],其他,,,,,,,,200,ml,False,,,,,
+201000484,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,土豆洗净、去皮。茄子、尖椒洗净。,1.0,"洗,去皮","刀,盆",
+201000485,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,葱切0.5cm小段，蒜剁碎，姜切沫。,2.0,"切,剁","刀,案板",
+201000486,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,茄子、土豆、尖椒均切成15g的小块。,3.0,切,"刀,案板",
+201000487,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,热锅，加入25ml油。,4.0,"热锅,加油",炒锅,
+201000488,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,加入土豆，煎炸大约3分钟，待其到大约8分熟，以显示金黄色为准。,5.0,煎炸,"炒锅,锅铲",3分钟
+201000489,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,捞出土豆，留下油。,6.0,捞出,"漏勺,炒锅",
+201000490,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,加入茄子，煎炸大约40秒，待其到大约7分熟，以显示金黄色为准。,7.0,煎炸,"炒锅,锅铲",40秒
+201000491,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,如果锅内已经没有流动的油，可以考虑补充15ml油。,8.0,加油,炒锅,
+201000492,CookingStep,步骤9,步骤9 (Cooking Step),步骤9,,,,,,,,,,,,,放入葱、姜。,9.0,炒,"炒锅,锅铲",
+201000493,CookingStep,步骤10,步骤10 (Cooking Step),步骤10,,,,,,,,,,,,,放入豆瓣酱。,10.0,炒,"炒锅,锅铲",
+201000494,CookingStep,步骤11,步骤11 (Cooking Step),步骤11,,,,,,,,,,,,,放入生抽。,11.0,炒,"炒锅,锅铲",
+201000495,CookingStep,步骤12,步骤12 (Cooking Step),步骤12,,,,,,,,,,,,,放入盐。,12.0,炒,"炒锅,锅铲",
+201000496,CookingStep,步骤13,步骤13 (Cooking Step),步骤13,,,,,,,,,,,,,放入糖。,13.0,炒,"炒锅,锅铲",
+201000497,CookingStep,步骤14,步骤14 (Cooking Step),步骤14,,,,,,,,,,,,,放入之前处理的土豆。,14.0,炒,"炒锅,锅铲",
+201000498,CookingStep,步骤15,步骤15 (Cooking Step),步骤15,,,,,,,,,,,,,放入尖椒。,15.0,炒,"炒锅,锅铲",
+201000499,CookingStep,步骤16,步骤16 (Cooking Step),步骤16,,,,,,,,,,,,,翻炒1分钟。,16.0,炒,"炒锅,锅铲",1分钟
+201000500,CookingStep,步骤17,步骤17 (Cooking Step),步骤17,,,,,,,,,,,,,放入蒜。,17.0,炒,"炒锅,锅铲",
+201000501,CookingStep,步骤18,步骤18 (Cooking Step),步骤18,,,,,,,,,,,,,加入200ml水和20g淀粉。,18.0,"煮,勾芡","炒锅,量杯,勺子",
+201000502,CookingStep,步骤19,步骤19 (Cooking Step),步骤19,,,,,,,,,,,,,待水开后，汤减少一半时，关火盛盘。,19.0,"煮,收汁","炒锅,锅铲,盘子",约5分钟
+201000503,Recipe,陕北熬豆角,陕北熬豆角 (Recipe),陕北熬豆角,[],素菜,2.0,西北菜,15分钟,20分钟,2,"防止糊底,偶尔翻搅",dishes/vegetable_dish/陕北熬豆角.md,,,,,,,,
+201000504,Ingredient,豆角,豆角 (Ingredient),豆角,[],蔬菜,,,,,,,,300,g,True,,,,,
+201000505,Ingredient,土豆,土豆 (Ingredient),土豆,"[{'term': '马铃薯', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '洋芋', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '地蛋', 'language': 'zh', 'language_code': 'zh-CN'}]",淀粉类,,,,,,,,1,个,True,,,,,
+201000506,Ingredient,西红柿,西红柿 (Ingredient),西红柿,"[{'term': '番茄', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '洋柿子', 'language': 'zh', 'language_code': 'zh-CN'}]",蔬菜,,,,,,,,1,个,True,,,,,
+201000507,Ingredient,螺丝椒,螺丝椒 (Ingredient),螺丝椒,[],蔬菜,,,,,,,,2,个,False,,,,,
+201000508,Ingredient,盐,盐 (Ingredient),盐,[],调料,,,,,,,,6,g,False,,,,,
+201000509,Ingredient,生抽,生抽 (Ingredient),生抽,"[{'term': '淡色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '鲜味酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,6,ml,False,,,,,
+201000510,Ingredient,五香粉,五香粉 (Ingredient),五香粉,[],调料,,,,,,,,3,g,False,,,,,
+201000511,Ingredient,蚝油,蚝油 (Ingredient),蚝油,[],调料,,,,,,,,6,ml,False,,,,,
+201000512,Ingredient,葱,葱 (Ingredient),葱,[],蔬菜,,,,,,,,3,圈,False,,,,,
+201000513,Ingredient,姜,姜 (Ingredient),姜,[],调料,,,,,,,,2,g,False,,,,,
+201000514,Ingredient,蒜,蒜 (Ingredient),蒜,[],调料,,,,,,,,2,颗,False,,,,,
+201000515,Ingredient,香菜碎,香菜碎 (Ingredient),香菜碎,[],蔬菜,,,,,,,,根据口味加,,False,,,,,
+201000516,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,葱切花，蒜切沫，姜切丝，备用。,1.0,切,"刀,案板",
+201000517,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,豆角去筋，切2-10cm小段，备用。,2.0,"切,去筋","刀,案板",
+201000518,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,土豆去皮，切1cm³小块，备用。,3.0,"去皮,切","刀,案板",
+201000519,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,西红柿去皮，切1cm³小块，备用。,4.0,"去皮,切","刀,案板",
+201000520,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,辣椒去仔，切0.15cm宽条，备用。,5.0,"去籽,切","刀,案板",
+201000521,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,起锅烧油(10ml - 15ml)，冒烟后放入葱姜蒜，翻炒至闻到葱姜蒜香味；,6.0,炒,"炒锅,锅铲",约30秒
+201000522,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,加入豆角，翻炒至变色（青绿色变为翠绿色）；,7.0,炒,"炒锅,锅铲",约2分钟
+201000523,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,加入土豆块，翻炒30s；,8.0,炒,"炒锅,锅铲",30秒
+201000524,CookingStep,步骤9,步骤9 (Cooking Step),步骤9,,,,,,,,,,,,,加入热水（水面刚刚漫过菜），盖上锅盖熬至土豆变软（可以用筷子确认）；,9.0,"熬,煮","炒锅,锅盖,筷子",约10分钟
+201000525,CookingStep,步骤10,步骤10 (Cooking Step),步骤10,,,,,,,,,,,,,加入西红柿块，加入盐，生抽，蚝油，五香粉，辣椒，熬至西红柿成汁（注意搅拌，防止糊锅）；,10.0,"熬,搅拌","炒锅,锅铲",约5分钟
+201000526,CookingStep,步骤11,步骤11 (Cooking Step),步骤11,,,,,,,,,,,,,加入香菜碎，出锅。,11.0,拌,"炒锅,锅铲",
+201000527,Recipe,西红柿豆腐汤羹,西红柿豆腐汤羹 (Recipe),西红柿豆腐汤羹,"[{'term': '番茄豆腐汤羹', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '西红柿tofu汤羹', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': 'tomato豆腐汤羹', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '西红柿老豆腐汤羹', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '西红柿嫩豆腐汤羹', 'language': 'zh', 'language_code': 'zh-CN'}]",素菜,2.0,,5分钟,2分钟,1,,dishes/vegetable_dish/西红柿豆腐汤羹/西红柿豆腐汤羹.md,,,,,,,,
+201000528,Ingredient,西红柿,西红柿 (Ingredient),西红柿,"[{'term': '番茄', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '洋柿子', 'language': 'zh', 'language_code': 'zh-CN'}]",蔬菜,,,,,,,,1,个,True,,,,,
+201000529,Ingredient,鸡蛋,鸡蛋 (Ingredient),鸡蛋,"[{'term': '鸡子', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '土鸡蛋', 'language': 'zh', 'language_code': 'zh-CN'}]",蛋白质,,,,,,,,1,个,True,,,,,
+201000530,Ingredient,豆腐,豆腐 (Ingredient),豆腐,"[{'term': '水豆腐', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '嫩豆腐', 'language': 'zh', 'language_code': 'zh-CN'}]",蛋白质,,,,,,,,100,g,True,,,,,
+201000531,Ingredient,食用油,食用油 (Ingredient),食用油,[],调料,,,,,,,,5,ml,False,,,,,
+201000532,Ingredient,盐,盐 (Ingredient),盐,[],调料,,,,,,,,2,g,False,,,,,
+201000533,Ingredient,淀粉,淀粉 (Ingredient),淀粉,[],淀粉类,,,,,,,,5,g,False,,,,,
+201000534,Ingredient,鸡精,鸡精 (Ingredient),鸡精,[],调料,,,,,,,,2,g,False,,,,,
+201000535,Ingredient,香葱,香葱 (Ingredient),香葱,[],蔬菜,,,,,,,,0.5,根,False,,,,,
+201000536,Ingredient,姜,姜 (Ingredient),姜,[],调料,,,,,,,,1,片,False,,,,,
+201000537,Ingredient,开水,开水 (Ingredient),开水,[],其他,,,,,,,,350,ml,False,,,,,
+201000538,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,西红柿切成小丁、鸡蛋打入碗中搅拌、豆腐切块备用,1.0,"切,搅拌","刀,案板,碗",
+201000539,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,起锅烧油，放入姜片 5 S 后倒入西红柿翻炒 30 S,2.0,炒,"炒锅,锅铲",35秒
+201000540,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,锅中加入开水，汤水烧开，60 S 后倒入鸡蛋液、豆腐块,3.0,煮,炒锅,60秒
+201000541,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,汤水重新烧开后，加入水淀粉，沿一个方向搅拌 2 圈,4.0,"煮,搅拌","炒锅,勺子",
+201000542,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,加入鸡精、盐、香葱，30 S 后起锅,5.0,煮,炒锅,30秒

@@ -1,0 +1,237 @@
+concept_id,concept_type,name,fsn,preferred_term,synonyms,category,difficulty,cuisine_type,prep_time,cook_time,servings,tags,file_path,amount,unit,is_main,description,step_number,methods,tools,time_estimate
+201003954,Recipe,水煮牛肉,水煮牛肉 (Recipe),水煮牛肉,[],荤菜,3.0,川菜,20分钟,15分钟,2,,dishes/meat_dish/水煮牛肉/水煮牛肉.md,,,,,,,,
+201003955,Ingredient,牛肉,牛肉 (Ingredient),牛肉,[],蛋白质,,,,,,,,300,g,True,,,,,
+201003956,Ingredient,豆芽,豆芽 (Ingredient),豆芽,[],蔬菜,,,,,,,,100,g,False,,,,,
+201003957,Ingredient,鸡蛋,鸡蛋 (Ingredient),鸡蛋,"[{'term': '鸡子', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '土鸡蛋', 'language': 'zh', 'language_code': 'zh-CN'}]",蛋白质,,,,,,,,1,个,False,,,,,
+201003958,Ingredient,香菜,香菜 (Ingredient),香菜,"[{'term': '芫荽', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '胡荽', 'language': 'zh', 'language_code': 'zh-CN'}]",蔬菜,,,,,,,,5,根,False,,,,,
+201003959,Ingredient,豆瓣酱,豆瓣酱 (Ingredient),豆瓣酱,[],调料,,,,,,,,10,g,False,,,,,
+201003960,Ingredient,料酒,料酒 (Ingredient),料酒,"[{'term': '黄酒', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '绍兴酒', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,10,ml,False,,,,,
+201003961,Ingredient,淀粉,淀粉 (Ingredient),淀粉,[],淀粉类,,,,,,,,15,g,False,,,,,
+201003962,Ingredient,干辣椒粉,干辣椒粉 (Ingredient),干辣椒粉,[],调料,,,,,,,,5,g,False,,,,,
+201003963,Ingredient,姜,姜 (Ingredient),姜,[],调料,,,,,,,,20,g,False,,,,,
+201003964,Ingredient,蒜,蒜 (Ingredient),蒜,[],调料,,,,,,,,3,瓣,False,,,,,
+201003965,Ingredient,红辣椒,红辣椒 (Ingredient),红辣椒,[],蔬菜,,,,,,,,1,根,False,,,,,
+201003966,Ingredient,蚝油,蚝油 (Ingredient),蚝油,[],调料,,,,,,,,8,g,False,,,,,
+201003967,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,牛肉洗干净切片。,1.0,"切,清洗","刀,案板,盆",
+201003968,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,加入15g姜丝，1个鸡蛋，15g淀粉，8g蚝油，10ml料酒搅拌均匀，腌制15分钟。,2.0,"搅拌,腌制","碗,筷子",15分钟
+201003969,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,香菜洗干净切好。,3.0,"清洗,切","刀,案板",
+201003970,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,锅里倒油，加入豆瓣酱，5g姜丝，蒜片。,4.0,炒,"炒锅,锅铲",
+201003971,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,倒入开水，煮成红汤。,5.0,煮,炒锅,
+201003972,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,豆芽洗干净去掉尾须，放进开水里焯熟。,6.0,"清洗,焯","锅,漏勺",
+201003973,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,将豆芽铺入碗底。,7.0,装盘,碗,
+201003974,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,将牛肉片一片一片的放进红汤中，煮熟以后捞出。,8.0,"煮,捞","炒锅,漏勺",
+201003975,CookingStep,步骤9,步骤9 (Cooking Step),步骤9,,,,,,,,,,,,,将牛肉铺在豆芽上，撒上香菜梗。,9.0,装盘,碗,
+201003976,CookingStep,步骤10,步骤10 (Cooking Step),步骤10,,,,,,,,,,,,,撒上香菜叶，辣椒粉，辣椒圈。,10.0,撒,,
+201003977,CookingStep,步骤11,步骤11 (Cooking Step),步骤11,,,,,,,,,,,,,另起锅烧热油，将热油淋在菜上面，就完成了。,11.0,"烧,淋","炒锅,勺子",
+201003978,Recipe,冬瓜酿肉,冬瓜酿肉 (Recipe),冬瓜酿肉,[],荤菜,4.0,,15分钟,15分钟,2,"小心烫手,鸡蛋可选（不习惯的人可能会有点腥）",dishes/meat_dish/冬瓜酿肉/冬瓜酿肉.md,,,,,,,,
+201003979,Ingredient,猪肉末,猪肉末 (Ingredient),猪肉末,[],蛋白质,,,,,,,,300,g,True,,,,,
+201003980,Ingredient,鸡蛋,鸡蛋 (Ingredient),鸡蛋,"[{'term': '鸡子', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '土鸡蛋', 'language': 'zh', 'language_code': 'zh-CN'}]",蛋白质,,,,,,,,1,个,False,,,,,
+201003981,Ingredient,冬瓜,冬瓜 (Ingredient),冬瓜,[],蔬菜,,,,,,,,200,g,True,,,,,
+201003982,Ingredient,葱花,葱花 (Ingredient),葱花,[],蔬菜,,,,,,,,20,g,False,,,,,
+201003983,Ingredient,胡椒粉,胡椒粉 (Ingredient),胡椒粉,[],调料,,,,,,,,5,g,False,,,,,
+201003984,Ingredient,生抽,生抽 (Ingredient),生抽,"[{'term': '淡色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '鲜味酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,10,ml,False,,,,,
+201003985,Ingredient,淀粉,淀粉 (Ingredient),淀粉,[],淀粉类,,,,,,,,30,g,False,,,,,
+201003986,Ingredient,水,水 (Ingredient),水,[],其他,,,,,,,,50,ml,False,,,,,
+201003987,Ingredient,葱姜末,葱姜末 (Ingredient),葱姜末,[],调料,,,,,,,,50,g,False,,,,,
+201003988,Ingredient,盐,盐 (Ingredient),盐,[],调料,,,,,,,,20,g,False,,,,,
+201003989,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,冬瓜去皮，切成25cm长3cm厚的片。,1.0,切,"刀,案板",
+201003990,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,将切好的冬瓜放入碗中，放入15g盐，将冬瓜抹匀，放置10分钟。,2.0,腌制,碗,10分钟
+201003991,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,放置冬瓜的同时，换个碗放入肉末、葱姜末、5g盐、淀粉5g、胡椒粉、生抽，使用筷子在肉末中进行顺时针搅拌，搅拌到食材颜色没有明显对比（约2分钟）。,3.0,"搅拌,混合","碗,筷子",2分钟
+201003992,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,将腌制好的冬瓜（会变软）使用清水洗三遍。,4.0,清洗,"水槽,碗",
+201003993,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,拿出1片冬瓜片卷起来，并把肉塞进去。,5.0,"卷,填充",,
+201003994,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,放入碟子中摆到碟子的边缘。,6.0,摆盘,碟子,
+201003995,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,打入1个鸡蛋到中间圆圈处。,7.0,打蛋,碟子,
+201003996,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,放入普通铁锅中水烧开后，蒸15分钟，盖上锅盖。,8.0,蒸,"铁锅,蒸架",15分钟
+201003997,CookingStep,步骤9,步骤9 (Cooking Step),步骤9,,,,,,,,,,,,,开盖，取出蒸好的冬瓜酿肉。,9.0,取出,"锅铲,防烫手套",
+201003998,CookingStep,步骤10,步骤10 (Cooking Step),步骤10,,,,,,,,,,,,,将冬瓜酿肉碟子的水倒入锅中，放入水淀粉，加入50ml清水倒入锅中烧开，淋到冬瓜酿肉上。,10.0,"煮,勾芡,淋汁","锅,勺",
+201003999,Recipe,卤菜,卤菜 (Recipe),卤菜,[],荤菜,3.0,,3小时以上（牛肉浸泡）+ 30分钟（准备食材和卤水）,25-30分钟（高压锅卤制）+ 浸泡过夜（入味）,2-3人,"卤水可重复使用,卤水越陈越香,素菜需单独取卤水卤制,卤水可用于做牛肉面汤底",dishes/meat_dish/卤菜/卤菜.md,,,,,,,,
+201004000,Ingredient,卤料包,卤料包 (Ingredient),卤料包,[],调料,,,,,,,,10,g,False,,,,,
+201004001,Ingredient,黄豆酱,黄豆酱 (Ingredient),黄豆酱,[],调料,,,,,,,,15,ml,False,,,,,
+201004002,Ingredient,豆瓣酱,豆瓣酱 (Ingredient),豆瓣酱,[],调料,,,,,,,,15,ml,False,,,,,
+201004003,Ingredient,蚝油,蚝油 (Ingredient),蚝油,[],调料,,,,,,,,15,ml,False,,,,,
+201004004,Ingredient,南腐乳,南腐乳 (Ingredient),南腐乳,[],调料,,,,,,,,15,ml,False,,,,,
+201004005,Ingredient,洋葱,洋葱 (Ingredient),洋葱,[],蔬菜,,,,,,,,100,g,False,,,,,
+201004006,Ingredient,生姜,生姜 (Ingredient),生姜,[],调料,,,,,,,,30,g,False,,,,,
+201004007,Ingredient,大蒜,大蒜 (Ingredient),大蒜,[],调料,,,,,,,,40,g,False,,,,,
+201004008,Ingredient,干辣椒,干辣椒 (Ingredient),干辣椒,[],调料,,,,,,,,10,g,False,,,,,
+201004009,Ingredient,生抽,生抽 (Ingredient),生抽,"[{'term': '淡色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '鲜味酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,120,ml,False,,,,,
+201004010,Ingredient,老抽,老抽 (Ingredient),老抽,"[{'term': '深色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '红烧酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,60,ml,False,,,,,
+201004011,Ingredient,盐,盐 (Ingredient),盐,[],调料,,,,,,,,10-15,g,False,,,,,
+201004012,Ingredient,白糖,白糖 (Ingredient),白糖,"[{'term': '细砂糖', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '绵白糖', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,30,g,False,,,,,
+201004013,Ingredient,啤酒,啤酒 (Ingredient),啤酒,[],调料,,,,,,,,330,ml,False,,,,,
+201004014,Ingredient,牛腱子,牛腱子 (Ingredient),牛腱子,[],蛋白质,,,,,,,,500,g,True,,,,,
+201004015,Ingredient,清水,清水 (Ingredient),清水,[],其他,,,,,,,,足量,,False,,,,,
+201004016,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,牛腱子提前浸泡在冷水中3小时以上，去除血水。,1.0,浸泡,盆,3小时以上
+201004017,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,准备糖色：锅中加入30g白糖，小火加热至糖完全融化并呈现棕褐色，加入150ml热水，搅拌均匀备用。,2.0,"炒,熬","锅,勺",约10-15分钟
+201004018,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,将洋葱切块，生姜和大蒜拍碎，干辣椒掰断备用。,3.0,"切,拍","刀,案板",5-10分钟
+201004019,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,在锅中加入足量的水，放入卤料包、洋葱、生姜、大蒜、干辣椒，大火烧开。,4.0,煮,锅,10-15分钟
+201004020,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,加入黄豆酱、豆瓣酱、蚝油和南腐乳各15ml，搅拌均匀。,5.0,搅拌,"锅,勺",1-2分钟
+201004021,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,倒入准备好的糖色，混合均匀。,6.0,搅拌,"锅,勺",1分钟
+201004022,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,加入生抽120ml和老抽60ml，搅拌均匀。,7.0,搅拌,"锅,勺",1分钟
+201004023,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,加入10-15g盐调味。,8.0,调味,"锅,勺",1分钟
+201004024,CookingStep,步骤9,步骤9 (Cooking Step),步骤9,,,,,,,,,,,,,倒入1罐啤酒(330ml)，再次烧开。,9.0,煮,锅,5分钟
+201004025,CookingStep,步骤10,步骤10 (Cooking Step),步骤10,,,,,,,,,,,,,牛腱子放入锅中焯水2-3分钟，捞出并用热水冲洗干净表面的浮沫。,10.0,"焯水,冲洗","锅,漏勺",2-3分钟
+201004026,CookingStep,步骤11,步骤11 (Cooking Step),步骤11,,,,,,,,,,,,,将焯水后的牛腱子放入已烧开的卤水中，确保卤水没过所有肉类。,11.0,煮,高压锅,1分钟
+201004027,CookingStep,步骤12,步骤12 (Cooking Step),步骤12,,,,,,,,,,,,,盖上高压锅盖，上汽后继续烹饪25-30分钟。,12.0,炖,高压锅,25-30分钟
+201004028,CookingStep,步骤13,步骤13 (Cooking Step),步骤13,,,,,,,,,,,,,烹饪完成后，不要开盖保温，自然冷却并浸泡一晚上（这样会更入味）。,13.0,浸泡,高压锅,8小时以上
+201004029,CookingStep,步骤14,步骤14 (Cooking Step),步骤14,,,,,,,,,,,,,将卤好的肉取出放入冰箱冷藏，使其成型。,14.0,冷藏,冰箱,2小时以上
+201004030,CookingStep,步骤15,步骤15 (Cooking Step),步骤15,,,,,,,,,,,,,食用前取出切片，可直接食用或凉拌。,15.0,切,"刀,案板",5分钟
+201004031,Recipe,酱牛肉,酱牛肉 (Recipe),酱牛肉,[],荤菜,5.0,,5-7小时,180分钟,1份,"观察水位线，低于2/3食材时加热水至没过食材,保鲜膜包裹冷藏使切片紧实不散,扎孔破坏筋膜便于入味",dishes/meat_dish/酱牛肉/酱牛肉.md,,,,,,,,
+201004032,Ingredient,牛腱子肉,牛腱子肉 (Ingredient),牛腱子肉,[],蛋白质,,,,,,,,2000,克,True,,,,,
+201004033,Ingredient,香叶,香叶 (Ingredient),香叶,[],调料,,,,,,,,1,片,False,,,,,
+201004034,Ingredient,姜,姜 (Ingredient),姜,[],调料,,,,,,,,3,片,False,,,,,
+201004035,Ingredient,葱,葱 (Ingredient),葱,[],调料,,,,,,,,0.5,根,False,,,,,
+201004036,Ingredient,老抽,老抽 (Ingredient),老抽,"[{'term': '深色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '红烧酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,15,ml,False,,,,,
+201004037,Ingredient,桂皮,桂皮 (Ingredient),桂皮,[],调料,,,,,,,,1,块,False,,,,,
+201004038,Ingredient,冰糖,冰糖 (Ingredient),冰糖,"[{'term': '冰片糖', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '块糖', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,7-8,粒,False,,,,,
+201004039,Ingredient,花椒,花椒 (Ingredient),花椒,[],调料,,,,,,,,15,粒,False,,,,,
+201004040,Ingredient,料酒,料酒 (Ingredient),料酒,"[{'term': '黄酒', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '绍兴酒', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,30,ml,False,,,,,
+201004041,Ingredient,生抽,生抽 (Ingredient),生抽,"[{'term': '淡色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '鲜味酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,15,ml,False,,,,,
+201004042,Ingredient,盐,盐 (Ingredient),盐,[],调料,,,,,,,,8,克,False,,,,,
+201004043,Ingredient,八角,八角 (Ingredient),八角,"[{'term': '大料', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '茴香', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,4,个,False,,,,,
+201004044,Ingredient,黄豆酱,黄豆酱 (Ingredient),黄豆酱,[],调料,,,,,,,,15,ml,False,,,,,
+201004045,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,牛腱子肉清洗干净，用清水浸泡1小时，去除血水,1.0,"清洗,浸泡",盆,1小时
+201004046,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,用牙签或者叉子在牛腱子肉表面扎孔，加料酒、花椒、姜片后，用保鲜膜紧密包裹容器，腌制4-6小时,2.0,"扎孔,腌制","牙签或叉子,保鲜膜,容器",4-6小时
+201004047,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,牛腱子肉切成8cm，不超过10cm的肉块,3.0,切,"刀,案板",
+201004048,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,牛腱子肉放入锅中，加入冷水至水面没过牛肉，开锅至水沸腾开始计时，同时捞出浮沫。3分钟后停火，捞出牛肉，用温水洗净,4.0,"煮,焯水,清洗",锅,3分钟
+201004049,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,将洗净后的牛腱子肉放入砂锅或炖锅，加水没过牛腱子肉，开大火，放入除盐之外其他未使用的配料,5.0,炖,砂锅或炖锅,
+201004050,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,水开之后，大火转为小火，持续加热90分钟，加盐,6.0,炖,砂锅或炖锅,90分钟
+201004051,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,加盐后，继续小火90分钟（注：每30分钟确认水位线，要求至少达到牛肉面高度的80%）,7.0,炖,砂锅或炖锅,90分钟
+201004052,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,加热180分钟后，捞出牛腱子肉，用保鲜膜紧密包裹，放入冰箱冷藏数小时,8.0,冷藏,"保鲜膜,冰箱",数小时
+201004053,CookingStep,步骤9,步骤9 (Cooking Step),步骤9,,,,,,,,,,,,,取出后沿牛肉纹路切片，上桌食用，其他牛腱子肉建议不切片冷藏,9.0,切,"刀,案板",
+201004054,Recipe,红烧猪蹄,红烧猪蹄 (Recipe),红烧猪蹄,"[{'term': 'braised猪蹄', 'language': 'en', 'language_code': 'en-US'}]",荤菜,4.0,,15分钟,约30分钟（含高压锅15分钟+收汁等）,3-4人,,dishes/meat_dish/红烧猪蹄/红烧猪蹄.md,,,,,,,,
+201004055,Ingredient,猪蹄,猪蹄 (Ingredient),猪蹄,[],蛋白质,,,,,,,,2~3,根,True,,,,,
+201004056,Ingredient,香叶,香叶 (Ingredient),香叶,[],调料,,,,,,,,2,片,False,,,,,
+201004057,Ingredient,姜,姜 (Ingredient),姜,[],蔬菜,,,,,,,,5,片,False,,,,,
+201004058,Ingredient,葱,葱 (Ingredient),葱,[],蔬菜,,,,,,,,0.5,根,False,,,,,
+201004059,Ingredient,老抽,老抽 (Ingredient),老抽,"[{'term': '深色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '红烧酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,20,ml,False,,,,,
+201004060,Ingredient,桂皮,桂皮 (Ingredient),桂皮,[],调料,,,,,,,,1,块,False,,,,,
+201004061,Ingredient,冰糖,冰糖 (Ingredient),冰糖,"[{'term': '冰片糖', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '块糖', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,7-8,粒,False,,,,,
+201004062,Ingredient,料酒,料酒 (Ingredient),料酒,"[{'term': '黄酒', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '绍兴酒', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,30,ml,False,,,,,
+201004063,Ingredient,生抽,生抽 (Ingredient),生抽,"[{'term': '淡色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '鲜味酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,20,ml,False,,,,,
+201004064,Ingredient,盐,盐 (Ingredient),盐,[],调料,,,,,,,,8,克,False,,,,,
+201004065,Ingredient,八角,八角 (Ingredient),八角,"[{'term': '大料', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '茴香', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,4,个,False,,,,,
+201004066,Ingredient,食用油,食用油 (Ingredient),食用油,[],调料,,,,,,,,30,ml,False,,,,,
+201004067,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,冷水锅中放入热心摊主剁好的猪蹄，加入 20 ml 料酒与葱姜，煮 15 分钟去掉血腥,1.0,"煮,焯水","锅,锅铲",15分钟
+201004068,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,热锅冷油，倒入 30ml 食用油，放入 7-8 粒冰糖，开小火，熬成糖色，期间用锅铲把冰糖压碎，大概熬 2 分钟,2.0,"炒,熬糖色","炒锅,锅铲",2分钟
+201004069,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,熬成糖色后，放入焯过水的猪蹄，继续小火，翻炒猪蹄，直至所有猪蹄两面微黄,3.0,炒,"炒锅,锅铲",
+201004070,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,加入香叶 2 片、桂皮 1 块、八角 4 个、生抽 20 ml、老抽 20 ml、料酒 10 ml、姜 3 片、盐 8 克，转中火、继续翻炒 1 分钟,4.0,炒,"炒锅,锅铲",1分钟
+201004071,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,加入开水或者冷水，水需要没过猪蹄，盖上锅盖，大火烧开，烧开之后关火,5.0,煮,"炒锅,锅盖",
+201004072,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,把锅内的食材全部倒入高压锅中，高压锅中需要 15 分钟（如果同学没有高压锅，可放在锅中大火转小火熬制即可）,6.0,"炖,高压",高压锅,15分钟
+201004073,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,15 分钟之后，把高压锅的食材倒入炒锅中，开大火收汁，此时可用筷子尝下味道、淡的话可以加 2~3g 盐,7.0,"收汁,调味","炒锅,筷子",
+201004074,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,大火收汁时长根据锅中的水来算，一般 30 秒即可，多留点也无碍、红烧猪蹄汤也是很下饭的,8.0,收汁,炒锅,30秒
+201004075,Recipe,香干芹菜炒肉,香干芹菜炒肉 (Recipe),香干芹菜炒肉,[],荤菜,3.0,,10分钟,20分钟,2,"芹菜焯水保持爽脆,豆干焯水软化口感",dishes/meat_dish/香干芹菜炒肉/香干芹菜炒肉.md,,,,,,,,
+201004076,Ingredient,豆干,豆干 (Ingredient),豆干,[],蛋白质,,,,,,,,150,g,True,,,,,
+201004077,Ingredient,香芹,香芹 (Ingredient),香芹,[],蔬菜,,,,,,,,4,根,True,,,,,
+201004078,Ingredient,猪肉,猪肉 (Ingredient),猪肉,[],蛋白质,,,,,,,,200,g,True,,,,,
+201004079,Ingredient,蒜头,蒜头 (Ingredient),蒜头,[],调料,,,,,,,,2,瓣,False,,,,,
+201004080,Ingredient,辣椒,辣椒 (Ingredient),辣椒,[],蔬菜,,,,,,,,4,个,False,,,,,
+201004081,Ingredient,花椒,花椒 (Ingredient),花椒,[],调料,,,,,,,,6,粒,False,,,,,
+201004082,Ingredient,盐,盐 (Ingredient),盐,[],调料,,,,,,,,5,g,False,,,,,
+201004083,Ingredient,鸡精,鸡精 (Ingredient),鸡精,[],调料,,,,,,,,3,g,False,,,,,
+201004084,Ingredient,老抽,老抽 (Ingredient),老抽,"[{'term': '深色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '红烧酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,8,ml,False,,,,,
+201004085,Ingredient,蚝油,蚝油 (Ingredient),蚝油,[],调料,,,,,,,,5,ml,False,,,,,
+201004086,Ingredient,食用油,食用油 (Ingredient),食用油,[],调料,,,,,,,,15,ml,False,,,,,
+201004087,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,芹菜去叶切段、切成不超过 4cm 的条状，备用,1.0,切,"刀,案板",
+201004088,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,香干切条，宽约小拇指，备用,2.0,切,"刀,案板",
+201004089,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,蒜头切片或者剁成蒜泥都行，备用,3.0,切,"刀,案板",
+201004090,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,辣椒切圈或者斜切成条都行，备用,4.0,切,"刀,案板",
+201004091,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,热锅，锅内放入 10ml - 15ml 食用油。等待 10 秒让油温升高,5.0,炒,炒锅,10秒
+201004092,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,放入花椒、大蒜爆香（可以吃姜的也可以额外放入一些姜片/姜丝）,6.0,炒,"炒锅,锅铲",
+201004093,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,加入猪肉炒至变色，再加入 8ml 老抽上色翻炒均匀（有豆瓣酱的，可以放入 3ml 豆瓣酱一起翻炒）,7.0,炒,"炒锅,锅铲",
+201004094,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,加入香干翻炒均匀（大约 2 分钟）,8.0,炒,"炒锅,锅铲",2分钟
+201004095,CookingStep,步骤9,步骤9 (Cooking Step),步骤9,,,,,,,,,,,,,加入辣椒翻炒均匀（大约 1-2 分钟）,9.0,炒,"炒锅,锅铲",1-2分钟
+201004096,CookingStep,步骤10,步骤10 (Cooking Step),步骤10,,,,,,,,,,,,,加入芹菜，放入 5g 盐翻炒 1 分钟,10.0,炒,"炒锅,锅铲",1分钟
+201004097,CookingStep,步骤11,步骤11 (Cooking Step),步骤11,,,,,,,,,,,,,加入 3g 鸡精、5ml 蚝油翻炒均匀，即可出锅,11.0,炒,"炒锅,锅铲",
+201004098,Recipe,干煸仔鸡,干煸仔鸡 (Recipe),干煸仔鸡,[],荤菜,4.0,川菜,35分钟,15分钟,1-2人份,"可减少用油煎代替炸,适合居家下饭,甜辣口味",dishes/meat_dish/干煸仔鸡/干煸仔鸡.md,,,,,,,,
+201004099,Ingredient,鸡腿肉,鸡腿肉 (Ingredient),鸡腿肉,[],蛋白质,,,,,,,,400,g,True,,,,,
+201004100,Ingredient,土豆,土豆 (Ingredient),土豆,"[{'term': '马铃薯', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '洋芋', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '地蛋', 'language': 'zh', 'language_code': 'zh-CN'}]",淀粉类,,,,,,,,200,g,True,,,,,
+201004101,Ingredient,青椒,青椒 (Ingredient),青椒,"[{'term': '柿子椒', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '甜椒', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '彩椒', 'language': 'zh', 'language_code': 'zh-CN'}]",蔬菜,,,,,,,,60,g,True,,,,,
+201004102,Ingredient,蒜瓣,蒜瓣 (Ingredient),蒜瓣,[],蔬菜,,,,,,,,10,g,False,,,,,
+201004103,Ingredient,盐,盐 (Ingredient),盐,[],调料,,,,,,,,3,g,False,,,,,
+201004104,Ingredient,鸡精,鸡精 (Ingredient),鸡精,[],调料,,,,,,,,3,g,False,,,,,
+201004105,Ingredient,胡椒粉,胡椒粉 (Ingredient),胡椒粉,[],调料,,,,,,,,2,g,False,,,,,
+201004106,Ingredient,生抽,生抽 (Ingredient),生抽,"[{'term': '淡色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '鲜味酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,5,g,False,,,,,
+201004107,Ingredient,老抽,老抽 (Ingredient),老抽,"[{'term': '深色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '红烧酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,2,g,False,,,,,
+201004108,Ingredient,料酒,料酒 (Ingredient),料酒,"[{'term': '黄酒', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '绍兴酒', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,5,g,False,,,,,
+201004109,Ingredient,淀粉,淀粉 (Ingredient),淀粉,[],淀粉类,,,,,,,,20,g,False,,,,,
+201004110,Ingredient,郫县红油豆瓣酱,郫县红油豆瓣酱 (Ingredient),郫县红油豆瓣酱,[],调料,,,,,,,,40,g,False,,,,,
+201004111,Ingredient,白糖,白糖 (Ingredient),白糖,"[{'term': '细砂糖', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '绵白糖', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,30,g,False,,,,,
+201004112,Ingredient,花椒碎,花椒碎 (Ingredient),花椒碎,[],调料,,,,,,,,2,g,False,,,,,
+201004113,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,鸡腿去骨（如使用鸡腿排可忽略此步骤），鸡腿肉用刀背砸一砸，切成 2cm 的块。,1.0,"切,砸","刀,案板",
+201004114,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,鸡腿肉中加入盐、鸡精（可选）、胡椒粉、生抽、老抽、料酒，抓拌至粘手时加入淀粉拌匀，加入食用油防止粘连，腌制 30 分钟。,2.0,"腌制,拌","盆,筷子",30分钟
+201004115,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,土豆去皮，切成 2cm 的块，沸水煮 5 分钟后捞出，控干水分，防止油炸时爆锅。,3.0,"切,煮","刀,锅,笊篱",5分钟
+201004116,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,青椒去籽，切成 2cm 小片，放在笊篱中备用。,4.0,切,"刀,笊篱",
+201004117,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,锅中加入宽油（根据锅的形状，能没过食材即可），油温烧至 180℃ 时，下入土豆块炸 3 分钟后捞出。,5.0,炸,"炒锅,笊篱,温度计",3分钟
+201004118,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,待油温再次升高到 180℃时，下入鸡块炸 2 分钟后捞出。,6.0,炸,"炒锅,笊篱,温度计",2分钟
+201004119,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,待油温再次升高到 180℃时，下入鸡块复炸 1 分钟后捞出。,7.0,炸,"炒锅,笊篱,温度计",1分钟
+201004120,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,待油温再次升高到 180℃时，下入土豆块复炸 1 分钟后，将锅中的油和土豆块经过笊篱过滤倒出，让笊篱上的青椒片断生。,8.0,"炸,焯","炒锅,笊篱,温度计",1分钟
+201004121,CookingStep,步骤9,步骤9 (Cooking Step),步骤9,,,,,,,,,,,,,锅中加入 5ml 食用油，小火煸炒蒜瓣至发黄，下入红油豆瓣酱煸炒出香，下入白糖炒融化，下入花椒碎，加 40ml 清水，不停搅拌至酱汁粘稠。,9.0,"炒,煸","炒锅,锅铲",约3-5分钟
+201004122,CookingStep,步骤10,步骤10 (Cooking Step),步骤10,,,,,,,,,,,,,下入炸好的鸡块、土豆块、青椒片，搅拌均匀后出锅。,10.0,"炒,拌","炒锅,锅铲",1-2分钟
+201004123,Recipe,新疆大盘鸡,新疆大盘鸡 (Recipe),新疆大盘鸡,[],荤菜,4.0,西北菜,20分钟,40分钟,2,"可搭配宽面食用,料酒可用啤酒代替,土豆不要翻动以防粘锅",dishes/meat_dish/新疆大盘鸡/新疆大盘鸡.md,,,,,,,,
+201004124,Ingredient,鸡肉,鸡肉 (Ingredient),鸡肉,[],蛋白质,,,,,,,,1000,g,True,,,,,
+201004125,Ingredient,土豆,土豆 (Ingredient),土豆,"[{'term': '马铃薯', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '洋芋', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '地蛋', 'language': 'zh', 'language_code': 'zh-CN'}]",淀粉类,,,,,,,,750,g,True,,,,,
+201004126,Ingredient,大葱,大葱 (Ingredient),大葱,"[{'term': '葱白', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '韭葱', 'language': 'zh', 'language_code': 'zh-CN'}]",蔬菜,,,,,,,,100,g,False,,,,,
+201004127,Ingredient,菜椒,菜椒 (Ingredient),菜椒,[],蔬菜,,,,,,,,50,g,False,,,,,
+201004128,Ingredient,甜椒,甜椒 (Ingredient),甜椒,[],蔬菜,,,,,,,,50,g,False,,,,,
+201004129,Ingredient,白糖,白糖 (Ingredient),白糖,"[{'term': '细砂糖', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '绵白糖', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,20,g,False,,,,,
+201004130,Ingredient,干线椒,干线椒 (Ingredient),干线椒,[],调料,,,,,,,,5,个,False,,,,,
+201004131,Ingredient,大蒜,大蒜 (Ingredient),大蒜,[],调料,,,,,,,,4,瓣,False,,,,,
+201004132,Ingredient,油,油 (Ingredient),油,[],调料,,,,,,,,50,g,False,,,,,
+201004133,Ingredient,盐,盐 (Ingredient),盐,[],调料,,,,,,,,5,g,False,,,,,
+201004134,Ingredient,生抽,生抽 (Ingredient),生抽,"[{'term': '淡色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '鲜味酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,7,ml,False,,,,,
+201004135,Ingredient,蚝油,蚝油 (Ingredient),蚝油,[],调料,,,,,,,,10,g,False,,,,,
+201004136,Ingredient,料酒,料酒 (Ingredient),料酒,"[{'term': '黄酒', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '绍兴酒', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,100,g,False,,,,,
+201004137,Ingredient,花椒,花椒 (Ingredient),花椒,[],调料,,,,,,,,适量,,False,,,,,
+201004138,Ingredient,香叶,香叶 (Ingredient),香叶,[],调料,,,,,,,,适量,,False,,,,,
+201004139,Ingredient,香果,香果 (Ingredient),香果,[],调料,,,,,,,,适量,,False,,,,,
+201004140,Ingredient,清水,清水 (Ingredient),清水,[],其他,,,,,,,,1000,ml,False,,,,,
+201004141,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,鸡肉剁成块状，用清水加盐浸泡5分钟去除血水去腥，然后沥干水分。,1.0,"切,腌制","刀,盆",5分钟
+201004142,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,将葱、蒜、辣椒、土豆等食材清洗干净，土豆削皮。,2.0,"清洗,削皮","刀,盆",5分钟
+201004143,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,葱白切成长约4cm的段；菜椒和线椒切块。,3.0,切,"刀,案板",5分钟
+201004144,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,土豆切成滚刀块，每块约4cm×4cm大小。,4.0,切,"刀,案板",5分钟
+201004145,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,锅中加油，放入白糖炒至焦黄色，加入沥干水的鸡肉翻炒上色。,5.0,炒,"炒锅,锅铲",5分钟
+201004146,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,加入花椒、香叶、香果、干线椒等香料翻炒出香味。,6.0,炒,"炒锅,锅铲",2分钟
+201004147,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,加入盐、生抽、蚝油、料酒（或啤酒）和1升清水。,7.0,"调味,煮","炒锅,量杯",1分钟
+201004148,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,大火烧开后转中小火慢炖入味。,8.0,炖,"炒锅,锅盖",20分钟
+201004149,CookingStep,步骤9,步骤9 (Cooking Step),步骤9,,,,,,,,,,,,,当汤汁收至鸡肉即将露出时，将土豆铺在表面（不要翻动以防粘锅），盖上锅盖继续炖。,9.0,炖,"炒锅,锅盖",10分钟
+201004150,CookingStep,步骤10,步骤10 (Cooking Step),步骤10,,,,,,,,,,,,,加入大葱、菜椒和甜椒，继续炖至汤汁收浓。,10.0,炖,"炒锅,锅盖",5分钟
+201004151,CookingStep,步骤11,步骤11 (Cooking Step),步骤11,,,,,,,,,,,,,最后翻拌使土豆与汤汁融合，关火盛出。,11.0,翻拌,"锅铲,盘子",2分钟
+201004152,Recipe,姜炒鸡,姜炒鸡 (Recipe),姜炒鸡,[],荤菜,3.0,湘菜,30分钟,约6分钟,2人份,,dishes/meat_dish/姜炒鸡/姜炒鸡.md,,,,,,,,
+201004153,Ingredient,鸡,鸡 (Ingredient),鸡,[],蛋白质,,,,,,,,650,g,True,,,,,
+201004154,Ingredient,生姜,生姜 (Ingredient),生姜,[],蔬菜,,,,,,,,250,g,False,,,,,
+201004155,Ingredient,啤酒,啤酒 (Ingredient),啤酒,[],调料,,,,,,,,250,ml,False,,,,,
+201004156,Ingredient,生抽,生抽 (Ingredient),生抽,"[{'term': '淡色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '鲜味酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,20,ml,False,,,,,
+201004157,Ingredient,老抽,老抽 (Ingredient),老抽,"[{'term': '深色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '红烧酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,10,ml,False,,,,,
+201004158,Ingredient,盐,盐 (Ingredient),盐,[],调料,,,,,,,,3,g,False,,,,,
+201004159,Ingredient,小米椒,小米椒 (Ingredient),小米椒,[],蔬菜,,,,,,,,0-50,g,False,,,,,
+201004160,Ingredient,美人辣,美人辣 (Ingredient),美人辣,[],蔬菜,,,,,,,,0-50,g,False,,,,,
+201004161,Ingredient,泡椒,泡椒 (Ingredient),泡椒,[],蔬菜,,,,,,,,50,g,False,,,,,
+201004162,Ingredient,大蒜,大蒜 (Ingredient),大蒜,[],蔬菜,,,,,,,,50,g,False,,,,,
+201004163,Ingredient,食用油,食用油 (Ingredient),食用油,[],调料,,,,,,,,50,ml,False,,,,,
+201004164,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,鸡尽量剁成1cm的小块，洗净后滤干，再放生抽和料酒腌制30分钟,1.0,"切,腌制","刀,盆",30分钟
+201004165,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,先热锅到微微冒烟，放入食用油，等5秒,2.0,热锅,炒锅,5秒
+201004166,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,下入姜片后转中火炒30秒,3.0,炒,"炒锅,锅铲",30秒
+201004167,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,下入鸡块翻炒3分钟，炒干水分，炒出鸡油,4.0,炒,"炒锅,锅铲",3分钟
+201004168,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,放入各种剁碎的辣椒和大蒜子，加盐和老抽继续翻炒30秒,5.0,炒,"炒锅,锅铲",30秒
+201004169,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,倒入啤酒，中小火焖2分钟,6.0,焖,"炒锅,锅铲",2分钟
+201004170,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,大火收汁盛盘,7.0,收汁,"炒锅,锅铲",约1分钟
+201004171,Recipe,姜葱捞鸡,姜葱捞鸡 (Recipe),姜葱捞鸡,[],荤菜,3.0,粤菜,20分钟,20分钟,2,,dishes/meat_dish/姜葱捞鸡/姜葱捞鸡.md,,,,,,,,
+201004172,Ingredient,鸡腿,鸡腿 (Ingredient),鸡腿,[],蛋白质,,,,,,,,400,g,True,,,,,
+201004173,Ingredient,盐焗鸡粉,盐焗鸡粉 (Ingredient),盐焗鸡粉,[],调料,,,,,,,,5,g,False,,,,,
+201004174,Ingredient,姜,姜 (Ingredient),姜,[],蔬菜,,,,,,,,50,g,False,,,,,
+201004175,Ingredient,葱,葱 (Ingredient),葱,[],蔬菜,,,,,,,,1,根,False,,,,,
+201004176,Ingredient,盐,盐 (Ingredient),盐,[],调料,,,,,,,,5,g,False,,,,,
+201004177,Ingredient,糖,糖 (Ingredient),糖,[],调料,,,,,,,,5,g,False,,,,,
+201004178,Ingredient,油,油 (Ingredient),油,[],调料,,,,,,,,35,ml,False,,,,,
+201004179,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,四个鸡腿清洗干净，放入碗中,1.0,清洗,碗,
+201004180,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,碗中加入盐焗鸡粉和5ml油，搅拌均匀,2.0,搅拌,"碗,勺子",
+201004181,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,让鸡腿静置腌制15分钟，同时准备蒸锅并把水煮开,3.0,"腌制,煮水","蒸锅,炉灶",15分钟
+201004182,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,鸡腿腌制完成后，放入水开后的蒸锅中，蒸制20分钟,4.0,蒸,蒸锅,20分钟
+201004183,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,将姜根据个人口味切成1）姜蓉或2）姜丝或3）姜粒,5.0,切,"刀,案板",
+201004184,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,将葱切成0.5cm小段,6.0,切,"刀,案板",
+201004185,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,将葱姜放入蘸料碗，并加入盐和糖,7.0,混合,碗,
+201004186,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,将剩余的油倒入另一个锅中加热至六至七层热,8.0,加热,"炒锅,炉灶",
+201004187,CookingStep,步骤9,步骤9 (Cooking Step),步骤9,,,,,,,,,,,,,将热油淋入葱姜碗中,9.0,淋油,"锅,碗",
+201004188,CookingStep,步骤10,步骤10 (Cooking Step),步骤10,,,,,,,,,,,,,鸡腿蒸好后将其撕碎成鸡丝，不需要特别细，大概1cm粗就可以,10.0,撕,"手,筷子",
+201004189,CookingStep,步骤11,步骤11 (Cooking Step),步骤11,,,,,,,,,,,,,姜葱姜油淋在鸡丝上，搅拌均匀即可,11.0,"淋油,搅拌","碗,筷子",

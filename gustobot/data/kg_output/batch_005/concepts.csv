@@ -1,0 +1,152 @@
+concept_id,concept_type,name,fsn,preferred_term,synonyms,category,difficulty,cuisine_type,prep_time,cook_time,servings,tags,file_path,amount,unit,is_main,description,step_number,methods,tools,time_estimate
+201000864,Recipe,烤茄子,烤茄子 (Recipe),烤茄子,"[{'term': 'roasted茄子', 'language': 'en', 'language_code': 'en-US'}, {'term': '烤eggplant', 'language': 'en', 'language_code': 'en-US'}, {'term': '烘烤茄子', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '烤青茄子', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '烤紫茄子', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': 'baked茄子', 'language': 'en', 'language_code': 'en-US'}]",素菜,3.0,,5-10分钟,16-22分钟,2,"茄子表面需擦干,茄子需扎孔防爆裂,可将茄子对半切后加酱料",dishes/vegetable_dish/烤茄子/烤茄子.md,,,,,,,,
+201000865,Ingredient,茄子,茄子 (Ingredient),茄子,[],蔬菜,,,,,,,,200,g,True,,,,,
+201000866,Ingredient,食用油,食用油 (Ingredient),食用油,[],调料,,,,,,,,25,毫升,False,,,,,
+201000867,Ingredient,酱油（生抽）,酱油（生抽） (Ingredient),酱油（生抽）,[],调料,,,,,,,,5,克,False,,,,,
+201000868,Ingredient,小米椒,小米椒 (Ingredient),小米椒,[],蔬菜,,,,,,,,20,g,False,,,,,
+201000869,Ingredient,蒜蓉,蒜蓉 (Ingredient),蒜蓉,[],调料,,,,,,,,3.5,瓣,False,,,,,
+201000870,Ingredient,孜然,孜然 (Ingredient),孜然,[],调料,,,,,,,,2,克,False,,,,,
+201000871,Ingredient,食用盐,食用盐 (Ingredient),食用盐,[],调料,,,,,,,,1.25,克,False,,,,,
+201000872,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,将酱油、孜然、食用盐、蒜蓉和切碎的小米椒置于碗中，均匀搅拌备用,1.0,"搅拌,切","碗,刀,案板",2-3分钟
+201000873,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,茄子洗净，用纸巾擦干表面的水分,2.0,"清洗,擦干","水槽,纸巾",1-2分钟
+201000874,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,用叉子在茄子的一侧扎 4-8 下,3.0,扎孔,叉子,30秒
+201000875,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,使用 15-25ml 的食用油涂满茄子表面,4.0,涂抹,刷子或手,1分钟
+201000876,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,将烤箱温度设置为 200℃ （打开烤箱风扇 大火），预热 2 分钟,5.0,预热,烤箱,2分钟
+201000877,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,将茄子放入烤箱中层或者上层，烤制 12-15 分钟 （茄子表面有褶皱，且能按压 0.3-0.5cm 的深度即可）,6.0,烤,"烤箱,烤盘",12-15分钟
+201000878,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,取出茄子，用刀在茄子上竖着划一个口子。口子居中，上下距 1-1.5cm,7.0,切,刀,1分钟
+201000879,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,用小刀或者叉子伸入口子，竖着切割茄子内部,8.0,切,"小刀,叉子",1-2分钟
+201000880,CookingStep,步骤9,步骤9 (Cooking Step),步骤9,,,,,,,,,,,,,将口子微微掰开，倒入第一步准备的酱料,9.0,"掰开,倒入","手,勺子",1分钟
+201000881,CookingStep,步骤10,步骤10 (Cooking Step),步骤10,,,,,,,,,,,,,再次将茄子放入烤箱，将烤箱温度设置为 200℃ ，烤制 4-7 分钟,10.0,烤,烤箱,4-7分钟
+201000882,CookingStep,步骤11,步骤11 (Cooking Step),步骤11,,,,,,,,,,,,,取出，关闭烤箱电源,11.0,取出,"烤箱,隔热手套",30秒
+201000883,Recipe,小炒藕丁,小炒藕丁 (Recipe),小炒藕丁,[],素菜,3.0,,10分钟,10分钟,2,"挑选外皮呈黄褐色、肉肥厚而白的莲藕,避免使用铁器以防莲藕发黑",dishes/vegetable_dish/小炒藕丁/小炒藕丁.md,,,,,,,,
+201000884,Ingredient,大葱,大葱 (Ingredient),大葱,"[{'term': '葱白', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '韭葱', 'language': 'zh', 'language_code': 'zh-CN'}]",蔬菜,,,,,,,,1,段,True,,,,,
+201000885,Ingredient,小米辣,小米辣 (Ingredient),小米辣,[],蔬菜,,,,,,,,1-2,根,True,,,,,
+201000886,Ingredient,莲藕,莲藕 (Ingredient),莲藕,[],蔬菜,,,,,,,,1,段,True,,,,,
+201000887,Ingredient,生抽,生抽 (Ingredient),生抽,"[{'term': '淡色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '鲜味酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,30,ml,False,,,,,
+201000888,Ingredient,老抽,老抽 (Ingredient),老抽,"[{'term': '深色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '红烧酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,15,ml,False,,,,,
+201000889,Ingredient,耗油,耗油 (Ingredient),耗油,[],调料,,,,,,,,15,ml,False,,,,,
+201000890,Ingredient,食用油,食用油 (Ingredient),食用油,[],调料,,,,,,,,10-15,ml,False,,,,,
+201000891,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,大葱、小米辣切小段，备用,1.0,切,"刀,案板",
+201000892,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,莲藕去皮，切成不超过 3cm 的小块，放入水中备用（防止氧化发黑）,2.0,"去皮,切","刀,盆",
+201000893,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,取炒锅，锅内放入 500ml 凉水，煮沸,3.0,煮,炒锅,
+201000894,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,将藕丁下入沸水中，焯水 2 分钟后，取出放入盘中备用,4.0,焯水,"炒锅,漏勺,盘",2分钟
+201000895,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,将锅中水倒掉后，将锅加热干燥，加入 10-15 ml 食用油,5.0,加热,炒锅,
+201000896,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,待油温升高后，下入葱花，小米辣爆香,6.0,爆香,"炒锅,锅铲",
+201000897,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,将处理好的藕丁下入锅中，大火翻炒,7.0,炒,"炒锅,锅铲",
+201000898,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,加入生抽、老抽、耗油,8.0,调味,"炒锅,量勺",
+201000899,CookingStep,步骤9,步骤9 (Cooking Step),步骤9,,,,,,,,,,,,,翻炒 2 分钟即可出锅,9.0,炒,"炒锅,锅铲",2分钟
+201000900,Recipe,虎皮青椒,虎皮青椒 (Recipe),虎皮青椒,"[{'term': '虎皮彩椒', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '虎皮甜椒', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '虎皮bell pepper', 'language': 'en', 'language_code': 'en-US'}]",素菜,3.0,川菜,10分钟,3分钟,1,,dishes/vegetable_dish/虎皮青椒/虎皮青椒.md,,,,,,,,
+201000901,Ingredient,青椒,青椒 (Ingredient),青椒,"[{'term': '柿子椒', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '甜椒', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '彩椒', 'language': 'zh', 'language_code': 'zh-CN'}]",蔬菜,,,,,,,,5,个,True,,,,,
+201000902,Ingredient,大蒜,大蒜 (Ingredient),大蒜,[],蔬菜,,,,,,,,3,瓣,False,,,,,
+201000903,Ingredient,油,油 (Ingredient),油,[],调料,,,,,,,,20,ml,False,,,,,
+201000904,Ingredient,白糖,白糖 (Ingredient),白糖,"[{'term': '细砂糖', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '绵白糖', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,15,g,False,,,,,
+201000905,Ingredient,生抽,生抽 (Ingredient),生抽,"[{'term': '淡色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '鲜味酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,15,ml,False,,,,,
+201000906,Ingredient,香醋,香醋 (Ingredient),香醋,[],调料,,,,,,,,15,ml,False,,,,,
+201000907,Ingredient,盐,盐 (Ingredient),盐,[],调料,,,,,,,,4,g,False,,,,,
+201000908,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,去掉青椒蒂，用自来水冲洗干净。,1.0,清洗,"水槽,手",
+201000909,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,青椒切长片，平均一个青椒纵向切成3-4片即可。,2.0,切,"刀,案板",
+201000910,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,大蒜去皮，切成碎末，体积在2mm x 2mm x 2mm即可。,3.0,切,"刀,案板",
+201000911,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,拿一个小碗倒入20ml油，将大蒜末放入其中。,4.0,,"小碗,量勺",
+201000912,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,白糖、生抽、醋、盐全部倒入砵（碗）等容器，搅拌。,5.0,搅拌,"砵,筷子或勺子",
+201000913,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,将调料1倒入锅中，开火加热至5成热，放入青椒，青椒片不要叠在一起，单独成片放置锅中。,6.0,炒,"炒锅,锅铲",
+201000914,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,用锅铲不停的按压青椒，合适的时候翻面。,7.0,"炒,按压,翻面","锅铲,炒锅",
+201000915,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,翻炒约2分钟，待青椒表皮出现褶皱时，倒入调料2。,8.0,炒,"炒锅,锅铲",2分钟
+201000916,CookingStep,步骤9,步骤9 (Cooking Step),步骤9,,,,,,,,,,,,,加大火候继续翻炒30秒后即可出锅盛入盘中。,9.0,炒,"炒锅,锅铲,盘子",30秒
+201000917,Recipe,菠菜炒鸡蛋,菠菜炒鸡蛋 (Recipe),菠菜炒鸡蛋,[],素菜,2.0,,5分钟,40秒,1,,dishes/vegetable_dish/菠菜炒鸡蛋/菠菜炒鸡蛋.md,,,,,,,,
+201000918,Ingredient,菠菜,菠菜 (Ingredient),菠菜,"[{'term': '赤根菜', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '波斯菜', 'language': 'zh', 'language_code': 'zh-CN'}]",蔬菜,,,,,,,,350,g,True,,,,,
+201000919,Ingredient,鸡蛋,鸡蛋 (Ingredient),鸡蛋,"[{'term': '鸡子', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '土鸡蛋', 'language': 'zh', 'language_code': 'zh-CN'}]",蛋白质,,,,,,,,2,个,True,,,,,
+201000920,Ingredient,食用油,食用油 (Ingredient),食用油,[],调料,,,,,,,,15,ml,False,,,,,
+201000921,Ingredient,食用盐,食用盐 (Ingredient),食用盐,[],调料,,,,,,,,5,g,False,,,,,
+201000922,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,菠菜去根，洗净，放在篮子里，焯水,1.0,"焯水,洗","篮子,锅",
+201000923,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,将鸡蛋打入碗中，搅匀,2.0,"打,搅","碗,筷子",
+201000924,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,热锅，加入 10ml 油,3.0,热锅,炒锅,
+201000925,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,油热后，倒入鸡蛋液，中火翻炒 15 秒，先煎成蛋饼，然后再用锅铲切成小块,4.0,"煎,炒,切","炒锅,锅铲",15秒
+201000926,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,关火，将鸡蛋块盛到盘子中，不要洗锅,5.0,盛,盘子,
+201000927,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,重新开火，倒入 5ml 油，油热后，放入菠菜，大火翻炒 15 秒后，倒入鸡蛋块，翻炒均匀,6.0,炒,"炒锅,锅铲",15秒
+201000928,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,加入 5g 盐、100ml 饮用水，大火翻炒 10 秒,7.0,炒,"炒锅,量勺",10秒
+201000929,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,关火，盛盘,8.0,盛,盘子,
+201000930,Recipe,榄菜肉末四季豆,榄菜肉末四季豆 (Recipe),榄菜肉末四季豆,[],素菜,3.0,,10分钟,8分钟,,"热锅冷油防粘,四季豆必须炒熟防中毒",dishes/vegetable_dish/榄菜肉末四季豆/榄菜肉末四季豆.md,,,,,,,,
+201000931,Ingredient,四季豆,四季豆 (Ingredient),四季豆,[],蔬菜,,,,,,,,220,g,True,,,,,
+201000932,Ingredient,五花肉,五花肉 (Ingredient),五花肉,[],蛋白质,,,,,,,,100,g,True,,,,,
+201000933,Ingredient,橄榄菜,橄榄菜 (Ingredient),橄榄菜,[],调料,,,,,,,,20,g,False,,,,,
+201000934,Ingredient,大蒜,大蒜 (Ingredient),大蒜,[],调料,,,,,,,,10,g,False,,,,,
+201000935,Ingredient,小米辣,小米辣 (Ingredient),小米辣,[],调料,,,,,,,,10,g,False,,,,,
+201000936,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,将四季豆洗净，并把筋撕干净，然后切成大小均匀的颗粒备用。,1.0,"洗,撕,切","刀,案板,盆",
+201000937,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,将大蒜拍碎剁成蒜末备用。,2.0,"拍,剁","刀,案板",
+201000938,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,将小米辣切成大小均匀的颗粒备用。,3.0,切,"刀,案板",
+201000939,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,将五花肉去皮，然后剁成肉末备用。,4.0,"去皮,剁","刀,案板",
+201000940,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,将锅烧热，然后加入 20ml 油滑锅，锅滑好之后将热油倒出，然后加入 10ml 冷油，这就是传说中热锅冷油，这么做主要是防止肉末粘锅。,5.0,"滑锅,加热","炒锅,油瓶",
+201000941,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,如果家里没有晾油瓶的话，也可以不用滑锅，放入油之后，直接加入肉末开始煸炒，小火煸炒两分钟，炒出猪油。,6.0,煸炒,"炒锅,锅铲",2分钟
+201000942,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,肉末炒香之后加入蒜末，橄榄菜和小米辣，炒出香味。,7.0,炒,"炒锅,锅铲",
+201000943,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,加入四季豆开中火煸炒，四季豆至少要炒 5 分钟，一定要保证四季豆熟透，否则可能会食物中毒。,8.0,煸炒,"炒锅,锅铲",5分钟
+201000944,CookingStep,步骤9,步骤9 (Cooking Step),步骤9,,,,,,,,,,,,,四季豆炒熟后加入 2ml 酱油从锅边淋入，然后加入 2g 盐、1g 鸡精、1g 胡椒粉和 0.5g 糖。,9.0,"调味,淋","炒锅,锅铲",
+201000945,CookingStep,步骤10,步骤10 (Cooking Step),步骤10,,,,,,,,,,,,,将调料翻炒均匀。,10.0,翻炒,"炒锅,锅铲",
+201000946,CookingStep,步骤11,步骤11 (Cooking Step),步骤11,,,,,,,,,,,,,出锅，装盘。,11.0,装盘,"盘子,锅铲",
+201000947,Recipe,白灼菜心,白灼菜心 (Recipe),白灼菜心,[],素菜,2.0,粤菜,10分钟,5分钟,2人份,"选择新鲜菜心,焯水时加盐和油保持色泽",dishes/vegetable_dish/白灼菜心/白灼菜心.md,,,,,,,,
+201000948,Ingredient,新鲜菜心,新鲜菜心 (Ingredient),新鲜菜心,[],蔬菜,,,,,,,,250,g,True,,,,,
+201000949,Ingredient,食用油,食用油 (Ingredient),食用油,[],调料,,,,,,,,10,g,False,,,,,
+201000950,Ingredient,生抽,生抽 (Ingredient),生抽,"[{'term': '淡色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '鲜味酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,5,g,False,,,,,
+201000951,Ingredient,蚝油,蚝油 (Ingredient),蚝油,[],调料,,,,,,,,5,g,False,,,,,
+201000952,Ingredient,盐,盐 (Ingredient),盐,[],调料,,,,,,,,5,g,False,,,,,
+201000953,Ingredient,糖,糖 (Ingredient),糖,[],调料,,,,,,,,3,g,False,,,,,
+201000954,Ingredient,清水,清水 (Ingredient),清水,[],其他,,,,,,,,100,g,False,,,,,
+201000955,Ingredient,大蒜,大蒜 (Ingredient),大蒜,[],调料,,,,,,,,四五瓣,,False,,,,,
+201000956,Ingredient,小米辣,小米辣 (Ingredient),小米辣,[],调料,,,,,,,,一两根,,False,,,,,
+201000957,Ingredient,洋葱,洋葱 (Ingredient),洋葱,[],蔬菜,,,,,,,,少许,,False,,,,,
+201000958,Ingredient,姜丝,姜丝 (Ingredient),姜丝,[],调料,,,,,,,,少许,,False,,,,,
+201000959,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,菜心洗净，去除根部比较硬或老的地方。用刀刮掉菜心根茎外部较硬的一层，使内部更可口。,1.0,"清洗,切,刮","刀,盆",
+201000960,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,大蒜切成蒜末，如有洋葱可加入少许洋葱碎。,2.0,切,"刀,案板",
+201000961,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,调制灵魂料汁：将生抽5g、蚝油5g、糖3g和清水100g混合成一碗汁。,3.0,混合,"碗,勺",
+201000962,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,锅中加入500ml清水、5g盐和10g食用油，烧开。,4.0,煮,锅,
+201000963,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,将菜心根茎在沸水中烫1分钟至颜色变深绿，再将整棵菜心放入烫熟1分钟，捞出码入盘中。,5.0,"焯水,捞出","锅,筷子,盘",2分钟
+201000964,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,另起小锅，锅底倒油，五成热后爆香一半蒜末、洋葱碎，再加入调好的料汁、小米辣碎和少许姜丝，小火烧开。,6.0,"爆香,煮","小锅,锅铲",
+201000965,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,料汁稍收汁，煮沸后继续加热约10秒，直接浇在菜心上，注意保留蒜末。,7.0,"收汁,浇汁","小锅,勺",10秒
+201000966,Recipe,糖拌西红柿,糖拌西红柿 (Recipe),糖拌西红柿,"[{'term': '糖拌番茄', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '糖拌tomato', 'language': 'en', 'language_code': 'en-US'}]",素菜,2.0,,5分钟,0分钟,2,小心使用刀具,dishes/vegetable_dish/糖拌西红柿/糖拌西红柿.md,,,,,,,,
+201000967,Ingredient,西红柿,西红柿 (Ingredient),西红柿,"[{'term': '番茄', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '洋柿子', 'language': 'zh', 'language_code': 'zh-CN'}]",蔬菜,,,,,,,,200,g,True,,,,,
+201000968,Ingredient,白砂糖,白砂糖 (Ingredient),白砂糖,[],调料,,,,,,,,20,g,False,,,,,
+201000969,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,用刀将西红柿皮米字型划开,1.0,切,刀,
+201000970,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,用筷子插入西红柿的菊花，在燃气上转动烤10秒（或用开水冲30秒），直到西红柿皮卷边,2.0,"烤,烫","筷子,燃气灶",10秒
+201000971,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,把西红柿的衣服脱光,3.0,去皮,,
+201000972,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,再西红柿大卸八块（沿纹路切可以更多的留汁水），去掉头部根蒂部，备用,4.0,切,刀,
+201000973,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,全部切好后，将西红柿在盘子中均匀码一层,5.0,摆盘,盘子,
+201000974,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,撒上白糖，重复上面一步直到全部西红柿放完,6.0,撒,,
+201000975,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,放入冰箱冷藏10分钟,7.0,冷藏,冰箱,10分钟
+201000976,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,一盘糖拌西红柿就好了，营养美味，酸甜爽口，夏日解暑又解腻,8.0,,,
+201000977,Recipe,洋葱炒鸡蛋,洋葱炒鸡蛋 (Recipe),洋葱炒鸡蛋,[],素菜,2.0,,1分钟,3分钟,1,,dishes/vegetable_dish/洋葱炒鸡蛋/洋葱炒鸡蛋.md,,,,,,,,
+201000978,Ingredient,鸡蛋,鸡蛋 (Ingredient),鸡蛋,"[{'term': '鸡子', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '土鸡蛋', 'language': 'zh', 'language_code': 'zh-CN'}]",蛋白质,,,,,,,,2,个,True,,,,,
+201000979,Ingredient,洋葱,洋葱 (Ingredient),洋葱,[],蔬菜,,,,,,,,50,g,True,,,,,
+201000980,Ingredient,食用油,食用油 (Ingredient),食用油,[],其他,,,,,,,,50,ml,False,,,,,
+201000981,Ingredient,盐,盐 (Ingredient),盐,[],调料,,,,,,,,2,g,False,,,,,
+201000982,Ingredient,葱,葱 (Ingredient),葱,[],蔬菜,,,,,,,,0.5,根,False,,,,,
+201000983,Ingredient,料酒,料酒 (Ingredient),料酒,"[{'term': '黄酒', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '绍兴酒', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,2,ml,False,,,,,
+201000984,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,鸡蛋打入大碗中，加入洋葱片、盐后搅拌60秒。,1.0,"搅拌,切","碗,筷子或打蛋器",60秒
+201000985,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,起锅烧油，倒入鸡蛋，一面煎炸30-45秒，翻面继续翻炒，反复2-3分钟后撒上料酒出锅。,2.0,"炒,煎,翻炒","炒锅,锅铲",2-3分钟
+201000986,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,鸡蛋装盘，撒上葱花。,3.0,装盘,盘子,
+201000987,Recipe,炒方便面,炒方便面 (Recipe),炒方便面,[],主食,2.0,,5分钟,3分钟,1,"可加芝麻酱,芝麻酱可1:1兑水稀释",dishes/staple/炒方便面.md,,,,,,,,
+201000988,Ingredient,方便面,方便面 (Ingredient),方便面,[],淀粉类,,,,,,,,1.2,包,True,,,,,
+201000989,Ingredient,鸡蛋,鸡蛋 (Ingredient),鸡蛋,"[{'term': '鸡子', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '土鸡蛋', 'language': 'zh', 'language_code': 'zh-CN'}]",蛋白质,,,,,,,,1.4,个,True,,,,,
+201000990,Ingredient,盐,盐 (Ingredient),盐,[],调料,,,,,,,,2.8,克,False,,,,,
+201000991,Ingredient,火腿肠,火腿肠 (Ingredient),火腿肠,[],蛋白质,,,,,,,,1,个,True,,,,,
+201000992,Ingredient,食用油,食用油 (Ingredient),食用油,[],调料,,,,,,,,10,毫升,False,,,,,
+201000993,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,将火腿肠撕开包装，切成宽度1cm的小块。,1.0,切,"刀,案板",30秒
+201000994,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,向煮锅中加入300ml水，煮沸后加入方便面面饼，煮45秒，过程中挑动打散面条，打散后立刻关火，将面汤和面分离，并用凉水冲一下面条。,2.0,"煮,冲","煮锅,筷子",1分30秒
+201000995,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,准备一个小碗，将方便面的调料包挤进去（包括所有菜包、酱包和50%-80%的粉包），再加入80ml面汤，搅匀成调料碗。,3.0,"混合,搅拌","小碗,勺子",30秒
+201000996,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,将计算好数量的鸡蛋打入小碗，每个加2g盐搅拌均匀；热锅20秒，加入8ml油（按份数），倒入鸡蛋液翻炒约20秒至固态，取出暂存。,4.0,"搅拌,煎,炒","小碗,炒锅,锅铲",1分钟
+201000997,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,热锅20秒，加油至10ml（按份数），加入火腿肠翻炒10秒，再加入处理好的面条翻炒30秒，接着加入调料碗翻炒30秒，最后加入煎鸡蛋翻炒30秒，关火盛盘。,5.0,炒,"炒锅,锅铲",1分40秒
+201000998,Recipe,麻辣减脂荞麦面,麻辣减脂荞麦面 (Recipe),麻辣减脂荞麦面,[],主食,2.0,川菜,5分钟,15分钟,1,"一定要选半干荞麦面，口感最好,可以随意添加其他东西，比如火锅丸、蛋饺等,火锅底料、花生酱、牛奶一定要加，口味三大巨头,如果不能吃酸，可以不加醋",dishes/staple/麻辣减脂荞麦面.md,,,,,,,,
+201000999,Ingredient,半干荞麦面,半干荞麦面 (Ingredient),半干荞麦面,[],淀粉类,,,,,,,,100,g,True,,,,,
+201001000,Ingredient,娃娃菜,娃娃菜 (Ingredient),娃娃菜,[],蔬菜,,,,,,,,150,g,True,,,,,
+201001001,Ingredient,生菜,生菜 (Ingredient),生菜,[],蔬菜,,,,,,,,80,g,True,,,,,
+201001002,Ingredient,火锅底料,火锅底料 (Ingredient),火锅底料,[],调料,,,,,,,,25,g,False,,,,,
+201001003,Ingredient,花生酱,花生酱 (Ingredient),花生酱,[],调料,,,,,,,,15,g,False,,,,,
+201001004,Ingredient,全脂牛奶,全脂牛奶 (Ingredient),全脂牛奶,[],其他,,,,,,,,150,ml,False,,,,,
+201001005,Ingredient,生抽,生抽 (Ingredient),生抽,"[{'term': '淡色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '鲜味酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,6,ml,False,,,,,
+201001006,Ingredient,辣椒油,辣椒油 (Ingredient),辣椒油,[],调料,,,,,,,,10,ml,False,,,,,
+201001007,Ingredient,醋,醋 (Ingredient),醋,[],调料,,,,,,,,20,ml,False,,,,,
+201001008,Ingredient,花椒油,花椒油 (Ingredient),花椒油,[],调料,,,,,,,,10,ml,False,,,,,
+201001009,Ingredient,水,水 (Ingredient),水,[],其他,,,,,,,,500,ml,False,,,,,
+201001010,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,娃娃菜、生菜洗好，备用,1.0,洗,洗菜盆,5分钟
+201001011,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,锅内倒入500ml水，开大火，将荞麦面和娃娃菜放进去，等待水沸腾,2.0,煮,小锅,约5分钟
+201001012,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,水沸腾后，转小火，加入火锅底料、花生酱、牛奶、生抽、辣椒油，水开后煮5分钟,3.0,煮,小锅,5分钟
+201001013,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,加入生菜，再煮2分钟,4.0,煮,小锅,2分钟
+201001014,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,加入醋、花椒油，关火，直接端着小锅开吃,5.0,"煮,调味",小锅,1分钟

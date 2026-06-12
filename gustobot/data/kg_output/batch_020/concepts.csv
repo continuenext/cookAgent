@@ -1,0 +1,194 @@
+concept_id,concept_type,name,fsn,preferred_term,synonyms,category,difficulty,cuisine_type,prep_time,cook_time,servings,tags,file_path,amount,unit,is_main,description,step_number,methods,tools,time_estimate
+201003553,Recipe,土豆炖排骨,土豆炖排骨 (Recipe),土豆炖排骨,"[{'term': '土豆stewed排骨', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '土豆煲排骨', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '马铃薯炖排骨', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': 'potato炖排骨', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '洋芋炖排骨', 'language': 'zh', 'language_code': 'zh-CN'}]",荤菜,3.0,,15分钟,70分钟,2-3人,"新手友好,超级下饭,可加青红椒提味",dishes/meat_dish/土豆炖排骨/土豆炖排骨.md,,,,,,,,
+201003554,Ingredient,肋排,肋排 (Ingredient),肋排,[],蛋白质,,,,,,,,750,g,True,,,,,
+201003555,Ingredient,土豆,土豆 (Ingredient),土豆,"[{'term': '马铃薯', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '洋芋', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '地蛋', 'language': 'zh', 'language_code': 'zh-CN'}]",蔬菜,,,,,,,,300,g,True,,,,,
+201003556,Ingredient,姜,姜 (Ingredient),姜,[],调料,,,,,,,,30,g,False,,,,,
+201003557,Ingredient,小葱,小葱 (Ingredient),小葱,"[{'term': '香葱', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '细葱', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,25,g,False,,,,,
+201003558,Ingredient,料酒,料酒 (Ingredient),料酒,"[{'term': '黄酒', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '绍兴酒', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,25,g,False,,,,,
+201003559,Ingredient,白糖,白糖 (Ingredient),白糖,"[{'term': '细砂糖', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '绵白糖', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,10,g,False,,,,,
+201003560,Ingredient,干辣椒,干辣椒 (Ingredient),干辣椒,[],调料,,,,,,,,5,g,False,,,,,
+201003561,Ingredient,八角,八角 (Ingredient),八角,"[{'term': '大料', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '茴香', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,5,g,False,,,,,
+201003562,Ingredient,花椒,花椒 (Ingredient),花椒,[],调料,,,,,,,,5,g,False,,,,,
+201003563,Ingredient,桂皮,桂皮 (Ingredient),桂皮,[],调料,,,,,,,,5,g,False,,,,,
+201003564,Ingredient,生抽,生抽 (Ingredient),生抽,"[{'term': '淡色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '鲜味酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,10,g,False,,,,,
+201003565,Ingredient,老抽,老抽 (Ingredient),老抽,"[{'term': '深色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '红烧酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,5,g,False,,,,,
+201003566,Ingredient,蚝油,蚝油 (Ingredient),蚝油,[],调料,,,,,,,,5,g,False,,,,,
+201003567,Ingredient,黄豆酱,黄豆酱 (Ingredient),黄豆酱,[],调料,,,,,,,,5,g,False,,,,,
+201003568,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,土豆两个滚刀切片，姜片切片,1.0,切,"刀,案板",5分钟
+201003569,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,排骨 750g 冷水下锅，加入姜片、葱段、料酒焯水 2 分钟，焯干水后捞出清洗干净（一定要用热水，不能用冷水）,2.0,"焯水,清洗","锅,漏勺",5分钟
+201003570,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,热锅凉油，将白糖倒入锅中，翻炒至融化为焦糖色,3.0,"炒,炒糖色","炒锅,锅铲",3-5分钟
+201003571,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,加入排骨煎至两面金黄，让排骨裹满焦糖,4.0,煎,"炒锅,锅铲",5分钟
+201003572,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,加入干辣椒、八角、花椒、桂皮、姜片（建议买超市的香料包）、10ml 生抽、5ml 老抽、5ml 料酒、5ml 蚝油、5ml 黄豆酱,5.0,炒,"炒锅,量勺,锅铲",2分钟
+201003573,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,大火翻炒均匀后加入 700ml 开水，大火烧开后转小火焖煮 1 小时,6.0,"炖,焖","炒锅,锅盖",60分钟
+201003574,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,最后加入土豆煮 10 分钟就可以出锅啦（喜欢吃青红椒的也可以按自己喜好加入）,7.0,煮,"炒锅,锅铲",10分钟
+201003575,Recipe,羊排焖面,羊排焖面 (Recipe),羊排焖面,"[{'term': '羊排braised面', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '羊排闷面', 'language': 'zh', 'language_code': 'zh-CN'}]",荤菜,4.0,西北菜,25分钟,40分钟,2人份,"可使用超市宽面替代手擀面,面团需醒面两次,面剂子抹油防粘,面皮需逐片焖煮4分钟",dishes/meat_dish/羊排焖面/羊排焖面.md,,,,,,,,
+201003576,Ingredient,带皮羊排,带皮羊排 (Ingredient),带皮羊排,[],蛋白质,,,,,,,,500,g,True,,,,,
+201003577,Ingredient,青椒,青椒 (Ingredient),青椒,"[{'term': '柿子椒', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '甜椒', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '彩椒', 'language': 'zh', 'language_code': 'zh-CN'}]",蔬菜,,,,,,,,2,个,False,,,,,
+201003578,Ingredient,甜椒,甜椒 (Ingredient),甜椒,[],蔬菜,,,,,,,,2,个,False,,,,,
+201003579,Ingredient,大葱,大葱 (Ingredient),大葱,"[{'term': '葱白', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '韭葱', 'language': 'zh', 'language_code': 'zh-CN'}]",蔬菜,,,,,,,,适量,,False,,,,,
+201003580,Ingredient,花椒,花椒 (Ingredient),花椒,[],调料,,,,,,,,适量,,False,,,,,
+201003581,Ingredient,干辣椒,干辣椒 (Ingredient),干辣椒,[],调料,,,,,,,,适量,,False,,,,,
+201003582,Ingredient,生姜,生姜 (Ingredient),生姜,[],调料,,,,,,,,4,片,False,,,,,
+201003583,Ingredient,白砂糖,白砂糖 (Ingredient),白砂糖,[],调料,,,,,,,,适量,,False,,,,,
+201003584,Ingredient,老抽,老抽 (Ingredient),老抽,"[{'term': '深色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '红烧酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,适量,,False,,,,,
+201003585,Ingredient,中筋面粉,中筋面粉 (Ingredient),中筋面粉,[],淀粉类,,,,,,,,300,g,True,,,,,
+201003586,Ingredient,盐,盐 (Ingredient),盐,[],调料,,,,,,,,3,g,False,,,,,
+201003587,Ingredient,水,水 (Ingredient),水,[],其他,,,,,,,,180,ml,False,,,,,
+201003588,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,羊肉冷水下锅焯水，水开了之后把血沫撇掉，捞出羊肉。,1.0,"煮,焯水",锅,约5-10分钟
+201003589,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,切好生姜（4片)，放入干辣椒与花椒在碗里备用。,2.0,切,"刀,案板,碗",2分钟
+201003590,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,在炒锅加入油。（多一点也没关系）,3.0,,炒锅,30秒
+201003591,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,油热之后，放入白砂糖，给羊肉炒出焦糖色。,4.0,"炒,炒糖色","炒锅,锅铲",3-5分钟
+201003592,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,羊肉水份炒干之后，放入盐、老抽，以及备好的调味料。,5.0,炒,"炒锅,锅铲",2分钟
+201003593,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,加入清水没过羊肉，大火煮沸之后，让其继续煮10分钟，之后小火炖煮30分钟。,6.0,"煮,炖",炒锅,40分钟
+201003594,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,在此期间，可以和面。和面的量以及操作方法在附加内容里讲解。,7.0,"和面,醒面,擀","盆,案板,擀面杖",20分钟
+201003595,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,放入青椒，甜椒，大葱，以及面皮进行翻炒。,8.0,炒,"炒锅,锅铲",3-5分钟
+201003596,CookingStep,步骤9,步骤9 (Cooking Step),步骤9,,,,,,,,,,,,,翻炒均匀之后，即可出锅。,9.0,炒,"炒锅,锅铲",1分钟
+201003597,Recipe,荔枝肉,荔枝肉 (Recipe),荔枝肉,[],荤菜,4.0,闽菜,15分钟,10分钟,1人份,"可选用马蹄或马铃薯替代凤梨以解腻,闽菜偏甜，不习惯可省略白糖,通过敲打瘦肉块听声判断是否炸透",dishes/meat_dish/荔枝肉/荔枝肉.md,,,,,,,,
+201003598,Ingredient,瘦肉,瘦肉 (Ingredient),瘦肉,[],蛋白质,,,,,,,,150,g,True,,,,,
+201003599,Ingredient,凤梨,凤梨 (Ingredient),凤梨,[],蔬菜,,,,,,,,100,g,True,,,,,
+201003600,Ingredient,鸡蛋,鸡蛋 (Ingredient),鸡蛋,"[{'term': '鸡子', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '土鸡蛋', 'language': 'zh', 'language_code': 'zh-CN'}]",蛋白质,,,,,,,,1,个,False,,,,,
+201003601,Ingredient,食用油,食用油 (Ingredient),食用油,[],其他,,,,,,,,500,ml,False,,,,,
+201003602,Ingredient,白砂糖,白砂糖 (Ingredient),白砂糖,[],调料,,,,,,,,5,g,False,,,,,
+201003603,Ingredient,淀粉,淀粉 (Ingredient),淀粉,[],淀粉类,,,,,,,,100,g,False,,,,,
+201003604,Ingredient,生抽,生抽 (Ingredient),生抽,"[{'term': '淡色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '鲜味酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,5,ml,False,,,,,
+201003605,Ingredient,鸡精,鸡精 (Ingredient),鸡精,[],调料,,,,,,,,5,g,False,,,,,
+201003606,Ingredient,姜末,姜末 (Ingredient),姜末,[],调料,,,,,,,,5,g,False,,,,,
+201003607,Ingredient,芝麻,芝麻 (Ingredient),芝麻,[],其他,,,,,,,,2,g,False,,,,,
+201003608,Ingredient,番茄酱,番茄酱 (Ingredient),番茄酱,[],调料,,,,,,,,20,g,False,,,,,
+201003609,Ingredient,香醋,香醋 (Ingredient),香醋,[],调料,,,,,,,,2,ml,False,,,,,
+201003610,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,瘦肉切块（每块 2-3 cm ），放入大碗中，加入鸡蛋 1 个 、生粉 50 g 、生抽 3 ml 、鸡精 2 g,1.0,"切,腌制","刀,案板,碗",
+201003611,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,"充分搅拌,直至生粉包裹住瘦肉块（太稀则继续加生粉，太干则加水），然后加入 5 ml 油，在充分搅拌后备用",2.0,"搅拌,腌制","碗,筷子",
+201003612,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,"在准备一个碗，加入番茄酱、鸡精 3 g 、生抽 2 ml 、姜末、白砂糖、生粉 10 g 、香醋、凉水 200 ml ,充分搅拌后备用",3.0,搅拌,"碗,筷子",
+201003613,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,"切一个凤梨, 准备 6 个 （每个 1.5-2 cm）凤梨块",4.0,切,"刀,案板",
+201003614,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,起锅烧油，倒入 500 ml 油，一直烧油直到听到油炸声,5.0,炸,炒锅,
+201003615,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,将瘦肉一个一个放入锅中（切记不可以整碗倒入），保证每个肉不要粘在一起,6.0,炸,"炒锅,筷子",
+201003616,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,全部放入瘦肉后，每 30 S 用勺子来回两面翻转瘦肉块，直至瘦肉块表面金黄,7.0,"炸,翻动","炒锅,勺子",约2-3分钟
+201003617,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,取出瘦肉，一分钟后倒入油锅中继续炸，直至瘦肉块表面出现焦黄后，取出放入大碗备用,8.0,炸,"炒锅,漏勺",约1-2分钟
+201003618,CookingStep,步骤9,步骤9 (Cooking Step),步骤9,,,,,,,,,,,,,起锅，倒入汤汁，30 S 后倒入瘦肉块、凤梨块，充分翻炒后 出锅,9.0,炒,"炒锅,锅铲",约1分钟
+201003619,CookingStep,步骤10,步骤10 (Cooking Step),步骤10,,,,,,,,,,,,,摆上芝麻,10.0,装饰,,
+201003620,Recipe,台式卤肉饭,台式卤肉饭 (Recipe),台式卤肉饭,[],荤菜,5.0,,30分钟,90分钟,2~3人份,"五花肉冷冻30分钟后再切更易成型,冷冻五花肉常温放置30分钟后再切,切条时用较小力度快速摩擦刀刃保护肥瘦结构,肉条要细以便炖煮软糯",dishes/meat_dish/台式卤肉饭/台式卤肉饭.md,,,,,,,,
+201003621,Ingredient,红葱头,红葱头 (Ingredient),红葱头,[],蔬菜,,,,,,,,25,g,True,,,,,
+201003622,Ingredient,带皮五花肉,带皮五花肉 (Ingredient),带皮五花肉,[],蛋白质,,,,,,,,500,g,True,,,,,
+201003623,Ingredient,鸡蛋,鸡蛋 (Ingredient),鸡蛋,"[{'term': '鸡子', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '土鸡蛋', 'language': 'zh', 'language_code': 'zh-CN'}]",蛋白质,,,,,,,,4,个,False,,,,,
+201003624,Ingredient,食用油,食用油 (Ingredient),食用油,[],调料,,,,,,,,15,ml,False,,,,,
+201003625,Ingredient,生抽酱油,生抽酱油 (Ingredient),生抽酱油,[],调料,,,,,,,,75,ml,False,,,,,
+201003626,Ingredient,米酒,米酒 (Ingredient),米酒,[],调料,,,,,,,,35,ml,False,,,,,
+201003627,Ingredient,大蒜,大蒜 (Ingredient),大蒜,[],蔬菜,,,,,,,,25,g,False,,,,,
+201003628,Ingredient,香叶,香叶 (Ingredient),香叶,[],调料,,,,,,,,2,片,False,,,,,
+201003629,Ingredient,八角,八角 (Ingredient),八角,"[{'term': '大料', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '茴香', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,1,颗,False,,,,,
+201003630,Ingredient,冰糖,冰糖 (Ingredient),冰糖,"[{'term': '冰片糖', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '块糖', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,20,g,False,,,,,
+201003631,Ingredient,白胡椒粉,白胡椒粉 (Ingredient),白胡椒粉,[],调料,,,,,,,,6,g,False,,,,,
+201003632,Ingredient,五香粉,五香粉 (Ingredient),五香粉,[],调料,,,,,,,,6,g,False,,,,,
+201003633,Ingredient,米饭,米饭 (Ingredient),米饭,[],淀粉类,,,,,,,,根据个人食量决定,,False,,,,,
+201003634,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,带皮五花肉切成0.7cm（长）× 0.7cm（宽） × 2.5cm（高）的细长条。,1.0,切,"刀,案板",
+201003635,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,红葱头、大蒜切末备用。,2.0,切,"刀,案板",
+201003636,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,鸡蛋煮熟剥壳，并用刀划破蛋白（便于入味），备用。,3.0,"煮,切","锅,刀",
+201003637,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,大火热锅，锅内放入15ml食用油，让油滑满锅底即可。放油的目的是防止五花肉刚下锅时粘锅。等待5s使油温稍微升高。,4.0,炒,"炒锅,锅铲",5秒
+201003638,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,放入五花肉条，翻炒至肉色稍微变白，沿锅边淋入米酒10ml。继续翻炒至五花肉不再出油。,5.0,炒,"炒锅,锅铲",
+201003639,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,将切好的红葱头加入锅中，翻炒1分钟爆出油葱香味。,6.0,炒,"炒锅,锅铲",1分钟
+201003640,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,把猪肉推到旁边，放入冰糖加热到融化冒泡变成焦糖，再把猪肉一起翻拌，让焦糖均匀附着。,7.0,"炒,熬糖","炒锅,锅铲",
+201003641,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,加入生抽炒出香气。,8.0,炒,"炒锅,锅铲",
+201003642,CookingStep,步骤9,步骤9 (Cooking Step),步骤9,,,,,,,,,,,,,呛入米酒25ml，水加到淹过猪肉，加入白胡椒粉、五香粉、八角、香叶、水煮蛋，沸腾后转小火卤1小时。注意：不同酱油的咸淡不一，卤的时候务必试味道，太甜加酱油，太咸加点糖或水调整。小火炖煮过程中，每隔15分钟搅拌检查一次，防止粘锅。如发现过干，则可加入100ml清水继续炖煮。,9.0,"炖,煮","炒锅,锅铲",1小时
+201003643,CookingStep,步骤10,步骤10 (Cooking Step),步骤10,,,,,,,,,,,,,1小时后，开大火收汁直到酱汁浓稠，呈现有光泽的琥珀色，即完成。,10.0,收汁,"炒锅,锅铲",
+201003644,CookingStep,步骤11,步骤11 (Cooking Step),步骤11,,,,,,,,,,,,,炖煮结束后，乘一碗米饭，将软烂的卤肉浇在米饭上，并加上卤蛋，开始享用。,11.0,装盘,"碗,勺",
+201003645,Recipe,咖喱肥牛,咖喱肥牛 (Recipe),咖喱肥牛,[],荤菜,4.0,,10分钟,30分钟,2人,"咖喱块不用捣碎，直接整块投入即可,操作时，需要注意搅拌食材，避免食材调味料不均匀",dishes/meat_dish/咖喱肥牛/咖喱肥牛.md,,,,,,,,
+201003646,Ingredient,香叶,香叶 (Ingredient),香叶,[],调料,,,,,,,,1,片,False,,,,,
+201003647,Ingredient,纯牛奶,纯牛奶 (Ingredient),纯牛奶,[],其他,,,,,,,,50,ml,False,,,,,
+201003648,Ingredient,洋葱,洋葱 (Ingredient),洋葱,[],蔬菜,,,,,,,,100,g,False,,,,,
+201003649,Ingredient,胡萝卜,胡萝卜 (Ingredient),胡萝卜,[],蔬菜,,,,,,,,150,g,False,,,,,
+201003650,Ingredient,土豆,土豆 (Ingredient),土豆,"[{'term': '马铃薯', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '洋芋', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '地蛋', 'language': 'zh', 'language_code': 'zh-CN'}]",淀粉类,,,,,,,,200,g,False,,,,,
+201003651,Ingredient,肥牛卷,肥牛卷 (Ingredient),肥牛卷,[],蛋白质,,,,,,,,300,g,True,,,,,
+201003652,Ingredient,咖喱块,咖喱块 (Ingredient),咖喱块,[],调料,,,,,,,,100,g,False,,,,,
+201003653,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,洋葱切成条状、胡萝卜以及土豆切成块状，备用,1.0,切,"刀,案板",
+201003654,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,烧一锅开水，水沸时将肥牛卷下锅，捞出血沫后放在一边沥水，备用,2.0,"煮,焯水","锅,漏勺",约2-3分钟
+201003655,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,热锅，锅内放入 10ml - 15ml 食用油，等待 10 秒让油温升高,3.0,炒,"炒锅,锅铲",10秒
+201003656,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,放入洋葱，翻炒至洋葱变软变透明,4.0,炒,"炒锅,锅铲",约3-5分钟
+201003657,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,放入土豆以及胡萝卜翻炒 2 分钟,5.0,炒,"炒锅,锅铲",2分钟
+201003658,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,加入冷水至淹没所有食材即可,6.0,煮,"炒锅,量杯",
+201003659,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,将香叶、咖喱块投入锅中，盖上锅盖，待水沸腾后将火调小然后等待直至土豆块以及胡萝卜块炖至软烂（可用筷子确认）,7.0,炖,"炒锅,锅盖,筷子",约15-20分钟
+201003660,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,加入肥牛卷以及牛奶，盖上锅盖再小火煮 2-3 分钟即可出锅（用勺子搅拌食材，注意力度，避免肥牛卷破碎）,8.0,"煮,炖","炒锅,锅盖,勺子",2-3分钟
+201003661,Recipe,奶酪培根通心粉,奶酪培根通心粉 (Recipe),奶酪培根通心粉,[],荤菜,3.0,,10分钟,35分钟,2,"高热量,高脂肪,不建议常吃",dishes/meat_dish/奶酪培根通心粉/奶酪培根通心粉.md,,,,,,,,
+201003662,Ingredient,通心粉,通心粉 (Ingredient),通心粉,[],淀粉类,,,,,,,,112.5,g,True,,,,,
+201003663,Ingredient,奶酪,奶酪 (Ingredient),奶酪,[],蛋白质,,,,,,,,47.5,g,True,,,,,
+201003664,Ingredient,额外烘烤用奶酪,额外烘烤用奶酪 (Ingredient),额外烘烤用奶酪,[],蛋白质,,,,,,,,25,g,True,,,,,
+201003665,Ingredient,培根或其他肉类,培根或其他肉类 (Ingredient),培根或其他肉类,[],蛋白质,,,,,,,,112.5,g,True,,,,,
+201003666,Ingredient,洋葱,洋葱 (Ingredient),洋葱,[],蔬菜,,,,,,,,32.5,g,False,,,,,
+201003667,Ingredient,黄油,黄油 (Ingredient),黄油,[],调料,,,,,,,,15,g,False,,,,,
+201003668,Ingredient,面粉,面粉 (Ingredient),面粉,[],淀粉类,,,,,,,,10,g,False,,,,,
+201003669,Ingredient,牛奶,牛奶 (Ingredient),牛奶,[],其他,,,,,,,,125,ml,False,,,,,
+201003670,Ingredient,大蒜,大蒜 (Ingredient),大蒜,[],蔬菜,,,,,,,,0.5,瓣,False,,,,,
+201003671,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,将奶酪磨成碎末。,1.0,切,"刀,案板",
+201003672,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,将洋葱切成条状（实际操作中应为碎末，根据计算部分描述）。,2.0,切,"刀,案板",
+201003673,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,用微咸的水将通心粉煮6分钟。,3.0,煮,锅,6分钟
+201003674,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,在锅中放入黄油，中火加热至融化。,4.0,炒,锅,
+201003675,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,加入洋葱，中火翻炒至软化。,5.0,炒,"锅,锅铲",
+201003676,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,洋葱软化后加入大蒜，炒至香味出来。,6.0,炒,"锅,锅铲",
+201003677,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,加入培根或其他肉类，中火炒约5秒。,7.0,炒,"锅,锅铲",5秒
+201003678,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,转小火，分四次加入牛奶，每次搅拌5秒后再加下一次。,8.0,搅拌,"锅,锅铲",20秒
+201003679,CookingStep,步骤9,步骤9 (Cooking Step),步骤9,,,,,,,,,,,,,加入面粉并充分搅拌至无颗粒。,9.0,搅拌,"锅,锅铲",
+201003680,CookingStep,步骤10,步骤10 (Cooking Step),步骤10,,,,,,,,,,,,,加入奶酪并搅拌均匀，直至形成浓稠酱汁。,10.0,搅拌,"锅,锅铲",
+201003681,CookingStep,步骤11,步骤11 (Cooking Step),步骤11,,,,,,,,,,,,,将煮好的通心粉与奶酪酱搅拌均匀。,11.0,搅拌,"锅,锅铲",
+201003682,CookingStep,步骤12,步骤12 (Cooking Step),步骤12,,,,,,,,,,,,,如不烘烤，可直接食用。,12.0,,,
+201003683,CookingStep,步骤13,步骤13 (Cooking Step),步骤13,,,,,,,,,,,,,如需烘烤，预热烤箱至180°C。,13.0,烤,烤箱,
+201003684,CookingStep,步骤14,步骤14 (Cooking Step),步骤14,,,,,,,,,,,,,将额外的25g奶酪铺在通心粉表面。,14.0,铺,,
+201003685,CookingStep,步骤15,步骤15 (Cooking Step),步骤15,,,,,,,,,,,,,待烤箱预热完成后，放入通心粉，烤至表面金黄，约24分钟。,15.0,烤,烤箱,24分钟
+201003686,Recipe,湘祁米夫鸭,湘祁米夫鸭 (Recipe),湘祁米夫鸭,[],荤菜,4.0,湘菜,20分钟,30分钟,3-4人,"老鸭需蒸1小时以上,粘米粉为主粉提供主体口感,糯米粉增加软糯感,蒸肉粉提供五香味,辣椒粉和胡椒粉增强复合香味",dishes/meat_dish/湘祁米夫鸭/湘祁米夫鸭.md,,,,,,,,
+201003687,Ingredient,鸭子,鸭子 (Ingredient),鸭子,[],蛋白质,,,,,,,,1000,g,True,,,,,
+201003688,Ingredient,糯米粉,糯米粉 (Ingredient),糯米粉,[],淀粉类,,,,,,,,100,g,False,,,,,
+201003689,Ingredient,粘米粉,粘米粉 (Ingredient),粘米粉,[],淀粉类,,,,,,,,300,g,False,,,,,
+201003690,Ingredient,蒸肉粉,蒸肉粉 (Ingredient),蒸肉粉,[],淀粉类,,,,,,,,50,g,False,,,,,
+201003691,Ingredient,细辣椒粉,细辣椒粉 (Ingredient),细辣椒粉,[],调料,,,,,,,,50,g,False,,,,,
+201003692,Ingredient,白胡椒粉,白胡椒粉 (Ingredient),白胡椒粉,[],调料,,,,,,,,5,g,False,,,,,
+201003693,Ingredient,五花肉,五花肉 (Ingredient),五花肉,[],蛋白质,,,,,,,,50,g,False,,,,,
+201003694,Ingredient,姜蒜,姜蒜 (Ingredient),姜蒜,[],调料,,,,,,,,20,g,False,,,,,
+201003695,Ingredient,盐,盐 (Ingredient),盐,[],调料,,,,,,,,10,g,False,,,,,
+201003696,Ingredient,食用油,食用油 (Ingredient),食用油,[],调料,,,,,,,,10,g,False,,,,,
+201003697,Ingredient,开水,开水 (Ingredient),开水,[],其他,,,,,,,,100,g,False,,,,,
+201003698,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,将糯米粉、粘米粉、蒸肉粉、细辣椒粉、5克盐、白胡椒粉倒一起搅匀。,1.0,混合,"盆,筷子",2分钟
+201003699,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,鸭子让热心摊主剁成蒸煮块，姜切片，蒜子剥皮，五花肉切片即可。,2.0,切,"刀,案板",10分钟
+201003700,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,热锅凉油煸炒五花肉出油，再加食用油烧热，下入鸭子煸炒。,3.0,煸炒,"炒锅,锅铲",5分钟
+201003701,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,鸭子煸炒到表皮焦变色，下入姜蒜和盐继续煸炒香味。,4.0,煸炒,"炒锅,锅铲",3分钟
+201003702,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,关小火倒入米粉翻炒，鸭肉均匀裹满米粉子，加入开水，少量多次的加，边加边翻炒。,5.0,"翻炒,加水","炒锅,锅铲",5分钟
+201003703,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,翻炒鸭肉和米粉有湿感，铲出入碗中，高压锅放水蒸20-25分钟。,6.0,蒸,"高压锅,碗",25分钟
+201003704,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,出锅前撒点葱花即可享用了。,7.0,点缀,碗,1分钟
+201003705,Recipe,梅菜扣肉,梅菜扣肉 (Recipe),梅菜扣肉,[],荤菜,4.0,,76分钟,71分钟,1,"不喜欢吃甜的可以去掉白砂糖，不影响主流程,倒数第二个步骤，可以根据个人喜好调整时间,炒干梅干菜的作用是为了后续吸油",dishes/meat_dish/梅菜扣肉/梅菜扣肉.md,,,,,,,,
+201003706,Ingredient,五花肉,五花肉 (Ingredient),五花肉,[],蛋白质,,,,,,,,200,g,True,,,,,
+201003707,Ingredient,梅菜,梅菜 (Ingredient),梅菜,[],蔬菜,,,,,,,,30,g,True,,,,,
+201003708,Ingredient,五香粉,五香粉 (Ingredient),五香粉,[],调料,,,,,,,,2,g,False,,,,,
+201003709,Ingredient,食用油,食用油 (Ingredient),食用油,[],调料,,,,,,,,300,ml,False,,,,,
+201003710,Ingredient,白砂糖,白砂糖 (Ingredient),白砂糖,[],调料,,,,,,,,5,g,False,,,,,
+201003711,Ingredient,老抽,老抽 (Ingredient),老抽,"[{'term': '深色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '红烧酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,30,ml,False,,,,,
+201003712,Ingredient,生抽,生抽 (Ingredient),生抽,"[{'term': '淡色酱油', 'language': 'zh', 'language_code': 'zh-CN'}, {'term': '鲜味酱油', 'language': 'zh', 'language_code': 'zh-CN'}]",调料,,,,,,,,20,ml,False,,,,,
+201003713,Ingredient,小米椒,小米椒 (Ingredient),小米椒,[],蔬菜,,,,,,,,1,个,False,,,,,
+201003714,Ingredient,蒜末,蒜末 (Ingredient),蒜末,[],蔬菜,,,,,,,,10,g,False,,,,,
+201003715,Ingredient,食用盐,食用盐 (Ingredient),食用盐,[],调料,,,,,,,,2,g,False,,,,,
+201003716,Ingredient,鸡精,鸡精 (Ingredient),鸡精,[],调料,,,,,,,,2,g,False,,,,,
+201003717,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,梅菜放到清水中，浸泡 1 小时,1.0,浸泡,盆,1小时
+201003718,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,锅中倒入 50 ml 食用油，将整个五花肉猪皮朝下，放到锅中 1 分钟 ，取出挂掉猪皮 【可选】,2.0,"煎,刮","炒锅,刀",1分钟
+201003719,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,锅中加入开水，放入五花肉，大火煮 20 分钟 （筷子可以插进五花肉），取出五花肉,3.0,煮,"锅,筷子",20分钟
+201003720,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,在五花肉表面涂抹均匀老抽、五香粉、白砂糖，放置 15 分钟,4.0,腌制,"碗,刷子或手",15分钟
+201003721,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,起锅烧油，加入五花肉，中火油炸直至两面金黄色（3-5 分钟）,5.0,炸,炒锅,3-5分钟
+201003722,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,起锅烧油，倒入梅菜，加上小米椒、蒜蓉、鸡精、食用盐后翻炒，直至炒干梅干菜水分,6.0,炒,"炒锅,锅铲",未明确（约5-10分钟）
+201003723,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,"五花肉切片（后端 0.5-1 cm）,放在大碗中，散上梅干菜",7.0,"切,摆盘","刀,案板,大碗",未明确（约5分钟）
+201003724,CookingStep,步骤8,步骤8 (Cooking Step),步骤8,,,,,,,,,,,,,中火蒸 45 分钟,8.0,蒸,蒸锅,45分钟
+201003725,CookingStep,步骤9,步骤9 (Cooking Step),步骤9,,,,,,,,,,,,,拿个盘子倒盖在五花肉大碗中，将五花肉倒在盘子中,9.0,倒扣,"盘子,大碗",未明确（约1分钟）
+201003726,Recipe,枝竹羊腩煲,枝竹羊腩煲 (Recipe),枝竹羊腩煲,[],其他,5.0,,,,,,dishes/meat_dish/枝竹羊腩煲/枝竹羊腩煲.md,,,,,,,,
+201003727,Recipe,醉排骨,醉排骨 (Recipe),醉排骨,[],荤菜,4.0,闽菜,15分钟,10分钟,1,"鱼露可用老抽代替但颜色偏深,正常成品应为金黄色",dishes/meat_dish/醉排骨/醉排骨.md,,,,,,,,
+201003728,Ingredient,排骨,排骨 (Ingredient),排骨,[],蛋白质,,,,,,,,200,g,True,,,,,
+201003729,Ingredient,白砂糖,白砂糖 (Ingredient),白砂糖,[],调料,,,,,,,,10,g,False,,,,,
+201003730,Ingredient,食用油,食用油 (Ingredient),食用油,[],调料,,,,,,,,500,ml,False,,,,,
+201003731,Ingredient,鱼露,鱼露 (Ingredient),鱼露,[],调料,,,,,,,,5,ml,False,,,,,
+201003732,Ingredient,芝麻,芝麻 (Ingredient),芝麻,[],调料,,,,,,,,5,g,False,,,,,
+201003733,Ingredient,番茄酱,番茄酱 (Ingredient),番茄酱,[],调料,,,,,,,,5,g,False,,,,,
+201003734,Ingredient,香醋,香醋 (Ingredient),香醋,[],调料,,,,,,,,5,ml,False,,,,,
+201003735,Ingredient,蒜头,蒜头 (Ingredient),蒜头,[],蔬菜,,,,,,,,2,粒,False,,,,,
+201003736,Ingredient,葱,葱 (Ingredient),葱,[],蔬菜,,,,,,,,1,根,False,,,,,
+201003737,Ingredient,地瓜粉,地瓜粉 (Ingredient),地瓜粉,[],淀粉类,,,,,,,,30,g,False,,,,,
+201003738,Ingredient,鸡蛋黄,鸡蛋黄 (Ingredient),鸡蛋黄,[],蛋白质,,,,,,,,1,个,False,,,,,
+201003739,CookingStep,步骤1,步骤1 (Cooking Step),步骤1,,,,,,,,,,,,,排骨中加入5g地瓜粉和水进行搅拌，清洗2-3遍后放入大碗备用,1.0,"清洗,搅拌","盆,碗",5分钟
+201003740,CookingStep,步骤2,步骤2 (Cooking Step),步骤2,,,,,,,,,,,,,排骨中加入鱼露、地瓜粉、鸡蛋黄充分搅拌,2.0,"腌制,搅拌",碗,5分钟
+201003741,CookingStep,步骤3,步骤3 (Cooking Step),步骤3,,,,,,,,,,,,,将排骨一个一个放入锅中（切记不可以整碗倒入），保证每个不要粘在一起,3.0,炸,"锅,筷子",1分钟
+201003742,CookingStep,步骤4,步骤4 (Cooking Step),步骤4,,,,,,,,,,,,,全部放入后，每30秒用勺子来回两面翻转瘦肉块，直至排骨表面金黄,4.0,"炸,翻动","锅,勺子",3-5分钟
+201003743,CookingStep,步骤5,步骤5 (Cooking Step),步骤5,,,,,,,,,,,,,取出排骨，一分钟后倒入油锅中继续炸，直至瘦肉块表面出现焦黄后，取出放入大碗备用,5.0,炸,"锅,碗",2-3分钟
+201003744,CookingStep,步骤6,步骤6 (Cooking Step),步骤6,,,,,,,,,,,,,准备一个小碗，加入蒜末、香醋、白砂糖、鱼露、番茄酱、葱花、芝麻搅拌均匀，倒入5ml热油,6.0,搅拌,"小碗,勺子",2分钟
+201003745,CookingStep,步骤7,步骤7 (Cooking Step),步骤7,,,,,,,,,,,,,将汤汁浇灌入排骨，在充分搅拌后倒入盘中,7.0,"搅拌,装盘","碗,盘子",1分钟
