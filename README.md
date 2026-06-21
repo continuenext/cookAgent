@@ -1,4 +1,4 @@
-# GustoBot 🍲
+# cookAgent 🍲
 
 菜谱领域智能助手，基于 **LangGraph** 构建 Multi-Agent 工作流，支持多源数据融合检索（Neo4j 知识图谱 + Milvus 向量库 + MySQL 关系型数据库），提供自然语言菜谱问答、统计查询、图片识别与文件分析能力。
 
